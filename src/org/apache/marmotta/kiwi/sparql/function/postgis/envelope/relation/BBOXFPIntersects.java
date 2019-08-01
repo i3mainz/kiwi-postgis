@@ -10,12 +10,12 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class BBOXRightOf implements NativeFunction {
+public class BBOXFPIntersects implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
-        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_bboxrightof.toString())) {
-            FunctionRegistry.getInstance().add(new BBOXRightOf());
+        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_bboxfpintersects.toString())) {
+            FunctionRegistry.getInstance().add(new BBOXFPIntersects());
         }
     }
 
@@ -26,7 +26,7 @@ public class BBOXRightOf implements NativeFunction {
 
     @Override
     public String getURI() {
-        return FN_POSTGIS.st_bboxrightof.stringValue();
+        return FN_POSTGIS.st_bboxfpintersects.stringValue();
     }
 
     /**
@@ -69,10 +69,10 @@ public class BBOXRightOf implements NativeFunction {
                 if (args[1].contains("POINT") || args[1].contains("MULTIPOINT") || args[1].contains("LINESTRING") || args[1].contains("MULTILINESTRING") || args[1].contains("POLYGON") || args[1].contains("MULTIPOLYGON") || args[1].contains("ST_AsText")) {
                     geom2 = String.format("ST_GeomFromText(%s,%s)", args[1], SRID_default);
                 }
-                return String.format("ST_BBOXRightOf(%s,%s)", geom1,geom2);
+                return String.format("ST_BBOXFPIntersects(%s,%s)", geom1,geom2);
             }
         }
-        throw new UnsupportedOperationException(FN_POSTGIS.st_bboxrightof.toString()+" function not supported by dialect " + dialect);
+        throw new UnsupportedOperationException(FN_POSTGIS.st_bboxfpintersects.toString()+" function not supported by dialect " + dialect);
     }
 
     /**

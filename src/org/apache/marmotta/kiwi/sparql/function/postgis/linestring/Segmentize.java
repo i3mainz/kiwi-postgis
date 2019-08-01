@@ -1,21 +1,22 @@
-package org.apache.marmotta.kiwi.sparql.function.postgis.envelope.relation;
+package org.apache.marmotta.kiwi.sparql.function.postgis.linestring;
 
 import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
+import org.apache.marmotta.kiwi.sparql.function.postgis.linestring.attribute.StartPoint;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class BBOXRightOf implements NativeFunction {
+public class Segmentize implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
-        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_bboxrightof.toString())) {
-            FunctionRegistry.getInstance().add(new BBOXRightOf());
+        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_segmentize.toString())) {
+            FunctionRegistry.getInstance().add(new Segmentize());
         }
     }
 
@@ -26,7 +27,7 @@ public class BBOXRightOf implements NativeFunction {
 
     @Override
     public String getURI() {
-        return FN_POSTGIS.st_bboxrightof.stringValue();
+        return FN_POSTGIS.st_segmentize.stringValue();
     }
 
     /**
@@ -54,7 +55,7 @@ public class BBOXRightOf implements NativeFunction {
         if (dialect instanceof PostgreSQLDialect) {
             if (args.length == 2) {
                 String geom1 = args[0];
-                String geom2 = args[1];
+                Double segmentlength=Double.valueOf(args[1]);
                 String SRID_default = "4326";
                 /*
                  * The following condition is required to read WKT  inserted directly into args[0] and create a geometries with SRID
@@ -66,13 +67,10 @@ public class BBOXRightOf implements NativeFunction {
                 if (args[0].contains("POINT") || args[0].contains("MULTIPOINT") || args[0].contains("LINESTRING") || args[0].contains("MULTILINESTRING") || args[0].contains("POLYGON") || args[0].contains("MULTIPOLYGON") || args[0].contains("ST_AsText")) {
                     geom1 = String.format("ST_GeomFromText(%s,%s)", args[0], SRID_default);
                 }
-                if (args[1].contains("POINT") || args[1].contains("MULTIPOINT") || args[1].contains("LINESTRING") || args[1].contains("MULTILINESTRING") || args[1].contains("POLYGON") || args[1].contains("MULTIPOLYGON") || args[1].contains("ST_AsText")) {
-                    geom2 = String.format("ST_GeomFromText(%s,%s)", args[1], SRID_default);
-                }
-                return String.format("ST_BBOXRightOf(%s,%s)", geom1,geom2);
+                return String.format("ST_Segmentize(%s,%s)", geom1,segmentlength);
             }
         }
-        throw new UnsupportedOperationException(FN_POSTGIS.st_bboxrightof.toString()+" function not supported by dialect " + dialect);
+        throw new UnsupportedOperationException(FN_POSTGIS.st_segmentize.toString()+" function not supported by dialect " + dialect);
     }
 
     /**
@@ -83,7 +81,7 @@ public class BBOXRightOf implements NativeFunction {
      */
     @Override
     public ValueType getReturnType() {
-        return ValueType.BOOL;
+        return ValueType.GEOMETRY;
     }
 
     /**
@@ -96,7 +94,11 @@ public class BBOXRightOf implements NativeFunction {
     @Override
     public ValueType getArgumentType(int arg
     ) {
-        return ValueType.GEOMETRY;
+    	switch(arg) {
+    	case 0: return ValueType.GEOMETRY;
+    	case 1: return ValueType.DOUBLE;
+    	}
+        return null;
     }
 
     /**
@@ -106,7 +108,7 @@ public class BBOXRightOf implements NativeFunction {
      */
     @Override
     public int getMinArgs() {
-        return 2;
+        return 1;
     }
 
     /**
@@ -116,7 +118,7 @@ public class BBOXRightOf implements NativeFunction {
      */
     @Override
     public int getMaxArgs() {
-        return 2;
+        return 1;
     }
 
 }

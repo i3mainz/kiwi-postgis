@@ -80,7 +80,7 @@ public class MakePoint implements NativeFunction {
      */
     @Override
     public ValueType getReturnType() {
-        return ValueType.Geometry;
+        return ValueType.GEOMETRY;
     }
 
     /**
@@ -93,7 +93,7 @@ public class MakePoint implements NativeFunction {
     @Override
     public ValueType getArgumentType(int arg
     ) {
-        return ValueType.GEOMETRY;
+        return ValueType.STRING;
     }
 
     /**

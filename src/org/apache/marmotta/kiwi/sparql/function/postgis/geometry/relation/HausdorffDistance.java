@@ -107,7 +107,7 @@ public class HausdorffDistance implements NativeFunction {
      */
     @Override
     public int getMinArgs() {
-        return 1;
+        return 2;
     }
 
     /**
@@ -117,7 +117,7 @@ public class HausdorffDistance implements NativeFunction {
      */
     @Override
     public int getMaxArgs() {
-        return 1;
+        return 2;
     }
 
 }

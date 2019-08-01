@@ -1,4 +1,4 @@
-package org.apache.marmotta.kiwi.sparql.function.postgis.envelope.relation;
+package org.apache.marmotta.kiwi.sparql.function.postgis.geometry.relation;
 
 import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
@@ -10,12 +10,12 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class BBOXRightOf implements NativeFunction {
+public class AreaSimilarity implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
-        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_bboxrightof.toString())) {
-            FunctionRegistry.getInstance().add(new BBOXRightOf());
+        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.ST_AREASIMILARITY.toString())) {
+            FunctionRegistry.getInstance().add(new AreaSimilarity());
         }
     }
 
@@ -26,7 +26,7 @@ public class BBOXRightOf implements NativeFunction {
 
     @Override
     public String getURI() {
-        return FN_POSTGIS.st_bboxrightof.stringValue();
+        return FN_POSTGIS.ST_AREASIMILARITY.stringValue();
     }
 
     /**
@@ -69,10 +69,10 @@ public class BBOXRightOf implements NativeFunction {
                 if (args[1].contains("POINT") || args[1].contains("MULTIPOINT") || args[1].contains("LINESTRING") || args[1].contains("MULTILINESTRING") || args[1].contains("POLYGON") || args[1].contains("MULTIPOLYGON") || args[1].contains("ST_AsText")) {
                     geom2 = String.format("ST_GeomFromText(%s,%s)", args[1], SRID_default);
                 }
-                return String.format("ST_BBOXRightOf(%s,%s)", geom1,geom2);
+                return String.format("ST_AreaSimilarity(%s,%s)", geom1,geom2);
             }
         }
-        throw new UnsupportedOperationException(FN_POSTGIS.st_bboxrightof.toString()+" function not supported by dialect " + dialect);
+        throw new UnsupportedOperationException(FN_POSTGIS.ST_AREASIMILARITY.toString()+" function not supported by dialect " + dialect);
     }
 
     /**
@@ -83,7 +83,7 @@ public class BBOXRightOf implements NativeFunction {
      */
     @Override
     public ValueType getReturnType() {
-        return ValueType.BOOL;
+        return ValueType.DOUBLE;
     }
 
     /**
