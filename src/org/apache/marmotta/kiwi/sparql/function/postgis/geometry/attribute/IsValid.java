@@ -20,24 +20,21 @@ import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
+import org.apache.marmotta.kiwi.sparql.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
+import org.locationtech.jts.geom.Geometry;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class IsValid implements NativeFunction {
+public class IsValid extends GeometricBinaryAttributeFunction implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
         if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_isValid.toString())) {
             FunctionRegistry.getInstance().add(new IsValid());
         }
-    }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
     }
 
     @Override
@@ -84,7 +81,7 @@ public class IsValid implements NativeFunction {
                 return String.format("ST_IsValid(%s)", geom1);
             }
         }
-        throw new UnsupportedOperationException("ConvexHull function not supported by dialect " + dialect);
+        throw new UnsupportedOperationException(FN_POSTGIS.st_isValid.toString()+" function not supported by dialect " + dialect);
     }
 
     /**
@@ -130,5 +127,10 @@ public class IsValid implements NativeFunction {
     public int getMaxArgs() {
         return 1;
     }
+
+	@Override
+	public boolean attribute(Geometry geom) {
+		return geom.isValid();
+	}
 }
 

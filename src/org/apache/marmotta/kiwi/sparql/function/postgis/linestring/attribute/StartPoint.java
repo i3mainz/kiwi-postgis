@@ -11,18 +11,13 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class StartPoint implements NativeFunction {
+public class StartPoint extends org.openrdf.query.algebra.evaluation.function.postgis.linestring.attribute.StartPoint implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
         if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_startPoint.toString())) {
             FunctionRegistry.getInstance().add(new StartPoint());
         }
-    }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
     }
 
     @Override

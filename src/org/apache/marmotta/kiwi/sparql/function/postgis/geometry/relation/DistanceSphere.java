@@ -11,18 +11,13 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class DistanceSphere implements NativeFunction {
+public class DistanceSphere extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.relation.DistanceSphere implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
         if (!FunctionRegistry.getInstance().has(FN_POSTGIS.ST_DISTANCESPHERE.toString())) {
             FunctionRegistry.getInstance().add(new DistanceSphere());
         }
-    }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
     }
 
     @Override

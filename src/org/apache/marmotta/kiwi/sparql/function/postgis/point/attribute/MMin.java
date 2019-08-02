@@ -10,18 +10,13 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class MMin implements NativeFunction {
+public class MMin extends org.openrdf.query.algebra.evaluation.function.postgis.point.attribute.MMin implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
         if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_mMin.toString())) {
             FunctionRegistry.getInstance().add(new MMin());
         }
-    }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
     }
 
     @Override

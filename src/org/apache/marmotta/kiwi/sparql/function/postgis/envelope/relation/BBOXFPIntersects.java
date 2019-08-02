@@ -10,18 +10,13 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class BBOXFPIntersects implements NativeFunction {
+public class BBOXFPIntersects extends org.openrdf.query.algebra.evaluation.function.postgis.envelope.relation.BBOXFPIntersects implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
         if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_bboxfpintersects.toString())) {
             FunctionRegistry.getInstance().add(new BBOXFPIntersects());
         }
-    }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
     }
 
     @Override

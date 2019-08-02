@@ -10,7 +10,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class PointFromText implements NativeFunction {
+public class PointFromText extends org.openrdf.query.algebra.evaluation.function.postgis.point.constructor.PointFromText implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
@@ -18,12 +18,7 @@ public class PointFromText implements NativeFunction {
             FunctionRegistry.getInstance().add(new PointFromText());
         }
     }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
-    }
-
+    
     @Override
     public String getURI() {
         return FN_POSTGIS.st_pointFromText.stringValue();

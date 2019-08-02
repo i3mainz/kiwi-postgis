@@ -11,7 +11,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class AsGeoHash implements NativeFunction {
+public class AsGeoHash extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.exporter.AsGeoHash implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
@@ -19,12 +19,7 @@ public class AsGeoHash implements NativeFunction {
             FunctionRegistry.getInstance().add(new AsGeoHash());
         }
     }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
-    }
-
+    
     @Override
     public String getURI() {
         return FN_POSTGIS.ST_ASGEOHASH.stringValue();

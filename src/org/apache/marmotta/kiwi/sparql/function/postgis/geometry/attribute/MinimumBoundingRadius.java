@@ -4,13 +4,15 @@ import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
+import org.apache.marmotta.kiwi.sparql.function.postgis.geometry.base.GeometricDoubleAttributeFunction;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
+import org.locationtech.jts.geom.Geometry;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class MinimumBoundingRadius implements NativeFunction {
+public class MinimumBoundingRadius extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.MinimumBoundingRadius implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
@@ -18,12 +20,7 @@ public class MinimumBoundingRadius implements NativeFunction {
             FunctionRegistry.getInstance().add(new MinimumBoundingRadius());
         }
     }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
-    }
-
+    
     @Override
     public String getURI() {
         return FN_POSTGIS.st_minimumBoundingRadius.stringValue();
@@ -114,5 +111,4 @@ public class MinimumBoundingRadius implements NativeFunction {
     public int getMaxArgs() {
         return 1;
     }
-
 }

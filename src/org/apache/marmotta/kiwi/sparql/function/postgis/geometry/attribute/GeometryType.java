@@ -10,7 +10,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class GeometryType implements NativeFunction {
+public class GeometryType extends geometryt implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {

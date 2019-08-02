@@ -9,30 +9,15 @@ import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
+import org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.HasRepeatedPoints;
 
-public class HasRepeatedPoints implements NativeFunction {
+public class HasRepeatedPoints extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.HasRepeatedPoints implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
         if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_hasRepeatedPoints.toString())) {
             FunctionRegistry.getInstance().add(new HasRepeatedPoints());
         }
-    }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-    	if (args.length != 1) {
-			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 arguments, got " + args.length);
-		}
-		
-		/*LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
-		if(l instanceof VectorLiteral) {
-			Geometry geom=((VectorLiteral)l).read(args[0].stringValue());
-			boolean result = attribute(geom);
-			return valueFactory.createLiteral(result);
-		}*/
-		//throw new ValueExprEvaluationException("Argument given is not a geometry literal");
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
     }
 
     @Override

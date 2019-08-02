@@ -11,7 +11,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class CollectionHomogenize implements NativeFunction {
+public class CollectionHomogenize extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.CollectionHomogenize implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
@@ -20,10 +20,6 @@ public class CollectionHomogenize implements NativeFunction {
         }
     }
 
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
-    }
 
     @Override
     public String getURI() {

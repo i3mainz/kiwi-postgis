@@ -12,7 +12,7 @@ import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
 public class ClosestPoint implements NativeFunction {
-
+ 
     // auto-register for SPARQL environment
     static {
         if (!FunctionRegistry.getInstance().has(FN_POSTGIS.ST_CLOSESTPOINT.toString())) {

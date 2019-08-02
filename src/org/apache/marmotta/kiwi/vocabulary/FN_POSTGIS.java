@@ -98,6 +98,8 @@ public class FN_POSTGIS {
 	public static final	URI ST_CURVETOLINE=factory.createURI(NAMESPACE, "ST_CurveToLine");
 	public static final	URI ST_DENSIFY=factory.createURI(NAMESPACE, "ST_Densify");
 	public static final	URI ST_DELAUNAYTRIANGLES=factory.createURI(NAMESPACE, "ST_DelaunayTriangles");
+	public static final	URI ST_DIFFERENCE=factory.createURI(NAMESPACE, "ST_Difference");
+	public static final	URI ST_DIFFERENCE3D=factory.createURI(NAMESPACE, "ST_Difference3D");
 	public static final	URI ST_DIMENSION=factory.createURI(NAMESPACE, "ST_Dimension");
 	public static final	URI ST_DISTANCE=factory.createURI(NAMESPACE, "ST_Distance");
 	public static final	URI ST_DISTANCE3D=factory.createURI(NAMESPACE, "ST_Distance3D");

@@ -9,8 +9,9 @@ import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
+import org.openrdf.query.algebra.evaluation.function.postgis.point.attribute.ZMin;
 
-public class Zmin implements NativeFunction {
+public class Zmin extends ZMin implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
@@ -18,12 +19,7 @@ public class Zmin implements NativeFunction {
             FunctionRegistry.getInstance().add(new Zmin());
         }
     }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
-    }
-
+    
     @Override
     public String getURI() {
         return FN_POSTGIS.st_zMin.stringValue();

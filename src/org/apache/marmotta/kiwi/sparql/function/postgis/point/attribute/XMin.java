@@ -10,7 +10,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class XMin implements NativeFunction {
+public class XMin extends org.openrdf.query.algebra.evaluation.function.postgis.point.attribute.XMin implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {

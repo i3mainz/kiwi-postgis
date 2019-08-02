@@ -10,7 +10,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class MinimumBoundingCircle implements NativeFunction {
+public class MinimumBoundingCircle extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.MinimumBoundingCircle implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {

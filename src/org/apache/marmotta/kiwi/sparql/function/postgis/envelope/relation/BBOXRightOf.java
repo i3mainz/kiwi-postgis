@@ -10,7 +10,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class BBOXRightOf implements NativeFunction {
+public class BBOXRightOf extends org.openrdf.query.algebra.evaluation.function.postgis.envelope.relation.BBOXRightOf implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
@@ -69,7 +69,7 @@ public class BBOXRightOf implements NativeFunction {
                 if (args[1].contains("POINT") || args[1].contains("MULTIPOINT") || args[1].contains("LINESTRING") || args[1].contains("MULTILINESTRING") || args[1].contains("POLYGON") || args[1].contains("MULTIPOLYGON") || args[1].contains("ST_AsText")) {
                     geom2 = String.format("ST_GeomFromText(%s,%s)", args[1], SRID_default);
                 }
-                return String.format("ST_BBOXRightOf(%s,%s)", geom1,geom2);
+                return String.format("%s >> %s", geom1,geom2);
             }
         }
         throw new UnsupportedOperationException(FN_POSTGIS.st_bboxrightof.toString()+" function not supported by dialect " + dialect);

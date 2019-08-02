@@ -11,7 +11,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class RemovePoint implements NativeFunction {
+public class RemovePoint extends org.openrdf.query.algebra.evaluation.function.postgis.linestring.editor.RemovePoint implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
@@ -19,12 +19,7 @@ public class RemovePoint implements NativeFunction {
             FunctionRegistry.getInstance().add(new RemovePoint());
         }
     }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
-    }
-
+    
     @Override
     public String getURI() {
         return FN_POSTGIS.st_removePoint.stringValue();

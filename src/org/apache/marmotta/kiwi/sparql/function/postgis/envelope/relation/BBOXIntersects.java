@@ -10,18 +10,13 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class BBOXIntersects implements NativeFunction {
+public class BBOXIntersects extends org.openrdf.query.algebra.evaluation.function.postgis.envelope.relation.BBOXIntersects implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
         if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_bboxintersect.toString())) {
             FunctionRegistry.getInstance().add(new BBOXIntersects());
         }
-    }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
     }
 
     @Override
@@ -69,7 +64,7 @@ public class BBOXIntersects implements NativeFunction {
                 if (args[1].contains("POINT") || args[1].contains("MULTIPOINT") || args[1].contains("LINESTRING") || args[1].contains("MULTILINESTRING") || args[1].contains("POLYGON") || args[1].contains("MULTIPOLYGON") || args[1].contains("ST_AsText")) {
                     geom2 = String.format("ST_GeomFromText(%s,%s)", args[1], SRID_default);
                 }
-                return String.format("ST_BBOXIntersects(%s,%s)", geom1,geom2);
+                return String.format("%s && %s", geom1,geom2);
             }
         }
         throw new UnsupportedOperationException(FN_POSTGIS.st_bboxintersect.toString()+" function not supported by dialect " + dialect);

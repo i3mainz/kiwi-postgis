@@ -10,8 +10,10 @@ import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
+import org.openrdf.query.algebra.evaluation.function.postgis.raster.exporter.AsHexWKB;
+import org.openrdf.query.parser.sparql.ast.ASTWhereClause;
 
-public class AsTWKB implements NativeFunction {
+public class AsTWKB extends AsTWKB implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
