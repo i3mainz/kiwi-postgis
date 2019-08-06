@@ -112,10 +112,4 @@ public class RasterToWorldCoordX extends org.openrdf.query.algebra.evaluation.fu
         return 3;
     }
 
-	@Override
-	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }

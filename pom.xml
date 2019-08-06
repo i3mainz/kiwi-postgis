@@ -23,11 +23,49 @@
     <artifactId>kiwi-sparql</artifactId>
     <version>3.4.0</version>
 </dependency>
-  <dependency>
+<!-- https://mvnrepository.com/artifact/org.locationtech.jts/jts-core -->
+<dependency>
     <groupId>org.locationtech.jts</groupId>
-    <artifactId>jts</artifactId>
+    <artifactId>jts-core</artifactId>
     <version>1.16.1</version>
-    <type>pom</type>
 </dependency>
+
   </dependencies>
+        <repositories>
+        <repository>
+            <id>osgeo</id>
+            <name>Open Source Geospatial Foundation Repository</name>
+            <url>http://download.osgeo.org/webdav/geotools/</url>
+        </repository>
+        <repository>
+            <id>geosolutions</id>
+            <name>Geosolutions</name>
+            <url>http://maven.geo-solutions.it/</url>
+        </repository>
+        <repository>
+            <id>conveyal</id>
+            <name>Conveyal</name>
+            <url>http://maven.conveyal.com</url>
+        </repository>
+        <repository>
+        <id>north</id>
+        <name>north</name>
+        <url>https://52north.org/maven/repo/releases/</url>
+        </repository>
+        <repository>
+        <id>openkm</id>
+        <name>openkm</name>
+        <url>http://maven.openkm.com/</url>
+        </repository>
+        <repository>
+        <id>springplugins</id>
+        <name>springplugins</name>
+        <url>https://repo.spring.io/plugins-release/</url>
+        </repository>
+        <repository>
+            <id>geotoolkit</id>
+            <name>Geotk repository</name>
+            <url>http://maven.geotoolkit.org</url>
+        </repository>
+    </repositories>
 </project>
