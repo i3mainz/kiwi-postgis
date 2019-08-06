@@ -1,32 +1,25 @@
-package org.apache.marmotta.kiwi.sparql.function.postgis.geometry.relation;
+package org.apache.marmotta.kiwi.sparql.function.postgis.raster.constructor;
 
 import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
+import org.apache.marmotta.kiwi.sparql.function.postgis.raster.attribute.UpperLeftY;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
-import org.openrdf.model.Value;
-import org.openrdf.model.ValueFactory;
-import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class FrechetDistance extends FrechetDistance implements NativeFunction {
+public class RastFromWKB extends org.openrdf.query.algebra.evaluation.function.postgis.raster.constructor.RastFromWKB  implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
-        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_frechetDistance.toString())) {
-            FunctionRegistry.getInstance().add(new FrechetDistance());
+        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_rastFromWKB.toString())) {
+            FunctionRegistry.getInstance().add(new RastFromWKB());
         }
     }
 
     @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
-    }
-
-    @Override
     public String getURI() {
-        return FN_POSTGIS.st_frechetDistance.stringValue();
+        return FN_POSTGIS.st_rastFromWKB.stringValue();
     }
 
     /**
@@ -52,9 +45,8 @@ public class FrechetDistance extends FrechetDistance implements NativeFunction {
     @Override
     public String getNative(KiWiDialect dialect, String... args) {
         if (dialect instanceof PostgreSQLDialect) {
-            if (args.length == 2) {
+            if (args.length == 1) {
                 String geom1 = args[0];
-                String geom2 = args[1];
                 String SRID_default = "4326";
                 /*
                  * The following condition is required to read WKT  inserted directly into args[0] and create a geometries with SRID
@@ -63,16 +55,10 @@ public class FrechetDistance extends FrechetDistance implements NativeFunction {
                  * st_AsText condition: It is to use the geometry that is the result of another function geosparql.
                  *   example: geof:convexHull(geof:buffer(?geom, 50, units:meter))
                  */
-                if (args[0].contains("POINT") || args[0].contains("MULTIPOINT") || args[0].contains("LINESTRING") || args[0].contains("MULTILINESTRING") || args[0].contains("POLYGON") || args[0].contains("MULTIPOLYGON") || args[0].contains("ST_AsText")) {
-                    geom1 = String.format("ST_GeomFromText(%s,%s)", args[0], SRID_default);
-                }
-                if (args[1].contains("POINT") || args[1].contains("MULTIPOINT") || args[1].contains("LINESTRING") || args[1].contains("MULTILINESTRING") || args[1].contains("POLYGON") || args[1].contains("MULTIPOLYGON") || args[1].contains("ST_AsText")) {
-                    geom2 = String.format("ST_GeomFromText(%s,%s)", args[1], SRID_default);
-                }
-                return String.format("ST_HausdorffDistance(%s,%s)", geom1,geom2);
+                return String.format("ST_RastFromWKB(%s)", geom1);
             }
         }
-        throw new UnsupportedOperationException(FN_POSTGIS.st_frechetDistance.toString()+" function not supported by dialect " + dialect);
+        throw new UnsupportedOperationException(FN_POSTGIS.st_rastFromWKB.toString()+" function not supported by dialect " + dialect);
     }
 
     /**
@@ -83,7 +69,7 @@ public class FrechetDistance extends FrechetDistance implements NativeFunction {
      */
     @Override
     public ValueType getReturnType() {
-        return ValueType.DOUBLE;
+        return ValueType.GEOMETRY;
     }
 
     /**
@@ -96,7 +82,7 @@ public class FrechetDistance extends FrechetDistance implements NativeFunction {
     @Override
     public ValueType getArgumentType(int arg
     ) {
-        return ValueType.GEOMETRY;
+        return ValueType.STRING;
     }
 
     /**
@@ -106,7 +92,7 @@ public class FrechetDistance extends FrechetDistance implements NativeFunction {
      */
     @Override
     public int getMinArgs() {
-        return 2;
+        return 1;
     }
 
     /**
@@ -116,7 +102,7 @@ public class FrechetDistance extends FrechetDistance implements NativeFunction {
      */
     @Override
     public int getMaxArgs() {
-        return 2;
+        return 1;
     }
 
 }

@@ -1,32 +1,25 @@
-package org.apache.marmotta.kiwi.sparql.function.postgis.geometry.relation;
+package org.apache.marmotta.kiwi.sparql.function.postgis.raster.relation;
 
 import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
+import org.apache.marmotta.kiwi.sparql.function.postgis.geometry.relation.HausdorffDistance;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
-import org.openrdf.model.Value;
-import org.openrdf.model.ValueFactory;
-import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class FrechetDistance extends FrechetDistance implements NativeFunction {
+public class Crosses extends org.openrdf.query.algebra.evaluation.function.postgis.raster.relation.Crosses implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
-        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_frechetDistance.toString())) {
-            FunctionRegistry.getInstance().add(new FrechetDistance());
+        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_rast_Crosses.toString())) {
+            FunctionRegistry.getInstance().add(new Crosses());
         }
     }
-
-    @Override
-    public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-        throw new UnsupportedOperationException("cannot evaluate in-memory, needs to be supported by the database");
-    }
-
+    
     @Override
     public String getURI() {
-        return FN_POSTGIS.st_frechetDistance.stringValue();
+        return FN_POSTGIS.st_rast_Crosses.stringValue();
     }
 
     /**
@@ -69,10 +62,10 @@ public class FrechetDistance extends FrechetDistance implements NativeFunction {
                 if (args[1].contains("POINT") || args[1].contains("MULTIPOINT") || args[1].contains("LINESTRING") || args[1].contains("MULTILINESTRING") || args[1].contains("POLYGON") || args[1].contains("MULTIPOLYGON") || args[1].contains("ST_AsText")) {
                     geom2 = String.format("ST_GeomFromText(%s,%s)", args[1], SRID_default);
                 }
-                return String.format("ST_HausdorffDistance(%s,%s)", geom1,geom2);
+                return String.format("ST_Crosses(%s,%s)", geom1,geom2);
             }
         }
-        throw new UnsupportedOperationException(FN_POSTGIS.st_frechetDistance.toString()+" function not supported by dialect " + dialect);
+        throw new UnsupportedOperationException(FN_POSTGIS.st_rast_Crosses.toString()+" function not supported by dialect " + dialect);
     }
 
     /**
@@ -83,7 +76,7 @@ public class FrechetDistance extends FrechetDistance implements NativeFunction {
      */
     @Override
     public ValueType getReturnType() {
-        return ValueType.DOUBLE;
+        return ValueType.BOOL;
     }
 
     /**
