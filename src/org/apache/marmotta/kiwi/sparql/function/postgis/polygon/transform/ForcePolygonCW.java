@@ -1,4 +1,4 @@
-package org.apache.marmotta.kiwi.sparql.function.postgis.polygon;
+package org.apache.marmotta.kiwi.sparql.function.postgis.polygon.transform;
 
 import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
@@ -11,12 +11,12 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class ForcePolygonCCW implements NativeFunction {
+public class ForcePolygonCW implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
-        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_forcePolygonCCW.toString())) {
-            FunctionRegistry.getInstance().add(new ForcePolygonCCW());
+        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_forcePolygonCW.toString())) {
+            FunctionRegistry.getInstance().add(new ForcePolygonCW());
         }
     }
 
@@ -27,7 +27,7 @@ public class ForcePolygonCCW implements NativeFunction {
 
     @Override
     public String getURI() {
-        return FN_POSTGIS.st_forcePolygonCCW.stringValue();
+        return FN_POSTGIS.st_forcePolygonCW.stringValue();
     }
 
     /**
@@ -66,10 +66,10 @@ public class ForcePolygonCCW implements NativeFunction {
                 if (args[0].contains("POINT") || args[0].contains("MULTIPOINT") || args[0].contains("LINESTRING") || args[0].contains("MULTILINESTRING") || args[0].contains("POLYGON") || args[0].contains("MULTIPOLYGON") || args[0].contains("ST_AsText")) {
                     geom1 = String.format("ST_GeomFromText(%s,%s)", args[0], SRID_default);
                 }
-                return String.format("ST_ForcePolygonCCW(%s)", geom1);
+                return String.format("ST_ForcePolygonCW(%s)", geom1);
             }
         }
-        throw new UnsupportedOperationException(FN_POSTGIS.st_forcePolygonCCW.toString()+" function not supported by dialect " + dialect);
+        throw new UnsupportedOperationException(FN_POSTGIS.st_forcePolygonCW.toString()+" function not supported by dialect " + dialect);
     }
 
     /**

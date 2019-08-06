@@ -1,4 +1,4 @@
-package org.apache.marmotta.kiwi.sparql.function.postgis.polygon;
+package org.apache.marmotta.kiwi.sparql.function.postgis.polygon.attribute;
 
 import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;

@@ -1,22 +1,22 @@
-package org.apache.marmotta.kiwi.sparql.function.postgis.polygon;
+package org.apache.marmotta.kiwi.sparql.function.postgis.polygon.attribute;
 
 import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
-import org.apache.marmotta.kiwi.sparql.function.postgis.geometry.attribute.IsCollection;
+import org.apache.marmotta.kiwi.sparql.function.postgis.geometry.attribute.MinimumBoundingCircle;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class ForcePolygonCW implements NativeFunction {
+public class ExteriorRing extends org.openrdf.query.algebra.evaluation.function.postgis.polygon.ExteriorRing implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
-        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_forcePolygonCW.toString())) {
-            FunctionRegistry.getInstance().add(new ForcePolygonCW());
+        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_exteriorRing.toString())) {
+            FunctionRegistry.getInstance().add(new ExteriorRing());
         }
     }
 
@@ -27,7 +27,7 @@ public class ForcePolygonCW implements NativeFunction {
 
     @Override
     public String getURI() {
-        return FN_POSTGIS.st_forcePolygonCW.stringValue();
+        return FN_POSTGIS.st_exteriorRing.stringValue();
     }
 
     /**
@@ -66,10 +66,10 @@ public class ForcePolygonCW implements NativeFunction {
                 if (args[0].contains("POINT") || args[0].contains("MULTIPOINT") || args[0].contains("LINESTRING") || args[0].contains("MULTILINESTRING") || args[0].contains("POLYGON") || args[0].contains("MULTIPOLYGON") || args[0].contains("ST_AsText")) {
                     geom1 = String.format("ST_GeomFromText(%s,%s)", args[0], SRID_default);
                 }
-                return String.format("ST_ForcePolygonCW(%s)", geom1);
+                return String.format("ST_ExteriorRing(%s)", geom1);
             }
         }
-        throw new UnsupportedOperationException(FN_POSTGIS.st_forcePolygonCW.toString()+" function not supported by dialect " + dialect);
+        throw new UnsupportedOperationException(FN_POSTGIS.st_exteriorRing.toString()+" function not supported by dialect " + dialect);
     }
 
     /**
@@ -80,7 +80,7 @@ public class ForcePolygonCW implements NativeFunction {
      */
     @Override
     public ValueType getReturnType() {
-        return ValueType.BOOL;
+        return ValueType.GEOMETRY;
     }
 
     /**
