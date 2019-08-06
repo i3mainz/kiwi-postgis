@@ -1,44 +1,24 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one or more
- * contributor license agreements.  See the NOTICE file distributed with
- * this work for additional information regarding copyright ownership.
- * The ASF licenses this file to You under the Apache License, Version 2.0
- * (the "License"); you may not use this file except in compliance with
- * the License.  You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-package org.apache.marmotta.kiwi.sparql.function.postgis.geometry.attribute;
+package org.apache.marmotta.kiwi.sparql.function.postgis.geometry.constructor;
 
 import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
-import org.locationtech.jts.geom.Geometry;
-import org.openrdf.model.Value;
-import org.openrdf.model.ValueFactory;
-import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class IsEmpty extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.IsEmpty implements NativeFunction {
+public class GeomFromGeoJSON extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.constructor.GeomFromGeoJSON implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
-        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_isEmpty.toString())) {
-            FunctionRegistry.getInstance().add(new IsEmpty());
+        if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_geomFromGeoJSON.toString())) {
+            FunctionRegistry.getInstance().add(new GeomFromGeoJSON());
         }
     }
 
     @Override
     public String getURI() {
-        return FN_POSTGIS.st_isEmpty.stringValue();
+        return FN_POSTGIS.st_geomFromGeoJSON.stringValue();
     }
 
     /**
@@ -74,13 +54,10 @@ public class IsEmpty extends org.openrdf.query.algebra.evaluation.function.postg
                  * st_AsText condition: It is to use the geometry that is the result of another function geosparql.
                  *   example: geof:convexHull(geof:buffer(?geom, 50, units:meter))
                  */
-                if (args[0].contains("POINT") || args[0].contains("MULTIPOINT") || args[0].contains("LINESTRING") || args[0].contains("MULTILINESTRING") || args[0].contains("POLYGON") || args[0].contains("MULTIPOLYGON") || args[0].contains("ST_AsText")) {
-                    geom1 = String.format("ST_GeomFromText(%s,%s)", args[0], SRID_default);
-                }
-                return String.format("ST_IsEmpty(%s)", geom1);
+                return String.format("ST_GeomFromGeoJSON(%s)", geom1);
             }
         }
-        throw new UnsupportedOperationException("ConvexHull function not supported by dialect " + dialect);
+        throw new UnsupportedOperationException(FN_POSTGIS.st_geomFromGeoJSON.toString()+" function not supported by dialect " + dialect);
     }
 
     /**
@@ -91,7 +68,7 @@ public class IsEmpty extends org.openrdf.query.algebra.evaluation.function.postg
      */
     @Override
     public ValueType getReturnType() {
-        return ValueType.BOOL;
+        return ValueType.STRING;
     }
 
     /**
@@ -127,9 +104,4 @@ public class IsEmpty extends org.openrdf.query.algebra.evaluation.function.postg
         return 1;
     }
 
-	@Override
-	public boolean attribute(Geometry geom) {
-		return geom.isEmpty();
-	}
 }
-

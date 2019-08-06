@@ -4,7 +4,6 @@ import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
-import org.apache.marmotta.kiwi.sparql.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
@@ -13,7 +12,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class Is3D extends GeometricBinaryAttributeFunction implements NativeFunction {
+public class Is3D extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.Is3D implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {

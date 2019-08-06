@@ -28,7 +28,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class IsValid extends GeometricBinaryAttributeFunction implements NativeFunction {
+public class IsValid extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.IsValid implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {

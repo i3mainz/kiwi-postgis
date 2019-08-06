@@ -12,7 +12,7 @@ import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class Length extends GeometricDoubleAttributeFunction implements NativeFunction {
+public class Length extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.Length implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
