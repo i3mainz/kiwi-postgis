@@ -8,7 +8,7 @@ import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeBinaryFunction;
 import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
+import org.apache.sis.coverage.grid.GridCoverage;
 
 public class HasNoBand extends RasterAttributeBinaryFunction {
 
@@ -18,7 +18,7 @@ public class HasNoBand extends RasterAttributeBinaryFunction {
 	}
 
 	@Override
-	public boolean attribute(GridCoverage2D raster) {
+	public boolean attribute(GridCoverage raster) {
 		BigInteger noband=v1.getInteger();
 		if(noband.intValue()>raster.getRenderedImage().getData().getNumBands()) {
 			return false;

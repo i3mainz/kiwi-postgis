@@ -7,18 +7,18 @@ import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class IsIndexed extends org.openrdf.query.algebra.evaluation.function.postgis.raster.attribute.IsIndexed implements NativeFunction  {
+public class TileWidth extends org.openrdf.query.algebra.evaluation.function.postgis.raster.attribute.TileWidth implements NativeFunction  {
 
 	 // auto-register for SPARQL environment
  static {
-     if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_isIndexed.toString())) {
-         FunctionRegistry.getInstance().add(new IsIndexed());
+     if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_tileWidth.toString())) {
+         FunctionRegistry.getInstance().add(new TileWidth());
      }
  }
 
  @Override
  public String getURI() {
-     return FN_POSTGIS.st_isIndexed.stringValue();
+     return FN_POSTGIS.st_tileWidth.stringValue();
  }
 
  /**
@@ -59,10 +59,10 @@ public class IsIndexed extends org.openrdf.query.algebra.evaluation.function.pos
              /*if (args[0].contains("POINT") || args[0].contains("MULTIPOINT") || args[0].contains("LINESTRING") || args[0].contains("MULTILINESTRING") || args[0].contains("POLYGON") || args[0].contains("MULTIPOLYGON") || args[0].contains("ST_AsText")) {
                  geom1 = String.format("ST_GeomFromText(%s,%s)", args[0], SRID_default);
              }*/
-             return String.format("ST_IsIndexed(%s)", geom1,longitude,latitude);
+             return String.format("ST_TileWidth(%s)", geom1,longitude,latitude);
          }
      }
-     throw new UnsupportedOperationException(FN_POSTGIS.st_isIndexed.toString()+" function not supported by dialect " + dialect);
+     throw new UnsupportedOperationException(FN_POSTGIS.st_tileWidth.toString()+" function not supported by dialect " + dialect);
  }
 
  /**
@@ -73,7 +73,7 @@ public class IsIndexed extends org.openrdf.query.algebra.evaluation.function.pos
   */
  @Override
  public ValueType getReturnType() {
-     return ValueType.BOOL;
+     return ValueType.DOUBLE;
  }
 
  /**

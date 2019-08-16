@@ -1,7 +1,7 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.raster.base;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.locationtech.jts.geom.Geometry;
-import org.opengis.coverage.grid.GridCoverage;
 import org.openrdf.model.Literal;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;

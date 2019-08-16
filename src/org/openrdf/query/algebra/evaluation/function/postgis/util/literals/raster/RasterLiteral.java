@@ -1,7 +1,7 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
-import org.opengis.coverage.grid.GridCoverage;
 
 public abstract class RasterLiteral implements LiteralType {
 

@@ -4,7 +4,7 @@ import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.Function;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
+import org.apache.sis.coverage.grid.GridCoverage;
 
 public abstract class RasterAttributeFunction implements Function {
 
@@ -14,6 +14,6 @@ public abstract class RasterAttributeFunction implements Function {
 		return null;
 	}
 	
-	public abstract double attribute(GridCoverage2D geom);
+	public abstract double attribute(GridCoverage geom);
 	
 }

@@ -2,7 +2,7 @@ package org.openrdf.query.algebra.evaluation.function.postgis.raster.attribute;
 
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
+import org.apache.sis.coverage.grid.GridCoverage;
 
 public class NumBands extends RasterAttributeFunction{
 
@@ -12,8 +12,8 @@ public class NumBands extends RasterAttributeFunction{
 	}
 
 	@Override
-	public double attribute(GridCoverage2D raster) {
-		return raster.getRenderedImage().getData().getNumBands();
+	public double attribute(GridCoverage raster) {
+		return raster.render(raster.getGridGeometry().getExtent()).getData().getNumBands();
 	}
 
 }

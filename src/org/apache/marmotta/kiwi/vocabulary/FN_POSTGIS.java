@@ -160,6 +160,10 @@ public class FN_POSTGIS {
         public static final URI st_isClosed=factory.createURI(NAMESPACE, "ST_IsClosed");
         public static final URI st_isConvex=factory.createURI(NAMESPACE, "ST_IsConvex");
         public static final URI st_isEmpty=factory.createURI(NAMESPACE, "ST_IsEmpty");
+        public static final URI st_isGrayscale=factory.createURI(NAMESPACE, "ST_IsGrayscale");
+        public static final URI st_isIndexed=factory.createURI(NAMESPACE, "ST_IsIndexed");
+        public static final URI st_isTiled=factory.createURI(NAMESPACE, "ST_IsTiled");
+        public static final URI st_isTranslucent=factory.createURI(NAMESPACE, "ST_IsTranslucent");
         public static final URI st_isLocationOnEdge=factory.createURI(NAMESPACE, "ST_IsLocationOnEdge");
         public static final URI st_isMeasured=factory.createURI(NAMESPACE, "ST_IsMeasured");
         public static final URI st_isMorePrecise=factory.createURI(NAMESPACE, "ST_IsMorePrecise");
@@ -234,6 +238,8 @@ public class FN_POSTGIS {
         public static final URI st_numInteriorRings=factory.createURI(NAMESPACE, "ST_NumInteriorRings");
         public static final URI st_numPatches=factory.createURI(NAMESPACE, "ST_NumPatches");
         public static final URI st_numPoints=factory.createURI(NAMESPACE, "ST_NumPoints");
+		public static final URI st_numXTiles = factory.createURI(NAMESPACE, "ST_NumXTiles");
+		public static final URI st_numYTiles = factory.createURI(NAMESPACE, "ST_NumYTiles");
         public static final URI st_nDims=factory.createURI(NAMESPACE, "ST_NDims");
         public static final URI st_nPoints=factory.createURI(NAMESPACE, "ST_NumPoints");
         public static final URI st_nRings=factory.createURI(NAMESPACE, "ST_NRings");
@@ -329,6 +335,8 @@ public class FN_POSTGIS {
         public static final URI st_symDifference=factory.createURI(NAMESPACE, "ST_SymDifference");
         public static final URI st_tesselate=factory.createURI(NAMESPACE, "ST_Tesselate");
         public static final URI st_t=factory.createURI(NAMESPACE, "ST_T");
+        public static final URI st_tileHeight=factory.createURI(NAMESPACE, "ST_TileHeight");
+        public static final URI st_tileWidth=factory.createURI(NAMESPACE, "ST_TileWidth");
         public static final URI st_tMin=factory.createURI(NAMESPACE, "ST_TMin");
         public static final URI st_tMax=factory.createURI(NAMESPACE, "ST_TMax");
         public static final URI st_transscale=factory.createURI(NAMESPACE, "ST_TransScale");
@@ -385,6 +393,9 @@ public class FN_POSTGIS {
 		public static final String SVG="SVG";
 
 		public static final String NETCDF="NetCDF";
+
+
+
 
     }
 }

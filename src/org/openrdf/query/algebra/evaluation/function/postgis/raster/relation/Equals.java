@@ -9,7 +9,7 @@ import org.openrdf.query.algebra.evaluation.function.postgis.util.RasterVectorRe
 import org.openrdf.query.algebra.evaluation.function.postgis.util.RasterVectorRelationFunction;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
+import org.apache.sis.coverage.grid.GridCoverage;
 
 public class Equals extends RasterVectorRelationBinaryFunction {
 
@@ -33,15 +33,15 @@ public class Equals extends RasterVectorRelationBinaryFunction {
 		}else if(type && !type2) {
 			VectorLiteral vec1=(VectorLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			RasterLiteral vec2=(RasterLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return vec1.read(v1.stringValue()).equals(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getEnvelope()));
+			return vec1.read(v1.stringValue()).equals(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getGridGeometry().getEnvelope()));
 		}else if(!type && type2) {
 			RasterLiteral vec1=(RasterLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			VectorLiteral vec2=(VectorLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return LiteralUtils.toGeometry(((GridCoverage2D)vec1.read(v1.stringValue())).getEnvelope()).equals(vec2.read(v2.stringValue()));
+			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getGridGeometry().getEnvelope()).equals(vec2.read(v2.stringValue()));
 		}else {
 			RasterLiteral vec1=(RasterLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			RasterLiteral vec2=(RasterLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return LiteralUtils.toGeometry(((GridCoverage2D)vec1.read(v1.stringValue())).getEnvelope()).equals(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getEnvelope()));
+			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getGridGeometry().getEnvelope()).equals(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getGridGeometry().getEnvelope()));
 		}
 	}
 	

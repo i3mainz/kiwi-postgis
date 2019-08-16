@@ -2,7 +2,6 @@ package org.openrdf.model.vocabulary;
 
 import org.openrdf.model.URI;
 import org.openrdf.model.ValueFactory;
-import org.openrdf.model.impl.SimpleValueFactory;
 
 
 public class POSTGIS {
@@ -151,6 +150,8 @@ public class POSTGIS {
         public static final URI st_isClosed=factory.createURI(NAMESPACE, "ST_IsClosed");
         public static final URI st_isConvex=factory.createURI(NAMESPACE, "ST_IsConvex");
         public static final URI st_isEmpty=factory.createURI(NAMESPACE, "ST_IsEmpty");
+        public static final URI st_isGrayscale=factory.createURI(NAMESPACE, "ST_IsGrayscale");
+        public static final URI st_isIndexed=factory.createURI(NAMESPACE, "ST_IsIndexed");
         public static final URI st_isLocationOnEdge=factory.createURI(NAMESPACE, "ST_IsLocationOnEdge");
         public static final URI st_isMeasured=factory.createURI(NAMESPACE, "ST_IsMeasured");
         public static final URI st_isMorePrecise=factory.createURI(NAMESPACE, "ST_IsMorePrecise");
@@ -162,6 +163,8 @@ public class POSTGIS {
         public static final URI st_isRectangle=factory.createURI(NAMESPACE, "ST_IsRectangle");
         public static final URI st_isRing=factory.createURI(NAMESPACE, "ST_IsRing");
         public static final URI st_isSimple=factory.createURI(NAMESPACE, "ST_IsSimpleFF");
+        public static final URI st_isTiled=factory.createURI(NAMESPACE, "ST_IsTiled");
+        public static final URI st_isTranslucent=factory.createURI(NAMESPACE, "ST_IsTranslucent");
         public static final URI st_isValid=factory.createURI(NAMESPACE, "ST_IsValidFF");
         public static final URI st_isValidTrajectory=factory.createURI(NAMESPACE, "ST_IsValidTrajectory");
         public static final URI st_isValidReason=factory.createURI(NAMESPACE, "ST_IsValidReason");
@@ -212,6 +215,8 @@ public class POSTGIS {
         public static final URI st_minimumDiameterLine=factory.createURI(NAMESPACE, "ST_MinimumDiameterLine");
         public static final URI st_minimumRectangle=factory.createURI(NAMESPACE, "ST_MinimumRectangle");
         public static final URI st_minConvexHull=factory.createURI(NAMESPACE, "ST_MinConvexHull");
+		public static final URI st_minTileX = factory.createURI(NAMESPACE, "ST_MinTileX");
+		public static final URI st_minTileY = factory.createURI(NAMESPACE, "ST_MinTileY");
         public static final URI st_mLineFromText=factory.createURI(NAMESPACE, "ST_MLineFromText");
         public static final URI st_mMin=factory.createURI(NAMESPACE, "ST_MMin");
         public static final URI st_mMax=factory.createURI(NAMESPACE, "ST_MMax");
@@ -225,6 +230,8 @@ public class POSTGIS {
         public static final URI st_numInteriorRings=factory.createURI(NAMESPACE, "ST_NumInteriorRings");
         public static final URI st_numPatches=factory.createURI(NAMESPACE, "ST_NumPatches");
         public static final URI st_numPoints=factory.createURI(NAMESPACE, "ST_NumPoints");
+		public static final URI st_numXTiles = factory.createURI(NAMESPACE, "ST_NumXTiles");
+		public static final URI st_numYTiles = factory.createURI(NAMESPACE, "ST_NumYTiles");
         public static final URI st_nDims=factory.createURI(NAMESPACE, "ST_NDims");
         public static final URI st_nPoints=factory.createURI(NAMESPACE, "ST_NumPoints");
         public static final URI st_nRings=factory.createURI(NAMESPACE, "ST_NRings");
@@ -320,6 +327,10 @@ public class POSTGIS {
         public static final URI st_symDifference=factory.createURI(NAMESPACE, "ST_SymDifference");
         public static final URI st_tesselate=factory.createURI(NAMESPACE, "ST_Tesselate");
         public static final URI st_t=factory.createURI(NAMESPACE, "ST_T");
+        public static final URI st_tileGridXOffset=factory.createURI(NAMESPACE, "ST_TileGridXOffset");
+        public static final URI st_tileGridYOffset=factory.createURI(NAMESPACE, "ST_TileGridYOffset");
+        public static final URI st_tileHeight=factory.createURI(NAMESPACE, "ST_TileHeight");
+        public static final URI st_tileWidth=factory.createURI(NAMESPACE, "ST_TileWidth");
         public static final URI st_tMin=factory.createURI(NAMESPACE, "ST_TMin");
         public static final URI st_tMax=factory.createURI(NAMESPACE, "ST_TMax");
         public static final URI st_transscale=factory.createURI(NAMESPACE, "ST_TransScale");
@@ -378,5 +389,16 @@ public class POSTGIS {
 		public static final String NETCDF="NetCDF";
 		public static final String GML="GML";
 		public static final String WKT="WKT";
+
+
+
+
+
+
+
+
+
+
+
 
 }

@@ -2,9 +2,9 @@ package org.openrdf.query.algebra.evaluation.function.postgis.raster.attribute;
 
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
-import org.geotoolkit.coverage.grid.GridCoordinates2D;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
-import org.geotoolkit.coverage.grid.InvalidGridGeometryException;
+import org.apache.sis.coverage.grid.GridCoverage;
+import org.apache.sis.coverage.grid.IllegalGridGeometryException;
+import org.opengis.referencing.datum.PixelInCell;
 import org.opengis.referencing.operation.TransformException;
 
 public class UpperLeftX extends RasterAttributeFunction {
@@ -15,10 +15,10 @@ public class UpperLeftX extends RasterAttributeFunction {
 	}
 	
 	@Override
-	public double attribute(GridCoverage2D raster) {
+	public double attribute(GridCoverage raster) {
 		try {
-			return raster.getGridGeometry().getGridToCRS2D().transform(new GridCoordinates2D(0, 0),null).getX();
-		} catch (InvalidGridGeometryException | TransformException e) {
+			return raster.getGridGeometry().getGridToCRS(PixelInCell.CELL_CENTER).transform(new GridCoordinates(0, 0),null).getX();
+		} catch (IllegalGridGeometryException | TransformException e) {
 			throw new RuntimeException(e.getMessage());
 		}
 	}
