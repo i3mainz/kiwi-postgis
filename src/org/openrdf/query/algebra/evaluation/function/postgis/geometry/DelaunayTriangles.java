@@ -1,11 +1,8 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.geometry;
 
-import java.math.BigInteger;
 
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.jts.geom.GeometryFactory;
-import org.locationtech.jts.triangulate.DelaunayTriangulationBuilder;
 
 import org.openrdf.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 

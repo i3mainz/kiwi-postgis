@@ -2,7 +2,6 @@ package org.openrdf.query.algebra.evaluation.function.postgis.point.constructor;
 
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKTReader;
 

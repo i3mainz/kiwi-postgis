@@ -1,7 +1,5 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.linestring.constructor;
 
-import java.math.BigInteger;
-
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;

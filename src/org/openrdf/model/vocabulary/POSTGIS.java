@@ -2,13 +2,14 @@ package org.openrdf.model.vocabulary;
 
 import org.openrdf.model.URI;
 import org.openrdf.model.ValueFactory;
+import org.openrdf.model.impl.ValueFactoryImpl;
 
 
 public class POSTGIS {
 
 	public static final String NAMESPACE="http://www.opengis.net/ont/geosparql#";
 	
-	public static final	ValueFactory factory = new SimpleValueFactory();
+	public static final	ValueFactory factory = new ValueFactoryImpl();
 	public static final	URI ST_DWITHIN3D=factory.createURI(NAMESPACE, "ST_3DDWithin");
 	public static final	URI ST_CLOSESTPOINT3D=factory.createURI(NAMESPACE, "ST_ClosestPoint3D");
 	public static final	URI ST_LONGESTLINE3D=factory.createURI(NAMESPACE, "ST_LongestLine3D");
@@ -30,6 +31,7 @@ public class POSTGIS {
 	public static final	URI ST_ASGEOJSONLD=factory.createURI(NAMESPACE, "ST_AsGeoJSONLD");
 	public static final	URI ST_ASGEORSS=factory.createURI(NAMESPACE, "ST_AsGeoRSS");
 	public static final	URI ST_ASGPX=factory.createURI(NAMESPACE, "ST_AsGPX");
+    public static final URI st_aspect=factory.createURI(NAMESPACE, "ST_Aspect");
 	public static final	URI ST_ASPOLYSHAPE=factory.createURI(NAMESPACE, "ST_AsPolyshape");
 	public static final	URI ST_ASTIFF=factory.createURI(NAMESPACE, "ST_AsTIFF");
 	public static final	URI ST_ASTOPOJSON=factory.createURI(NAMESPACE, "ST_AsTopoJSON");
@@ -47,6 +49,7 @@ public class POSTGIS {
 	public static final	URI ST_ASWKT=factory.createURI(NAMESPACE, "ST_AsWKT");
 	public static final	URI ST_ASX3D=factory.createURI(NAMESPACE, "ST_AsX3D");
 	public static final	URI ST_AREA=factory.createURI(NAMESPACE, "ST_Area");
+	public static final URI ST_AREA3D =factory.createURI(NAMESPACE, "ST_Area3D");
 	public static final	URI ST_AREASIMILARITY=factory.createURI(NAMESPACE, "ST_AreaSimilarity");
 	public static final	URI ST_AZIMUTH=factory.createURI(NAMESPACE, "ST_Azimuth");
 	public static final	URI st_bboxabove =factory.createURI(NAMESPACE,"ST_BBOXAbove");
@@ -88,6 +91,8 @@ public class POSTGIS {
 	public static final	URI ST_CONVEXHULL=factory.createURI(NAMESPACE, "ST_ConvexHull");
 	public static final	URI ST_COUNT=factory.createURI(NAMESPACE, "ST_Count");
 	public static final	URI ST_CURVETOLINE=factory.createURI(NAMESPACE, "ST_CurveToLine");
+    public static final URI st_curvature=factory.createURI(NAMESPACE, "ST_Curvature");
+    public static final URI st_crop=factory.createURI(NAMESPACE, "ST_Crop");
 	public static final	URI ST_DENSIFY=factory.createURI(NAMESPACE, "ST_Densify");
 	public static final	URI ST_DELAUNAYTRIANGLES=factory.createURI(NAMESPACE, "ST_DelaunayTriangles");
 	public static final	URI ST_DIMENSION=factory.createURI(NAMESPACE, "ST_Dimension");
@@ -103,7 +108,9 @@ public class POSTGIS {
 	public static final	URI ST_EPSGTOSRID=factory.createURI(NAMESPACE, "ST_EPSGToSRID");
 	public static final	URI ST_FILTERBYM=factory.createURI(NAMESPACE, "ST_FilterByM");
 	public static final	URI ST_FILTERBYT=factory.createURI(NAMESPACE, "ST_FilterByT");
+    public static final URI st_flip=factory.createURI(NAMESPACE, "ST_Flip");
 	public static final	URI ST_FLIPCOORDINATES=factory.createURI(NAMESPACE, "ST_FlipCoordinates");
+	public static final	URI ST_flowdirection=factory.createURI(NAMESPACE, "ST_FlowDirection");
 	public static final URI st_equals=factory.createURI(NAMESPACE, "ST_Equals");
         public static final URI st_equalsNorm=factory.createURI(NAMESPACE, "ST_EqualNorm");
         public static final URI st_equalsTopo=factory.createURI(NAMESPACE, "ST_EqualTopo");
@@ -140,8 +147,10 @@ public class POSTGIS {
         public static final URI st_hasNoBand=factory.createURI(NAMESPACE, "ST_HasNoBand");
         public static final URI ST_hasHorizontalCRS=factory.createURI(NAMESPACE, "ST_HasHorizontalCRS");
         public static final URI st_hasRepeatedPoints=factory.createURI(NAMESPACE, "ST_HasRepeatedPoints");
-        public static final URI st_height=factory.createURI(NAMESPACE, "ST_Height");
         public static final URI st_hausdorffDistance=factory.createURI(NAMESPACE, "ST_HausdorffDistance");
+        public static final URI st_height=factory.createURI(NAMESPACE, "ST_Height");
+        public static final URI st_hillshade=factory.createURI(NAMESPACE, "ST_Hillshade");
+		public static final URI st_histogram = factory.createURI(NAMESPACE,"ST_Histogram");
         public static final URI st_interiorRingN=factory.createURI(NAMESPACE, "ST_InteriorRingN");
         public static final URI st_interpolatePoint=factory.createURI(NAMESPACE, "ST_InterpolatePoint");
         public static final URI st_intersectionPercentage=factory.createURI(NAMESPACE, "ST_IntersectionPercentage");
@@ -152,6 +161,8 @@ public class POSTGIS {
         public static final URI st_isEmpty=factory.createURI(NAMESPACE, "ST_IsEmpty");
         public static final URI st_isGrayscale=factory.createURI(NAMESPACE, "ST_IsGrayscale");
         public static final URI st_isIndexed=factory.createURI(NAMESPACE, "ST_IsIndexed");
+        public static final URI st_isTiled=factory.createURI(NAMESPACE, "ST_IsTiled");
+        public static final URI st_isTranslucent=factory.createURI(NAMESPACE, "ST_IsTranslucent");
         public static final URI st_isLocationOnEdge=factory.createURI(NAMESPACE, "ST_IsLocationOnEdge");
         public static final URI st_isMeasured=factory.createURI(NAMESPACE, "ST_IsMeasured");
         public static final URI st_isMorePrecise=factory.createURI(NAMESPACE, "ST_IsMorePrecise");
@@ -163,8 +174,6 @@ public class POSTGIS {
         public static final URI st_isRectangle=factory.createURI(NAMESPACE, "ST_IsRectangle");
         public static final URI st_isRing=factory.createURI(NAMESPACE, "ST_IsRing");
         public static final URI st_isSimple=factory.createURI(NAMESPACE, "ST_IsSimpleFF");
-        public static final URI st_isTiled=factory.createURI(NAMESPACE, "ST_IsTiled");
-        public static final URI st_isTranslucent=factory.createURI(NAMESPACE, "ST_IsTranslucent");
         public static final URI st_isValid=factory.createURI(NAMESPACE, "ST_IsValidFF");
         public static final URI st_isValidTrajectory=factory.createURI(NAMESPACE, "ST_IsValidTrajectory");
         public static final URI st_isValidReason=factory.createURI(NAMESPACE, "ST_IsValidReason");
@@ -182,6 +191,7 @@ public class POSTGIS {
         public static final URI st_lineInterpolatePoint=factory.createURI(NAMESPACE, "ST_LineInterpolatePoint");
         public static final URI st_lineInterpolatePoints=factory.createURI(NAMESPACE, "ST_LineInterpolatePoints");
         public static final URI st_lineLocatePoint=factory.createURI(NAMESPACE, "ST_LineLocatePoint");
+        public static final URI st_lineLength3D=factory.createURI(NAMESPACE, "ST_LineLength3D");
         public static final URI st_lineMerge=factory.createURI(NAMESPACE, "ST_LineMerge");
         public static final URI st_lineSelfIntersectionPoint=factory.createURI(NAMESPACE, "ST_LineSelfIntersectionPoint");
         public static final URI st_lineSubstring=factory.createURI(NAMESPACE, "ST_LineSubstring");
@@ -215,8 +225,9 @@ public class POSTGIS {
         public static final URI st_minimumDiameterLine=factory.createURI(NAMESPACE, "ST_MinimumDiameterLine");
         public static final URI st_minimumRectangle=factory.createURI(NAMESPACE, "ST_MinimumRectangle");
         public static final URI st_minConvexHull=factory.createURI(NAMESPACE, "ST_MinConvexHull");
-		public static final URI st_minTileX = factory.createURI(NAMESPACE, "ST_MinTileX");
-		public static final URI st_minTileY = factory.createURI(NAMESPACE, "ST_MinTileY");
+        public static final URI st_minTileX=factory.createURI(NAMESPACE, "ST_MinTileX");
+        public static final URI st_minTileY=factory.createURI(NAMESPACE, "ST_MinTileY");
+        public static final URI st_mirror=factory.createURI(NAMESPACE, "ST_Mirror");
         public static final URI st_mLineFromText=factory.createURI(NAMESPACE, "ST_MLineFromText");
         public static final URI st_mMin=factory.createURI(NAMESPACE, "ST_MMin");
         public static final URI st_mMax=factory.createURI(NAMESPACE, "ST_MMax");
@@ -230,8 +241,8 @@ public class POSTGIS {
         public static final URI st_numInteriorRings=factory.createURI(NAMESPACE, "ST_NumInteriorRings");
         public static final URI st_numPatches=factory.createURI(NAMESPACE, "ST_NumPatches");
         public static final URI st_numPoints=factory.createURI(NAMESPACE, "ST_NumPoints");
-		public static final URI st_numXTiles = factory.createURI(NAMESPACE, "ST_NumXTiles");
-		public static final URI st_numYTiles = factory.createURI(NAMESPACE, "ST_NumYTiles");
+        public static final URI st_numXTiles=factory.createURI(NAMESPACE, "ST_NumXTiles");
+        public static final URI st_numYTiles=factory.createURI(NAMESPACE, "ST_NumYTiles");
         public static final URI st_nDims=factory.createURI(NAMESPACE, "ST_NDims");
         public static final URI st_nPoints=factory.createURI(NAMESPACE, "ST_NumPoints");
         public static final URI st_nRings=factory.createURI(NAMESPACE, "ST_NRings");
@@ -293,6 +304,8 @@ public class POSTGIS {
         public static final URI st_removePoints=factory.createURI(NAMESPACE, "ST_RemovePoints");
         public static final URI st_removeRepeatedPoints=factory.createURI(NAMESPACE, "ST_RemoveRepeatedPoints");
         public static final URI st_reskew=factory.createURI(NAMESPACE, "ST_Reskew");
+        public static final URI st_resample=factory.createURI(NAMESPACE, "ST_Resample");
+        public static final URI st_rescale=factory.createURI(NAMESPACE, "ST_Rescale");
         public static final URI st_resize=factory.createURI(NAMESPACE, "ST_Resize");
         public static final URI st_retile=factory.createURI(NAMESPACE, "ST_Retile");
         public static final URI st_reverse=factory.createURI(NAMESPACE, "ST_Reverse");
@@ -300,13 +313,21 @@ public class POSTGIS {
         public static final URI st_rotateX=factory.createURI(NAMESPACE, "ST_RotateX");
         public static final URI st_rotateY=factory.createURI(NAMESPACE, "ST_RotateY");
         public static final URI st_rotateZ=factory.createURI(NAMESPACE, "ST_RotateZ");
+        public static final URI st_rotation=factory.createURI(NAMESPACE, "ST_Rotation");
+        public static final URI st_roughness=factory.createURI(NAMESPACE, "ST_Roughness");
         public static final URI st_scale=factory.createURI(NAMESPACE, "ST_Scale");
         public static final URI st_scaleX=factory.createURI(NAMESPACE, "ST_ScaleX");
         public static final URI st_scaleY=factory.createURI(NAMESPACE, "ST_ScaleY");
         public static final URI st_shearTransformation=factory.createURI(NAMESPACE, "ST_ShearTransformation");
         public static final URI st_segmentize=factory.createURI(NAMESPACE, "ST_Segmentize");
+        public static final URI st_setScale=factory.createURI(NAMESPACE, "ST_SetScale");
+        public static final URI st_setSkew=factory.createURI(NAMESPACE, "ST_SetSkew");
+        public static final URI st_setRotation=factory.createURI(NAMESPACE, "ST_SetRotation");
+        public static final URI st_setGeoReference=factory.createURI(NAMESPACE, "ST_SetGeoReference");
+        public static final URI st_setUpperLeft=factory.createURI(NAMESPACE, "ST_SetUpperLeft");
         public static final URI st_setPoint=factory.createURI(NAMESPACE, "ST_SetPoint");
         public static final URI st_setSRID=factory.createURI(NAMESPACE, "ST_SetSRID");
+        public static final URI st_shift=factory.createURI(NAMESPACE, "ST_Shift");
         public static final URI st_simplify=factory.createURI(NAMESPACE, "ST_Simplify");
         public static final URI st_simplifyPreserveTopology=factory.createURI(NAMESPACE, "ST_SimplifyPreserveTopology");
         public static final URI st_simplifyVW=factory.createURI(NAMESPACE, "ST_SimplifyVW");
@@ -314,6 +335,7 @@ public class POSTGIS {
         public static final URI st_shiftLongitude=factory.createURI(NAMESPACE, "ST_ShiftLongitude");
         public static final URI st_shortestLine=factory.createURI(NAMESPACE, "ST_ShortestLine");
         public static final URI st_shortestLine3D=factory.createURI(NAMESPACE, "ST_ShortestLine3D");
+        public static final URI st_slope=factory.createURI(NAMESPACE, "ST_Slope");
         public static final URI st_skewX=factory.createURI(NAMESPACE, "ST_SkewX");
         public static final URI st_skewY=factory.createURI(NAMESPACE, "ST_SkewY");
         public static final URI st_snap=factory.createURI(NAMESPACE, "ST_Snap");
@@ -327,12 +349,14 @@ public class POSTGIS {
         public static final URI st_symDifference=factory.createURI(NAMESPACE, "ST_SymDifference");
         public static final URI st_tesselate=factory.createURI(NAMESPACE, "ST_Tesselate");
         public static final URI st_t=factory.createURI(NAMESPACE, "ST_T");
-        public static final URI st_tileGridXOffset=factory.createURI(NAMESPACE, "ST_TileGridXOffset");
-        public static final URI st_tileGridYOffset=factory.createURI(NAMESPACE, "ST_TileGridYOffset");
-        public static final URI st_tileHeight=factory.createURI(NAMESPACE, "ST_TileHeight");
-        public static final URI st_tileWidth=factory.createURI(NAMESPACE, "ST_TileWidth");
+		public static final URI st_tileGridXOffset = factory.createURI(NAMESPACE, "ST_TileGridXOffset");
+		public static final URI st_tileGridYOffset = factory.createURI(NAMESPACE, "ST_TileGridYOffset");
+		public static final URI st_tileHeight = factory.createURI(NAMESPACE, "ST_TileHeight");
+		public static final URI st_tileWidth = factory.createURI(NAMESPACE, "ST_TileWidth");
         public static final URI st_tMin=factory.createURI(NAMESPACE, "ST_TMin");
         public static final URI st_tMax=factory.createURI(NAMESPACE, "ST_TMax");
+        public static final URI st_tpi=factory.createURI(NAMESPACE, "ST_TPI");
+        public static final URI st_tri=factory.createURI(NAMESPACE, "ST_TRI");
         public static final URI st_transscale=factory.createURI(NAMESPACE, "ST_TransScale");
         public static final URI st_translate=factory.createURI(NAMESPACE, "ST_Translate");
         public static final URI st_transform=factory.createURI(NAMESPACE, "ST_Transform");
@@ -390,15 +414,6 @@ public class POSTGIS {
 		public static final String GML="GML";
 		public static final String WKT="WKT";
 
-
-
-
-
-
-
-
-
-
-
+	
 
 }

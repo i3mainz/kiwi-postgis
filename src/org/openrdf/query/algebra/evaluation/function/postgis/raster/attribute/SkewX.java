@@ -4,9 +4,9 @@ import java.awt.geom.AffineTransform;
 
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.coverage.grid.GridGeometry;
-import org.opengis.referencing.datum.PixelInCell;
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
+import org.opengis.referencing.datum.PixelInCell;
 
 public class SkewX extends RasterAttributeFunction {
 
@@ -21,5 +21,6 @@ public class SkewX extends RasterAttributeFunction {
         AffineTransform gridToWorld = (AffineTransform) gridGeometry2D.getGridToCRS(PixelInCell.CELL_CENTER);
         return gridToWorld.getShearX();
 	}
+
 
 }

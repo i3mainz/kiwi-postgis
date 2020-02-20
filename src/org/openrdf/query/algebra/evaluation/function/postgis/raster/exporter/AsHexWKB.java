@@ -1,13 +1,8 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.raster.exporter;
 
-import java.io.IOException;
-
-import org.openrdf.model.vocabulary.POSTGIS;
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterStringExportFunction;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
-import org.geotoolkit.coverage.wkb.WKBRasterWriter;
-import org.locationtech.jts.io.WKBWriter;
-import org.opengis.util.FactoryException;
+import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster.HexWKBRastDatatype;
 
 public class AsHexWKB extends RasterStringExportFunction {
 
@@ -17,19 +12,8 @@ public class AsHexWKB extends RasterStringExportFunction {
 	}
 
 	@Override
-	public String operation(GridCoverage2D raster) {	
-		WKBRasterWriter writer=new WKBRasterWriter();
-		String rasterWKB;
-		try {
-			rasterWKB = WKBWriter.toHex(writer.write(raster)).toString();
-			return rasterWKB.toString();
-		} catch (IOException | FactoryException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			throw new RuntimeException();
-		}
+	public String operation(GridCoverage raster) {	
+		return HexWKBRastDatatype.INSTANCE.unparse(raster);
 	}
 	
-	
-
 }

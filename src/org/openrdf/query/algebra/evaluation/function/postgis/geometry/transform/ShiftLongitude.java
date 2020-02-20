@@ -7,7 +7,6 @@ import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.jts.geom.GeometryFactory;
 
 import org.openrdf.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 

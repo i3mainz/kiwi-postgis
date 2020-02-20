@@ -1,7 +1,7 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.model.vocabulary.POSTGIS;
-import org.opengis.coverage.grid.GridCoverage;
 
 
 public class GMLCOVDatatype extends RasterLiteral {
@@ -16,6 +16,7 @@ public class GMLCOVDatatype extends RasterLiteral {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
 
 	@Override
 	public String unparse(GridCoverage geom) {

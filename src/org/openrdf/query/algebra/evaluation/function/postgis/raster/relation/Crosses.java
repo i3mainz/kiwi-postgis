@@ -7,7 +7,6 @@ import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.RasterVectorRelationBinaryFunction;
-import org.openrdf.query.algebra.evaluation.function.postgis.util.RasterVectorRelationFunction;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 
@@ -33,15 +32,15 @@ public class Crosses extends RasterVectorRelationBinaryFunction {
 		}else if(type && !type2) {
 			VectorLiteral vec1=(VectorLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			RasterLiteral vec2=(RasterLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return vec1.read(v1.stringValue()).crosses(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getEnvelope()));
+			return vec1.read(v1.stringValue()).crosses(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getGridGeometry().getEnvelope()));
 		}else if(!type && type2) {
 			RasterLiteral vec1=(RasterLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			VectorLiteral vec2=(VectorLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getEnvelope()).crosses(vec2.read(v2.stringValue()));
+			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getGridGeometry().getEnvelope()).crosses(vec2.read(v2.stringValue()));
 		}else {
 			RasterLiteral vec1=(RasterLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			RasterLiteral vec2=(RasterLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getEnvelope()).crosses(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getEnvelope()));
+			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getGridGeometry().getEnvelope()).crosses(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getGridGeometry().getEnvelope()));
 		}
 	}
 

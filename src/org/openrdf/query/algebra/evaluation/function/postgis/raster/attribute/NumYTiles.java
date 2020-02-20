@@ -4,7 +4,7 @@ import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
 
-public class NumYTiles extends RasterAttributeFunction {
+public class NumYTiles extends RasterAttributeFunction{
 
 	@Override
 	public String getURI() {

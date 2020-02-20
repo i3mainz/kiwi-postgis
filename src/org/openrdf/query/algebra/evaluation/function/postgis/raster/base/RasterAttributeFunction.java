@@ -1,10 +1,10 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.raster.base;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.Function;
-import org.apache.sis.coverage.grid.GridCoverage;
 
 public abstract class RasterAttributeFunction implements Function {
 

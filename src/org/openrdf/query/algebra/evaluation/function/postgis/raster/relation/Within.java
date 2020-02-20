@@ -1,15 +1,14 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.raster.relation;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.model.Literal;
 import org.openrdf.model.Value;
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.RasterVectorRelationBinaryFunction;
-import org.openrdf.query.algebra.evaluation.function.postgis.util.RasterVectorRelationFunction;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
-import org.apache.sis.coverage.grid.GridCoverage;
 
 public class Within extends RasterVectorRelationBinaryFunction {
 

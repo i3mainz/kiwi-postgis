@@ -1,5 +1,6 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.raster.base;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.model.Literal;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
@@ -8,7 +9,6 @@ import org.openrdf.query.algebra.evaluation.function.Function;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
-import org.opengis.coverage.grid.GridCoverage;
 
 public abstract class RasterConstructorFunction implements Function{
 

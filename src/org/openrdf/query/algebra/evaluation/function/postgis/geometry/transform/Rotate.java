@@ -4,7 +4,6 @@ import org.openrdf.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.util.AffineTransformation;
 import org.openrdf.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction;
-import org.openrdf.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
 public class Rotate extends GeometricModifierDoubleFunction {
 

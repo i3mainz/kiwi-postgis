@@ -4,9 +4,9 @@ import java.awt.geom.AffineTransform;
 
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.coverage.grid.GridGeometry;
-import org.opengis.referencing.datum.PixelInCell;
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
+import org.opengis.referencing.datum.PixelInCell;
 
 public class SkewY extends RasterAttributeFunction {
 
@@ -15,11 +15,12 @@ public class SkewY extends RasterAttributeFunction {
 		return POSTGIS.st_skewY.stringValue();
 	}
 
+
 	@Override
 	public double attribute(GridCoverage raster) {
 		GridGeometry gridGeometry2D = raster.getGridGeometry();
         AffineTransform gridToWorld = (AffineTransform) gridGeometry2D.getGridToCRS(PixelInCell.CELL_CENTER);
-        return gridToWorld.getShearY();
+        return gridToWorld.getShearX();
 	}
 
 }

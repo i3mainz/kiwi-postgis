@@ -7,17 +7,13 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 
 import org.openrdf.model.vocabulary.POSTGIS;
+import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.jts.geom.util.PolygonExtracter;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
-import com.conveyal.data.geobuf.GeobufDecoder;
-import com.conveyal.data.geobuf.GeobufEncoder;
+//import com.conveyal.data.geobuf.GeobufDecoder;
+//import com.conveyal.data.geobuf.GeobufEncoder;
 
 public class GeobufDatatype extends VectorLiteral  {
-
-	    private static final Logger LOGGER = LoggerFactory.getLogger(GeobufDatatype.class);
 
 	    /**
 	     * The default WKT type URI.
@@ -41,25 +37,26 @@ public class GeobufDatatype extends VectorLiteral  {
 	     */
 	    @Override
 	    public String unparse(Geometry geometry) {
-	            ByteArrayOutputStream output=new ByteArrayOutputStream();
+	            /*ByteArrayOutputStream output=new ByteArrayOutputStream();
 	            GeobufEncoder enc=new GeobufEncoder(output,geometry.getPrecisionModel().getMaximumSignificantDigits());
-	            return enc.geomToGeobuf(geometry).toString();
+	            return enc.geomToGeobuf(geometry).toString();*/
+	    	return "";
 	    }
 
 	    @Override
 	    public Geometry read(String geometryLiteral) {
 	    	InputStream stream = new ByteArrayInputStream(geometryLiteral.getBytes(StandardCharsets.UTF_8));
-	    	GeobufDecoder decoder;
+	    	/*GeobufDecoder decoder;
 			try {
 				decoder = new GeobufDecoder(stream);
 		    	Geometry geom=decoder.next().geometry;
-			    GeometryWrapper wrapper = GeometryWrapperFactory.createGeometry(geom, "<http://www.opengis.net/def/crs/EPSG/0/"+geom.getSRID()+">", GeobufDatatype.URI);	
-			    return wrapper;
+		    	return LiteralUtils.createGeometry(geom.getCoordinates(), geom.getGeometryType(), geom.getSRID());
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				throw new RuntimeException();
-			}
+			}*/
+	    	return null;
 	    }
 
 

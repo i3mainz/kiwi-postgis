@@ -3,7 +3,6 @@ package org.openrdf.query.algebra.evaluation.function.postgis.linestring.constru
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKTReader;
 
@@ -17,7 +16,6 @@ public class LineFromText extends GeometricConstructor {
         Geometry geom;
 		try {
 			geom = wktreader.read(input);
-	        GeometryFactory fac=new GeometryFactory();
 	        if("LINESTRING".equalsIgnoreCase(geom.getGeometryType().toUpperCase())){
 	        	return LiteralUtils.createGeometry(geom.getCoordinates(), "LINESTRING", geom.getSRID());
 	        }

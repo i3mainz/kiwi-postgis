@@ -1,5 +1,6 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.raster.relation;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.model.Literal;
 import org.openrdf.model.Value;
 import org.openrdf.model.vocabulary.POSTGIS;
@@ -8,7 +9,6 @@ import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.RasterVectorRelationFunction;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
-import org.apache.sis.coverage.grid.GridCoverage;
 import org.locationtech.jts.geom.Geometry;
 
 public class Intersection extends RasterVectorRelationFunction {
@@ -33,15 +33,15 @@ public class Intersection extends RasterVectorRelationFunction {
 		}else if(type && !type2) {
 			VectorLiteral vec1=(VectorLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			RasterLiteral vec2=(RasterLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return vec1.read(v1.stringValue()).intersection(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getEnvelope()));
+			return vec1.read(v1.stringValue()).intersection(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getGridGeometry().getEnvelope()));
 		}else if(!type && type2) {
 			RasterLiteral vec1=(RasterLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			VectorLiteral vec2=(VectorLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getEnvelope()).intersection(vec2.read(v2.stringValue()));
+			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getGridGeometry().getEnvelope()).intersection(vec2.read(v2.stringValue()));
 		}else {
 			RasterLiteral vec1=(RasterLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			RasterLiteral vec2=(RasterLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getEnvelope()).intersection(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getEnvelope()));
+			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getGridGeometry().getEnvelope()).intersection(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getGridGeometry().getEnvelope()));
 		}
 	}
 

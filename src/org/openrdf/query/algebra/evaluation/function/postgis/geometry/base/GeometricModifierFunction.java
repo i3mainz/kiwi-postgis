@@ -9,7 +9,6 @@ import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralRegistr
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.spatial4j.context.SpatialContext;
 
 public abstract class GeometricModifierFunction implements Function {
 
@@ -21,10 +20,9 @@ public abstract class GeometricModifierFunction implements Function {
 
 		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 		LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());
-		Double value=Double.valueOf(args[1].stringValue());
 		if(l instanceof VectorLiteral) {
 			Geometry geom=((VectorLiteral)l).read(args[0].stringValue());
-			Geometry geom2=((VectorLiteral)l).read(args[1].stringValue());
+			Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());
 			Geometry result = relation(geom,geom2);
 			return valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());
 		}

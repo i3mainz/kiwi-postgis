@@ -1,13 +1,9 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.raster.constructor;
 
-import java.io.IOException;
-
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterConstructorFunction;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
-import org.geotoolkit.coverage.wkb.WKBRasterReader;
-import org.opengis.referencing.NoSuchAuthorityCodeException;
-import org.opengis.util.FactoryException;
+import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster.WKBRastDatatype;
 
 public class RastFromWKB extends RasterConstructorFunction {
 
@@ -17,18 +13,8 @@ public class RastFromWKB extends RasterConstructorFunction {
 	}
 
 	@Override
-	public GridCoverage2D construct(String input) {
-            String wkbstring=input;
-    		WKBRasterReader reader=new WKBRasterReader();
-    		GridCoverage2D coverage;
-			try {
-				coverage = reader.readCoverage(wkbstring.getBytes(),null);
-	    		return coverage;
-			} catch (IOException | FactoryException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			return null;
+	public GridCoverage construct(String input) {
+		return WKBRastDatatype.INSTANCE.read(input);
 	}
 
 }

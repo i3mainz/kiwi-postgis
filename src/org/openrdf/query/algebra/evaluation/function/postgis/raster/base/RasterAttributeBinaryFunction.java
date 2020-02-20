@@ -1,10 +1,10 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.raster.base;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.Function;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
 
 public abstract class RasterAttributeBinaryFunction implements Function {
 
@@ -14,5 +14,5 @@ public abstract class RasterAttributeBinaryFunction implements Function {
 		return null;
 	}
 	
-	public abstract boolean attribute(GridCoverage2D geom);
+	public abstract boolean attribute(GridCoverage geom);
 }

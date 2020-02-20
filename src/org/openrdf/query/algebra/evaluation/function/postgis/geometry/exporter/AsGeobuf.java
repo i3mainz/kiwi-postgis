@@ -1,23 +1,18 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.geometry.exporter;
 
-import java.io.ByteArrayOutputStream;
 
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 
-import com.conveyal.data.geobuf.GeobufEncoder;
-
 import org.openrdf.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
+import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.vector.GeobufDatatype;
 
 
 public class AsGeobuf extends GeometricStringExportFunction {
 
 	@Override
 	public String operation(Geometry geom) {
-         ByteArrayOutputStream output=new ByteArrayOutputStream();
-         GeobufEncoder enc=new GeobufEncoder(output,geom.getPrecisionModel().getMaximumSignificantDigits());
-         Geometry buf=enc.geomToGeobuf(geom);
-         return buf.toString();
+ 		return GeobufDatatype.INSTANCE.unparse(geom);
 	}
 
 	@Override

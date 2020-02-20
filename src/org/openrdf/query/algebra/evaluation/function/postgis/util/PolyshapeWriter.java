@@ -18,6 +18,7 @@
 
 package org.openrdf.query.algebra.evaluation.function.postgis.util;
 
+import java.awt.geom.Rectangle2D;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
@@ -60,7 +61,7 @@ public class PolyshapeWriter {
   }
 
   public void write(Encoder enc, Geometry shape) throws IOException {
-    if (shape instanceof Point) {
+    /*if (shape instanceof Point) {
       Point v = (Point) shape;
       enc.write(KEY_POINT);
       enc.write(v.getX(), v.getY());
@@ -122,8 +123,9 @@ public class PolyshapeWriter {
         }
       }
       return;
-    }
+    }*/
     return;
+    
   }
 
   public String toString(Geometry shape) {

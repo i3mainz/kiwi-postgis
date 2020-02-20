@@ -1,13 +1,10 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.raster.constructor;
 
-import java.io.IOException;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.openrdf.model.vocabulary.POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterConstructorFunction;
-import org.apache.sis.coverage.grid.GridCoverage;
-import org.opengis.util.FactoryException;
-
-import org.locationtech.jts.io.WKBReader;
+import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster.HexWKBRastDatatype;
 
 public class RastFromHexWKB extends RasterConstructorFunction {
 
@@ -18,17 +15,7 @@ public class RastFromHexWKB extends RasterConstructorFunction {
 
 	@Override
 	public GridCoverage construct(String input) {
-	            String wkbstring=input;
-	    		WKBRasterReader reader=new WKBRasterReader();
-	    		GridCoverage coverage;
-				try {
-					coverage = reader.readCoverage(WKBReader.hexToBytes(wkbstring),null);
-					return coverage;
-				} catch (IOException | FactoryException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-	    		return null;
+	     return HexWKBRastDatatype.INSTANCE.read(input);
 	}
 
 }

@@ -1,19 +1,14 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.geometry.base;
 
-import java.io.IOException;
-
 import org.openrdf.model.Literal;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
-import org.openrdf.model.vocabulary.GEO;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.Function;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.spatial4j.context.SpatialContext;
-import org.locationtech.spatial4j.shape.Shape;
 
 public abstract class GeometricUnaryFunction implements Function {
 

@@ -1,7 +1,6 @@
 package org.openrdf.query.algebra.evaluation.function.postgis.raster.base;
 
 import org.apache.sis.coverage.grid.GridCoverage;
-import org.locationtech.jts.geom.Geometry;
 import org.openrdf.model.Literal;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
@@ -10,6 +9,8 @@ import org.openrdf.query.algebra.evaluation.function.Function;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
+import org.openrdf.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
+import org.locationtech.jts.geom.Geometry;
 
 public abstract class RasterAttributeIntIntGeomFunction implements Function {
 
@@ -25,7 +26,7 @@ public abstract class RasterAttributeIntIntGeomFunction implements Function {
 			Integer longitude = Integer.valueOf(args[1].stringValue());
 			Integer latitude = Integer.valueOf(args[2].stringValue());
 			Geometry result = attribute(geom,longitude,latitude);
-			return valueFactory.createLiteral(result);
+			return valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());
 		}
 		return null;
 	}

@@ -3,13 +3,13 @@ package org.openrdf.query.algebra.evaluation.function.postgis.raster.attribute;
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.coverage.grid.GridGeometry;
 import org.apache.sis.geometry.DirectPosition2D;
+import org.openrdf.model.vocabulary.POSTGIS;
+import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeIntIntDoubleFunction;
 import org.locationtech.jts.geom.Coordinate;
 import org.opengis.geometry.DirectPosition;
 import org.opengis.referencing.datum.PixelInCell;
 import org.opengis.referencing.operation.MathTransform;
 import org.opengis.referencing.operation.TransformException;
-import org.openrdf.model.vocabulary.POSTGIS;
-import org.openrdf.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeIntIntDoubleFunction;
 
 public class WorldToRasterCoordX extends RasterAttributeIntIntDoubleFunction {
 	
@@ -21,6 +21,7 @@ public class WorldToRasterCoordX extends RasterAttributeIntIntDoubleFunction {
 	@Override
 	public Double attribute(GridCoverage raster,Integer longitude,Integer latitude) {
         try {
+        	
        	 GridGeometry gg2D = raster.getGridGeometry();
             MathTransform gridToCRS = gg2D.getGridToCRS(PixelInCell.CELL_CENTER);
             MathTransform crsToGrid = gridToCRS.inverse();
