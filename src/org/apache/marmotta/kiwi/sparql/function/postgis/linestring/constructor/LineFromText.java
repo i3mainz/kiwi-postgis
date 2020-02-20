@@ -5,11 +5,7 @@ import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
 import org.apache.marmotta.kiwi.sparql.function.postgis.point.constructor.PointFromText;
-import org.apache.marmotta.kiwi.sparql.function.postgis.point.constructor.PointFromWKB;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
-import org.openrdf.model.Value;
-import org.openrdf.model.ValueFactory;
-import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
 public class LineFromText extends org.openrdf.query.algebra.evaluation.function.postgis.linestring.constructor.LineFromText implements NativeFunction {

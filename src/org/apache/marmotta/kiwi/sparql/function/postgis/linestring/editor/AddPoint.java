@@ -6,9 +6,6 @@ import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
 import org.apache.marmotta.kiwi.sparql.function.postgis.linestring.attribute.StartPoint;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
-import org.openrdf.model.Value;
-import org.openrdf.model.ValueFactory;
-import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
 public class AddPoint extends org.openrdf.query.algebra.evaluation.function.postgis.linestring.editor.AddPoint implements NativeFunction {

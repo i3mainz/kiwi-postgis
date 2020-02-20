@@ -4,7 +4,6 @@ import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
-import org.apache.marmotta.kiwi.sparql.function.postgis.point.attribute.MMin;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
@@ -67,7 +66,7 @@ public class GeometryN extends org.openrdf.query.algebra.evaluation.function.pos
                 if (args[0].contains("POINT") || args[0].contains("MULTIPOINT") || args[0].contains("LINESTRING") || args[0].contains("MULTILINESTRING") || args[0].contains("POLYGON") || args[0].contains("MULTIPOLYGON") || args[0].contains("ST_AsText")) {
                     geom1 = String.format("ST_GeomFromText(%s,%s)", args[0], SRID_default);
                 }
-                return String.format("ST_LongestLine(%s,%s)", geom1,geomn);
+                return String.format("ST_GeometryN(%s,%s)", geom1,geomn);
             }
         }
         throw new UnsupportedOperationException(FN_POSTGIS.st_longestLine.toString()+" function not supported by dialect " + dialect);

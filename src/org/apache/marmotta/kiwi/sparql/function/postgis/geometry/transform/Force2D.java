@@ -4,11 +4,7 @@ import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
-import org.apache.marmotta.kiwi.sparql.function.postgis.geometry.attribute.MinimumBoundingCircle;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
-import org.openrdf.model.Value;
-import org.openrdf.model.ValueFactory;
-import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
 public class Force2D extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.transform.Force2D implements NativeFunction {
@@ -16,7 +12,7 @@ public class Force2D extends org.openrdf.query.algebra.evaluation.function.postg
     // auto-register for SPARQL environment
     static {
         if (!FunctionRegistry.getInstance().has(FN_POSTGIS.st_force2d.toString())) {
-            FunctionRegistry.getInstance().add(new MinimumBoundingCircle());
+            FunctionRegistry.getInstance().add(new Force2D());
         }
     }
 

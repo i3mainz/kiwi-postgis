@@ -4,16 +4,13 @@ import org.apache.marmotta.kiwi.persistence.KiWiDialect;
 import org.apache.marmotta.kiwi.persistence.pgsql.PostgreSQLDialect;
 import org.apache.marmotta.kiwi.sparql.builder.ValueType;
 import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
-import org.apache.marmotta.kiwi.sparql.function.postgis.geometry.attribute.MinimumBoundingCircle;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
 import org.openrdf.model.Value;
 import org.openrdf.model.ValueFactory;
 import org.openrdf.query.algebra.evaluation.ValueExprEvaluationException;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
-import org.openrdf.query.algebra.evaluation.function.postgis.raster.exporter.AsHexWKB;
-import org.openrdf.query.parser.sparql.ast.ASTWhereClause;
 
-public class AsTWKB extends AsTWKB implements NativeFunction {
+public class AsTWKB implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {

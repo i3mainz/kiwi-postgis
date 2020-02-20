@@ -394,8 +394,4 @@ public class FN_POSTGIS {
 
 		public static final String NETCDF="NetCDF";
 
-
-
-
-    }
 }
