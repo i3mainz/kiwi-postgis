@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a04114.html" title="AggregateOperatorBase" alt="" coords="5,233,167,260"/>
+<area shape="rect" id="node2" href="$a01898.html" title="AvgX" alt="" coords="237,5,291,32"/>
+<area shape="rect" id="node3" href="$a01902.html" title="AvgY" alt="" coords="237,56,291,83"/>
+<area shape="rect" id="node4" href="$a01906.html" title="AvgZ" alt="" coords="237,107,291,133"/>
+<area shape="rect" id="node5" href="$a01910.html" title="BoundingBox" alt="" coords="215,157,313,184"/>
+<area shape="rect" id="node6" href="$a01914.html" title="MaxX" alt="" coords="236,208,292,235"/>
+<area shape="rect" id="node7" href="$a01918.html" title="MaxY" alt="" coords="236,259,292,285"/>
+<area shape="rect" id="node8" href="$a01922.html" title="MaxZ" alt="" coords="237,309,291,336"/>
+<area shape="rect" id="node9" href="$a01926.html" title="MinX" alt="" coords="238,360,290,387"/>
+<area shape="rect" id="node10" href="$a01930.html" title="MinY" alt="" coords="238,411,290,437"/>
+<area shape="rect" id="node11" href="$a01934.html" title="MinZ" alt="" coords="239,461,289,488"/>
+</map>

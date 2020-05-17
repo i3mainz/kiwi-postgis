@@ -1,0 +1,9 @@
+<map id="GeometricIntegerAttributeFunction" name="GeometricIntegerAttributeFunction">
+<area shape="rect" id="node3" href="$a02130.html" title="NDims" alt="" coords="5,169,68,196"/>
+<area shape="rect" id="node4" href="$a02134.html" title="NumGeometries" alt="" coords="93,169,210,196"/>
+<area shape="rect" id="node5" href="$a02138.html" title="NumPatches" alt="" coords="258,169,357,196"/>
+<area shape="rect" id="node6" href="$a02142.html" title="NumPoints" alt="" coords="381,169,468,196"/>
+<area shape="rect" id="node7" href="$a02686.html" title="Returns true if all exterior rings are oriented clockwise and all interior rings are oriented counter..." alt="" coords="516,169,619,196"/>
+<area shape="rect" id="node8" href="$a02690.html" title="NumInteriorRings" alt="" coords="643,169,767,196"/>
+<area shape="rect" id="node9" href="$a02726.html" title="Orientation" alt="" coords="791,169,877,196"/>
+</map>

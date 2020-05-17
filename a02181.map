@@ -1,0 +1,8 @@
+<map id="GeometricModifierDoubleFunction" name="GeometricModifierDoubleFunction">
+<area shape="rect" id="node3" href="$a02010.html" title="AddZ" alt="" coords="5,155,59,181"/>
+<area shape="rect" id="node4" href="$a02270.html" title="RemoveRepeatedPoints" alt="" coords="83,155,247,181"/>
+<area shape="rect" id="node5" href="$a02346.html" title="MultiplyZ" alt="" coords="296,155,371,181"/>
+<area shape="rect" id="node6" href="$a02478.html" title="Rotate" alt="" coords="395,155,456,181"/>
+<area shape="rect" id="node7" href="$a02562.html" title="LineInterpolatePoint" alt="" coords="481,155,618,181"/>
+<area shape="rect" id="node8" href="$a02582.html" title="Segmentize" alt="" coords="643,155,733,181"/>
+</map>
