@@ -71,7 +71,7 @@ public class NumGeometries extends org.openrdf.query.algebra.evaluation.function
      */
     @Override
     public ValueType getReturnType() {
-        return ValueType.BOOL;
+        return ValueType.INT;
     }
 
     /**
@@ -94,7 +94,7 @@ public class NumGeometries extends org.openrdf.query.algebra.evaluation.function
      */
     @Override
     public int getMinArgs() {
-        return 1;
+        return 0;
     }
 
     /**
@@ -104,7 +104,7 @@ public class NumGeometries extends org.openrdf.query.algebra.evaluation.function
      */
     @Override
     public int getMaxArgs() {
-        return 1;
+        return 0;
     }
 
 }

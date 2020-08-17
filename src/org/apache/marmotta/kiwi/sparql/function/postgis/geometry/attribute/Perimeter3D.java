@@ -7,7 +7,7 @@ import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class Perimeter3D extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.Perimeter3D implements NativeFunction {
+public class Perimeter3D extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.Perimeter3D implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {

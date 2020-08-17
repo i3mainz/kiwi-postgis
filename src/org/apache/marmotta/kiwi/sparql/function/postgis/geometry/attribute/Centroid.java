@@ -7,7 +7,7 @@ import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class Centroid extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.Centroid implements NativeFunction {
+public class Centroid extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.Centroid implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {

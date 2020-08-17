@@ -111,7 +111,7 @@ public class IsEmpty extends org.openrdf.query.algebra.evaluation.function.postg
      */
     @Override
     public int getMinArgs() {
-        return 1;
+        return 0;
     }
 
     /**
@@ -121,7 +121,7 @@ public class IsEmpty extends org.openrdf.query.algebra.evaluation.function.postg
      */
     @Override
     public int getMaxArgs() {
-        return 1;
+        return 0;
     }
 
 	@Override

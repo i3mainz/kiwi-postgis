@@ -7,7 +7,7 @@ import org.apache.marmotta.kiwi.sparql.function.NativeFunction;
 import org.apache.marmotta.kiwi.vocabulary.FN_POSTGIS;
 import org.openrdf.query.algebra.evaluation.function.FunctionRegistry;
 
-public class BoundingDiagonal extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.BoundingDiagonal implements NativeFunction {
+public class BoundingDiagonal extends org.openrdf.query.algebra.evaluation.function.postgis.geometry.attribute.BoundingDiagonal implements NativeFunction {
 
     // auto-register for SPARQL environment
     static {
