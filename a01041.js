@@ -1,5 +1,6 @@
 var a01041 =
 [
-    [ "ForcePolygonCCW", "a01642.html", "a01642" ],
-    [ "ForcePolygonCW", "a01646.html", "a01646" ]
+    [ "apache", "a01042.html", "a01042" ],
+    [ "locationtech", "a01078.html", "a01078" ],
+    [ "openrdf", "a01090.html", "a01090" ]
 ];

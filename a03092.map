@@ -1,6 +1,3 @@
-<map id="SVGDatatype" name="SVGDatatype">
-<area shape="rect" id="node2" href="$a03110.html" title="VectorLiteral" alt="" coords="5,132,100,159"/>
-<area shape="rect" id="node3" href="$a03010.html" title="LiteralType" alt="" coords="29,5,116,32"/>
-<area shape="rect" id="node6" href="$a03034.html" title="RasterLiteral" alt="" coords="97,81,193,108"/>
-<area shape="rect" id="node5" href="$a03022.html" title="GMLCOVDatatype" alt="" coords="89,183,221,209"/>
+<map id="Disjoint" name="Disjoint">
+<area shape="rect" id="node2" href="$a03281.html" title="RasterVectorRelationBinary\lFunction" alt="" coords="5,80,189,121"/>
 </map>

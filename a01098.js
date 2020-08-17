@@ -1,5 +1,7 @@
 var a01098 =
 [
-    [ "AsBinary", "a02938.html", "a02938" ],
-    [ "AsHexWKB", "a02942.html", "a02942" ]
+    [ "MakeBox2D", "a02005.html", "a02005" ],
+    [ "MakeBox3D", "a02009.html", "a02009" ],
+    [ "MakeEnvelope", "a02013.html", "a02013" ],
+    [ "OctogonalEnvelope", "a02017.html", "a02017" ]
 ];

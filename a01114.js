@@ -1,13 +1,18 @@
 var a01114 =
 [
-    [ "[static initializer]", "a01114.html#a2e87c5ede6b7235170d287cd2e254454", null ],
-    [ "evaluate", "a01114.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getArgumentType", "a01114.html#ac9d1e78719ab7058bd11bee46bf56f42", null ],
-    [ "getMaxArgs", "a01114.html#a17b14bfc98912a43c4cce1587193b32d", null ],
-    [ "getMinArgs", "a01114.html#a030ac56f5a6fc71e1d3b095244321fd0", null ],
-    [ "getNative", "a01114.html#a36a793f256110b1954654f8aaea975bb", null ],
-    [ "getReturnType", "a01114.html#add9187de805767b2f6e613f848c97af1", null ],
-    [ "getURI", "a01114.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "isSupported", "a01114.html#ac80c3432a0790b6352563f60240e8047", null ],
-    [ "relation", "a01114.html#a01f7ce0a8ef37a90c49eb4805e9c0317", null ]
+    [ "IsPointInRing", "a02721.html", "a02721" ],
+    [ "IsPointOnLine", "a02725.html", "a02725" ],
+    [ "M", "a02729.html", "a02729" ],
+    [ "MMax", "a02733.html", "a02733" ],
+    [ "MMin", "a02737.html", "a02737" ],
+    [ "X", "a02741.html", "a02741" ],
+    [ "XMax", "a02745.html", "a02745" ],
+    [ "XMin", "a02749.html", "a02749" ],
+    [ "Y", "a02753.html", "a02753" ],
+    [ "YMax", "a02757.html", "a02757" ],
+    [ "YMin", "a02761.html", "a02761" ],
+    [ "Z", "a02765.html", "a02765" ],
+    [ "ZMax", "a02769.html", "a02769" ],
+    [ "Zmflag", "a02773.html", "a02773" ],
+    [ "ZMin", "a02777.html", "a02777" ]
 ];

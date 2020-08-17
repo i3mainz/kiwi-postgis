@@ -1,13 +1,14 @@
 var a01126 =
 [
-    [ "[static initializer]", "a01126.html#a2e87c5ede6b7235170d287cd2e254454", null ],
-    [ "evaluate", "a01126.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getArgumentType", "a01126.html#ac9d1e78719ab7058bd11bee46bf56f42", null ],
-    [ "getMaxArgs", "a01126.html#a17b14bfc98912a43c4cce1587193b32d", null ],
-    [ "getMinArgs", "a01126.html#a030ac56f5a6fc71e1d3b095244321fd0", null ],
-    [ "getNative", "a01126.html#a36a793f256110b1954654f8aaea975bb", null ],
-    [ "getReturnType", "a01126.html#add9187de805767b2f6e613f848c97af1", null ],
-    [ "getURI", "a01126.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "isSupported", "a01126.html#ac80c3432a0790b6352563f60240e8047", null ],
-    [ "relation", "a01126.html#a92cf9e3c55586df35a528a95c51b6882", null ]
+    [ "Contains", "a03077.html", "a03077" ],
+    [ "ContainsProperly", "a03081.html", "a03081" ],
+    [ "CoveredBy", "a03085.html", "a03085" ],
+    [ "Crosses", "a03089.html", "a03089" ],
+    [ "Disjoint", "a03093.html", "a03093" ],
+    [ "Equals", "a03097.html", "a03097" ],
+    [ "Intersection", "a03101.html", "a03101" ],
+    [ "Intersects", "a03105.html", "a03105" ],
+    [ "Overlaps", "a03109.html", "a03109" ],
+    [ "Touches", "a03113.html", "a03113" ],
+    [ "Within", "a03117.html", "a03117" ]
 ];

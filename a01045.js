@@ -1,4 +1,5 @@
 var a01045 =
 [
-    [ "AddBand", "a01754.html", "a01754" ]
+    [ "builder", "a01040.html", "a01040" ],
+    [ "function", "a01047.html", "a01047" ]
 ];

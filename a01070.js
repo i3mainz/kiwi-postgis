@@ -1,11 +1,9 @@
 var a01070 =
 [
-    [ "aggregate", "a01065.html", "a01065" ],
-    [ "envelope", "a01072.html", "a01072" ],
-    [ "geometry", "a01074.html", "a01074" ],
-    [ "linestring", "a01083.html", "a01083" ],
-    [ "point", "a01088.html", "a01088" ],
-    [ "polygon", "a01091.html", "a01091" ],
-    [ "raster", "a01094.html", "a01094" ],
-    [ "util", "a01101.html", "a01101" ]
+    [ "attribute", "a01069.html", "a01069" ],
+    [ "constructor", "a01071.html", "a01071" ],
+    [ "editor", "a01072.html", "a01072" ],
+    [ "exporter", "a01073.html", "a01073" ],
+    [ "relation", "a01074.html", "a01074" ],
+    [ "transform", "a01075.html", "a01075" ]
 ];

@@ -1,4 +1,9 @@
-<map id="GeoTIFFDatatype" name="GeoTIFFDatatype">
-<area shape="rect" id="node2" href="$a03034.html" title="RasterLiteral" alt="" coords="5,81,101,108"/>
-<area shape="rect" id="node3" href="$a03010.html" title="LiteralType" alt="" coords="10,5,97,32"/>
+<map id="RasterModifierFunction" name="RasterModifierFunction">
+<area shape="rect" id="node3" href="$a03045.html" title="AddBand" alt="" coords="5,155,80,181"/>
+<area shape="rect" id="node4" href="$a03053.html" title="SetRotation" alt="" coords="128,155,219,181"/>
+<area shape="rect" id="node5" href="$a03057.html" title="SetScale" alt="" coords="243,155,317,181"/>
+<area shape="rect" id="node6" href="$a03061.html" title="SetSkew" alt="" coords="341,155,416,181"/>
+<area shape="rect" id="node7" href="$a03065.html" title="SetUpperLeft" alt="" coords="440,155,539,181"/>
+<area shape="rect" id="node8" href="$a03121.html" title="ScaleX" alt="" coords="563,155,627,181"/>
+<area shape="rect" id="node9" href="$a03125.html" title="ScaleY" alt="" coords="651,155,715,181"/>
 </map>

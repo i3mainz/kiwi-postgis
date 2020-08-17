@@ -1,3 +1,9 @@
-<map id="AsPolyshape" name="AsPolyshape">
-<area shape="rect" id="node2" href="$a02218.html" title="GeometricStringExportFunction" alt="" coords="5,80,209,107"/>
+<map id="GeometricModifierDoubleFunction" name="GeometricModifierDoubleFunction">
+<area shape="rect" id="node3" href="$a02077.html" title="AddZ" alt="" coords="5,155,59,181"/>
+<area shape="rect" id="node4" href="$a02213.html" title="LocateAlong" alt="" coords="83,155,178,181"/>
+<area shape="rect" id="node5" href="$a02401.html" title="RemoveRepeatedPoints" alt="" coords="226,155,390,181"/>
+<area shape="rect" id="node6" href="$a02477.html" title="MultiplyZ" alt="" coords="439,155,513,181"/>
+<area shape="rect" id="node7" href="$a02609.html" title="Rotate" alt="" coords="537,155,599,181"/>
+<area shape="rect" id="node8" href="$a02693.html" title="LineInterpolatePoint" alt="" coords="623,155,761,181"/>
+<area shape="rect" id="node9" href="$a02713.html" title="Segmentize" alt="" coords="785,155,876,181"/>
 </map>

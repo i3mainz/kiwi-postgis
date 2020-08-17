@@ -1,3 +1,20 @@
-<map id="AsGeoURI" name="AsGeoURI">
-<area shape="rect" id="node2" href="$a02218.html" title="GeometricStringExportFunction" alt="" coords="5,80,209,107"/>
+<map id="GeometricConstructor" name="GeometricConstructor">
+<area shape="rect" id="node3" href="$a02013.html" title="MakeEnvelope" alt="" coords="357,29,465,56"/>
+<area shape="rect" id="node4" href="$a02381.html" title="GeomFromGeoHash" alt="" coords="339,104,482,131"/>
+<area shape="rect" id="node5" href="$a02385.html" title="GeomFromGeoJSON" alt="" coords="337,179,484,205"/>
+<area shape="rect" id="node6" href="$a02389.html" title="GeomFromText" alt="" coords="354,253,467,280"/>
+<area shape="rect" id="node7" href="$a02393.html" title="GeomFromWKB" alt="" coords="351,328,470,355"/>
+<area shape="rect" id="node8" href="$a02649.html" title="LineFromEncodedPolyline" alt="" coords="324,403,497,429"/>
+<area shape="rect" id="node9" href="$a02657.html" title="LineFromText" alt="" coords="359,477,462,504"/>
+<area shape="rect" id="node10" href="$a02661.html" title="LineFromWKB" alt="" coords="357,552,464,579"/>
+<area shape="rect" id="node11" href="$a02665.html" title="MakeLine" alt="" coords="371,627,450,653"/>
+<area shape="rect" id="node12" href="$a02669.html" title="MLineFromText" alt="" coords="354,701,467,728"/>
+<area shape="rect" id="node13" href="$a02781.html" title="MakePoint" alt="" coords="369,776,453,803"/>
+<area shape="rect" id="node14" href="$a02785.html" title="MPointFromText" alt="" coords="351,827,470,853"/>
+<area shape="rect" id="node15" href="$a02789.html" title="PointFromGeoHash" alt="" coords="342,901,479,928"/>
+<area shape="rect" id="node16" href="$a02793.html" title="PointFromText" alt="" coords="357,976,465,1003"/>
+<area shape="rect" id="node17" href="$a02797.html" title="PointFromWKB" alt="" coords="354,1051,467,1077"/>
+<area shape="rect" id="node18" href="$a02825.html" title="MakePolygon" alt="" coords="360,1101,461,1128"/>
+<area shape="rect" id="node19" href="$a02833.html" title="PolygonFromText" alt="" coords="348,1176,473,1203"/>
+<area shape="rect" id="node20" href="$a02837.html" title="PolygonFromWKB" alt="" coords="345,1251,476,1277"/>
 </map>

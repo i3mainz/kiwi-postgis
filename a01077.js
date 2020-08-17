@@ -1,7 +1,6 @@
 var a01077 =
 [
-    [ "GeomFromGeoHash", "a02246.html", "a02246" ],
-    [ "GeomFromGeoJSON", "a02250.html", "a02250" ],
-    [ "GeomFromText", "a02254.html", "a02254" ],
-    [ "GeomFromWKB", "a02258.html", "a02258" ]
+    [ "TWKBReader", "a01901.html", "a01901" ],
+    [ "TWKBUtils", "a01917.html", "a01917" ],
+    [ "TWKBWriter", "a01921.html", "a01921" ]
 ];

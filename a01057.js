@@ -1,4 +1,5 @@
 var a01057 =
 [
-    [ "SVGWriter", "a01878.html", "a01878" ]
+    [ "EndPoint", "a01553.html", "a01553" ],
+    [ "StartPoint", "a01557.html", "a01557" ]
 ];

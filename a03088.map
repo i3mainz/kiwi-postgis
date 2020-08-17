@@ -1,7 +1,3 @@
-<map id="PolyshapeDatatype" name="PolyshapeDatatype">
-<area shape="rect" id="node2" href="$a03110.html" title="VectorLiteral" alt="" coords="5,301,100,328"/>
-<area shape="rect" id="node3" href="$a03010.html" title="LiteralType" alt="" coords="9,212,96,239"/>
-<area shape="rect" id="node5" href="$a03134.html" title="PolyshapeReader" alt="" coords="205,301,330,328"/>
-<area shape="rect" id="node7" href="$a03002.html" title="JtsPolyshapeWriter" alt="" coords="354,301,490,328"/>
-<area shape="rect" id="node8" href="$a03142.html" title="Wrap the &#39;Encoded Polyline Algorithm Format&#39; defined in: Google Maps API with flags to encode various..." alt="" coords="363,212,481,239"/>
+<map id="Crosses" name="Crosses">
+<area shape="rect" id="node2" href="$a03281.html" title="RasterVectorRelationBinary\lFunction" alt="" coords="5,80,189,121"/>
 </map>

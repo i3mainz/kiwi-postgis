@@ -1,3 +1,4 @@
-<map id="NumXTiles" name="NumXTiles">
-<area shape="rect" id="node2" href="$a02862.html" title="RasterAttributeFunction" alt="" coords="5,80,165,107"/>
+<map id="ZMin" name="ZMin">
+<area shape="rect" id="node4" href="$a01657.html" title="Zmin" alt="" coords="66,244,117,271"/>
+<area shape="rect" id="node2" href="$a02305.html" title="GeometricDoubleAttribute\lFunction" alt="" coords="5,80,177,121"/>
 </map>

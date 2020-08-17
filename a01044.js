@@ -1,5 +1,5 @@
 var a01044 =
 [
-    [ "RastFromHexWKB", "a01746.html", "a01746" ],
-    [ "RastFromWKB", "a01750.html", "a01750" ]
+    [ "sparql", "a01045.html", "a01045" ],
+    [ "vocabulary", "a01076.html", "a01076" ]
 ];

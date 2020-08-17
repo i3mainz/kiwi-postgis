@@ -1,1518 +1,1596 @@
 var files =
 [
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/editor/AddBand.java", "a04123.html", [
-      [ "AddBand", "a01754.html", "a01754" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/editor/AddBand.java", "a04274.html", [
+      [ "AddBand", "a01821.html", "a01821" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/editor/AddBand.java", "a04126.html", [
-      [ "AddBand", "a02914.html", "a02914" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/editor/AddBand.java", "a04277.html", [
+      [ "AddBand", "a03045.html", "a03045" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/editor/AddPoint.java", "a04129.html", [
-      [ "AddPoint", "a01514.html", "a01514" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/editor/AddPoint.java", "a04280.html", [
+      [ "AddPoint", "a01581.html", "a01581" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/editor/AddPoint.java", "a04132.html", [
-      [ "AddPoint", "a02542.html", "a02542" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/editor/AddPoint.java", "a04283.html", [
+      [ "AddPoint", "a02673.html", "a02673" ]
     ] ],
-    [ "AddZ.java", "a00605.html", [
-      [ "AddZ", "a02010.html", "a02010" ]
+    [ "AddZ.java", "a00635.html", [
+      [ "AddZ", "a02077.html", "a02077" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Area.java", "a04135.html", [
-      [ "Area", "a01182.html", "a01182" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Area.java", "a04286.html", [
+      [ "Area", "a01209.html", "a01209" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/Area.java", "a04138.html", [
-      [ "Area", "a02014.html", "a02014" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/Area.java", "a04289.html", [
+      [ "Area", "a02081.html", "a02081" ]
     ] ],
-    [ "Area3D.java", "a00608.html", [
-      [ "Area3D", "a02018.html", "a02018" ]
+    [ "Area3D.java", "a00638.html", [
+      [ "Area3D", "a02085.html", "a02085" ]
     ] ],
-    [ "AreaSimilarity.java", "a00197.html", [
-      [ "AreaSimilarity", "a01370.html", "a01370" ]
+    [ "AreaSimilarity.java", "a00227.html", [
+      [ "AreaSimilarity", "a01437.html", "a01437" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsBinary.java", "a04141.html", [
-      [ "AsBinary", "a01330.html", "a01330" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsBinary.java", "a04292.html", [
+      [ "AsBinary", "a01397.html", "a01397" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/exporter/AsBinary.java", "a04144.html", [
-      [ "AsBinary", "a01758.html", "a01758" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/exporter/AsBinary.java", "a04295.html", [
+      [ "AsBinary", "a01825.html", "a01825" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsBinary.java", "a04147.html", [
-      [ "AsBinary", "a02278.html", "a02278" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsBinary.java", "a04298.html", [
+      [ "AsBinary", "a02409.html", "a02409" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/exporter/AsBinary.java", "a04150.html", [
-      [ "AsBinary", "a02938.html", "a02938" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/exporter/AsBinary.java", "a04301.html", [
+      [ "AsBinary", "a03069.html", "a03069" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/exporter/AsEncodedPolyline.java", "a04153.html", [
-      [ "AsEncodedPolyline", "a01526.html", null ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/exporter/AsEncodedPolyline.java", "a04304.html", [
+      [ "AsEncodedPolyline", "a01593.html", null ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/exporter/AsEncodedPolyline.java", "a04156.html", [
-      [ "AsEncodedPolyline", "a02554.html", "a02554" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/exporter/AsEncodedPolyline.java", "a04307.html", [
+      [ "AsEncodedPolyline", "a02685.html", "a02685" ]
     ] ],
-    [ "AsGeobuf.java", "a00710.html", [
-      [ "AsGeobuf", "a02282.html", "a02282" ]
+    [ "AsGeobuf.java", "a00740.html", [
+      [ "AsGeobuf", "a02413.html", "a02413" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsGeoHash.java", "a04159.html", [
-      [ "AsGeoHash", "a01334.html", "a01334" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsGeoHash.java", "a04310.html", [
+      [ "AsGeoHash", "a01401.html", "a01401" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsGeoHash.java", "a04162.html", [
-      [ "AsGeoHash", "a02286.html", "a02286" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsGeoHash.java", "a04313.html", [
+      [ "AsGeoHash", "a02417.html", "a02417" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsGeoJSON.java", "a04165.html", [
-      [ "AsGeoJSON", "a01338.html", "a01338" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsGeoJSON.java", "a04316.html", [
+      [ "AsGeoJSON", "a01405.html", "a01405" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsGeoJSON.java", "a04168.html", [
-      [ "AsGeoJSON", "a02290.html", "a02290" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsGeoJSON.java", "a04319.html", [
+      [ "AsGeoJSON", "a02421.html", "a02421" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsGeoRSS.java", "a04171.html", [
-      [ "AsGeoRSS", "a01342.html", "a01342" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsGeoRSS.java", "a04322.html", [
+      [ "AsGeoRSS", "a01409.html", "a01409" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsGeoRSS.java", "a04174.html", [
-      [ "AsGeoRSS", "a02294.html", "a02294" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsGeoRSS.java", "a04325.html", [
+      [ "AsGeoRSS", "a02425.html", "a02425" ]
     ] ],
-    [ "AsGeoURI.java", "a00713.html", [
-      [ "AsGeoURI", "a02298.html", "a02298" ]
+    [ "AsGeoURI.java", "a00743.html", [
+      [ "AsGeoURI", "a02429.html", "a02429" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsGML.java", "a04177.html", [
-      [ "AsGML", "a01346.html", "a01346" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsGML.java", "a04328.html", [
+      [ "AsGML", "a01413.html", "a01413" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsGML.java", "a04180.html", [
-      [ "AsGML", "a02302.html", "a02302" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsGML.java", "a04331.html", [
+      [ "AsGML", "a02433.html", "a02433" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsGPX.java", "a04183.html", [
-      [ "AsGPX", "a01350.html", "a01350" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsGPX.java", "a04334.html", [
+      [ "AsGPX", "a01417.html", "a01417" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsGPX.java", "a04186.html", [
-      [ "AsGPX", "a02306.html", "a02306" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsGPX.java", "a04337.html", [
+      [ "AsGPX", "a02437.html", "a02437" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/exporter/AsHexWKB.java", "a04189.html", [
-      [ "AsHexWKB", "a01762.html", "a01762" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/exporter/AsHexWKB.java", "a04340.html", [
+      [ "AsHexWKB", "a01829.html", "a01829" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/exporter/AsHexWKB.java", "a04192.html", [
-      [ "AsHexWKB", "a02942.html", "a02942" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/exporter/AsHexWKB.java", "a04343.html", [
+      [ "AsHexWKB", "a03073.html", "a03073" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsKML.java", "a04195.html", [
-      [ "AsKML", "a01354.html", "a01354" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsKML.java", "a04346.html", [
+      [ "AsKML", "a01421.html", "a01421" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsKML.java", "a04198.html", [
-      [ "AsKML", "a02310.html", "a02310" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsKML.java", "a04349.html", [
+      [ "AsKML", "a02441.html", "a02441" ]
     ] ],
-    [ "AsLatLonText.java", "a00716.html", [
-      [ "AsLatLonText", "a02314.html", "a02314" ]
+    [ "AsLatLonText.java", "a00746.html", [
+      [ "AsLatLonText", "a02445.html", "a02445" ]
     ] ],
-    [ "AsOSMLink.java", "a00719.html", [
-      [ "AsOSMLink", "a02318.html", "a02318" ]
+    [ "AsOSMLink.java", "a00749.html", [
+      [ "AsOSMLink", "a02449.html", "a02449" ]
     ] ],
-    [ "AsPolyshape.java", "a00722.html", [
-      [ "AsPolyshape", "a02322.html", "a02322" ]
+    [ "AsPolyshape.java", "a00752.html", [
+      [ "AsPolyshape", "a02453.html", "a02453" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsSVG.java", "a04201.html", [
-      [ "AsSVG", "a01358.html", "a01358" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsSVG.java", "a04352.html", [
+      [ "AsSVG", "a01425.html", "a01425" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsSVG.java", "a04204.html", [
-      [ "AsSVG", "a02326.html", "a02326" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsSVG.java", "a04355.html", [
+      [ "AsSVG", "a02457.html", "a02457" ]
     ] ],
-    [ "AsText.java", "a00725.html", [
-      [ "AsText", "a02330.html", "a02330" ]
+    [ "AsText.java", "a00755.html", [
+      [ "AsText", "a02461.html", "a02461" ]
     ] ],
-    [ "AsTextRound.java", "a00728.html", [
-      [ "AsTextRound", "a02334.html", "a02334" ]
+    [ "AsTextRound.java", "a00758.html", [
+      [ "AsTextRound", "a02465.html", "a02465" ]
     ] ],
-    [ "AsTWKB.java", "a00191.html", [
-      [ "AsTWKB", "a01362.html", "a01362" ]
+    [ "AsTWKB.java", "a00221.html", [
+      [ "AsTWKB", "a01429.html", "a01429" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsX3D.java", "a04207.html", [
-      [ "AsX3D", "a01366.html", "a01366" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/exporter/AsX3D.java", "a04358.html", [
+      [ "AsX3D", "a01433.html", "a01433" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsX3D.java", "a04210.html", [
-      [ "AsX3D", "a02338.html", "a02338" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/exporter/AsX3D.java", "a04361.html", [
+      [ "AsX3D", "a02469.html", "a02469" ]
     ] ],
-    [ "AvgX.java", "a00572.html", [
-      [ "AvgX", "a01898.html", "a01898" ]
+    [ "AvgX.java", "a00602.html", [
+      [ "AvgX", "a01965.html", "a01965" ]
     ] ],
-    [ "AvgY.java", "a00575.html", [
-      [ "AvgY", "a01902.html", "a01902" ]
+    [ "AvgY.java", "a00605.html", [
+      [ "AvgY", "a01969.html", "a01969" ]
     ] ],
-    [ "AvgZ.java", "a00578.html", [
-      [ "AvgZ", "a01906.html", "a01906" ]
+    [ "AvgZ.java", "a00608.html", [
+      [ "AvgZ", "a01973.html", "a01973" ]
     ] ],
-    [ "Band.java", "a00839.html", [
-      [ "Band", "a02730.html", "a02730" ]
+    [ "Band.java", "a00866.html", [
+      [ "Band", "a02861.html", "a02861" ]
     ] ],
-    [ "BandMetadata.java", "a00842.html", [
-      [ "BandMetadata", "a02734.html", "a02734" ]
+    [ "BandMetadata.java", "a00869.html", [
+      [ "BandMetadata", "a02865.html", "a02865" ]
     ] ],
-    [ "BandNoDataValue.java", "a00845.html", [
-      [ "BandNoDataValue", "a02738.html", "a02738" ]
+    [ "BandNoDataValue.java", "a00872.html", [
+      [ "BandNoDataValue", "a02869.html", "a02869" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXAbove.java", "a04213.html", [
-      [ "BBOXAbove", "a01126.html", "a01126" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXAbove.java", "a04364.html", [
+      [ "BBOXAbove", "a01153.html", "a01153" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXAbove.java", "a04216.html", [
-      [ "BBOXAbove", "a01954.html", "a01954" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXAbove.java", "a04367.html", [
+      [ "BBOXAbove", "a02021.html", "a02021" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXBelow.java", "a04219.html", [
-      [ "BBOXBelow", "a01130.html", "a01130" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXBelow.java", "a04370.html", [
+      [ "BBOXBelow", "a01157.html", "a01157" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXBelow.java", "a04222.html", [
-      [ "BBOXBelow", "a01958.html", "a01958" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXBelow.java", "a04373.html", [
+      [ "BBOXBelow", "a02025.html", "a02025" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXContains.java", "a04225.html", [
-      [ "BBOXContains", "a01134.html", "a01134" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXContains.java", "a04376.html", [
+      [ "BBOXContains", "a01161.html", "a01161" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXContains.java", "a04228.html", [
-      [ "BBOXContains", "a01962.html", "a01962" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXContains.java", "a04379.html", [
+      [ "BBOXContains", "a02029.html", "a02029" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXDistance.java", "a04231.html", [
-      [ "BBOXDistance", "a01138.html", "a01138" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXDistance.java", "a04382.html", [
+      [ "BBOXDistance", "a01165.html", "a01165" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXDistance.java", "a04234.html", [
-      [ "BBOXDistance", "a01966.html", "a01966" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXDistance.java", "a04385.html", [
+      [ "BBOXDistance", "a02033.html", "a02033" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXEquals.java", "a04237.html", [
-      [ "BBOXEquals", "a01142.html", "a01142" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXEquals.java", "a04388.html", [
+      [ "BBOXEquals", "a01169.html", "a01169" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXEquals.java", "a04240.html", [
-      [ "BBOXEquals", "a01970.html", "a01970" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXEquals.java", "a04391.html", [
+      [ "BBOXEquals", "a02037.html", "a02037" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXFPIntersects.java", "a04243.html", [
-      [ "BBOXFPIntersects", "a01146.html", "a01146" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXFPIntersects.java", "a04394.html", [
+      [ "BBOXFPIntersects", "a01173.html", "a01173" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXFPIntersects.java", "a04246.html", [
-      [ "BBOXFPIntersects", "a01974.html", "a01974" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXFPIntersects.java", "a04397.html", [
+      [ "BBOXFPIntersects", "a02041.html", "a02041" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXIntersects.java", "a04249.html", [
-      [ "BBOXIntersects", "a01150.html", "a01150" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXIntersects.java", "a04400.html", [
+      [ "BBOXIntersects", "a01177.html", "a01177" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXIntersects.java", "a04252.html", [
-      [ "BBOXIntersects", "a01978.html", "a01978" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXIntersects.java", "a04403.html", [
+      [ "BBOXIntersects", "a02045.html", "a02045" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXIsContainedBy.java", "a04255.html", [
-      [ "BBOXIsContainedBy", "a01154.html", "a01154" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXIsContainedBy.java", "a04406.html", [
+      [ "BBOXIsContainedBy", "a01181.html", "a01181" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXIsContainedBy.java", "a04258.html", [
-      [ "BBOXIsContainedBy", "a01982.html", "a01982" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXIsContainedBy.java", "a04409.html", [
+      [ "BBOXIsContainedBy", "a02049.html", "a02049" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXLeftOf.java", "a04261.html", [
-      [ "BBOXLeftOf", "a01158.html", "a01158" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXLeftOf.java", "a04412.html", [
+      [ "BBOXLeftOf", "a01185.html", "a01185" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXLeftOf.java", "a04264.html", [
-      [ "BBOXLeftOf", "a01986.html", "a01986" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXLeftOf.java", "a04415.html", [
+      [ "BBOXLeftOf", "a02053.html", "a02053" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXOverlapsAbove.java", "a04267.html", [
-      [ "BBOXOverlapsAbove", "a01162.html", "a01162" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXOverlapsAbove.java", "a04418.html", [
+      [ "BBOXOverlapsAbove", "a01189.html", "a01189" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXOverlapsAbove.java", "a04270.html", [
-      [ "BBOXOverlapsAbove", "a01990.html", "a01990" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXOverlapsAbove.java", "a04421.html", [
+      [ "BBOXOverlapsAbove", "a02057.html", "a02057" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXOverlapsBelow.java", "a04273.html", [
-      [ "BBOXOverlapsBelow", "a01166.html", "a01166" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXOverlapsBelow.java", "a04424.html", [
+      [ "BBOXOverlapsBelow", "a01193.html", "a01193" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXOverlapsBelow.java", "a04276.html", [
-      [ "BBOXOverlapsBelow", "a01994.html", "a01994" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXOverlapsBelow.java", "a04427.html", [
+      [ "BBOXOverlapsBelow", "a02061.html", "a02061" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXOverlapsLeft.java", "a04279.html", [
-      [ "BBOXOverlapsLeft", "a01170.html", "a01170" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXOverlapsLeft.java", "a04430.html", [
+      [ "BBOXOverlapsLeft", "a01197.html", "a01197" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXOverlapsLeft.java", "a04282.html", [
-      [ "BBOXOverlapsLeft", "a01998.html", "a01998" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXOverlapsLeft.java", "a04433.html", [
+      [ "BBOXOverlapsLeft", "a02065.html", "a02065" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXOverlapsRight.java", "a04285.html", [
-      [ "BBOXOverlapsRight", "a01174.html", "a01174" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXOverlapsRight.java", "a04436.html", [
+      [ "BBOXOverlapsRight", "a01201.html", "a01201" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXOverlapsRight.java", "a04288.html", [
-      [ "BBOXOverlapsRight", "a02002.html", "a02002" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXOverlapsRight.java", "a04439.html", [
+      [ "BBOXOverlapsRight", "a02069.html", "a02069" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXRightOf.java", "a04291.html", [
-      [ "BBOXRightOf", "a01178.html", "a01178" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/relation/BBOXRightOf.java", "a04442.html", [
+      [ "BBOXRightOf", "a01205.html", "a01205" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXRightOf.java", "a04294.html", [
-      [ "BBOXRightOf", "a02006.html", "a02006" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/relation/BBOXRightOf.java", "a04445.html", [
+      [ "BBOXRightOf", "a02073.html", "a02073" ]
     ] ],
-    [ "Boundary.java", "a00695.html", [
-      [ "Boundary", "a02230.html", "a02230" ]
+    [ "attribute/Boundary.java", "a04448.html", [
+      [ "Boundary", "a02089.html", "a02089" ]
     ] ],
-    [ "BoundingBox.java", "a00581.html", [
-      [ "BoundingBox", "a01910.html", "a01910" ]
+    [ "Boundary.java", "a00641.html", [
+      [ "Boundary", "a02369.html", "a02369" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/BoundingDiagonal.java", "a04297.html", [
-      [ "BoundingDiagonal", "a01186.html", "a01186" ]
+    [ "BoundingBox.java", "a00611.html", [
+      [ "BoundingBox", "a01977.html", "a01977" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/BoundingDiagonal.java", "a04300.html", [
-      [ "BoundingDiagonal", "a02234.html", "a02234" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/BoundingDiagonal.java", "a04451.html", [
+      [ "BoundingDiagonal", "a01213.html", "a01213" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Centroid.java", "a04303.html", [
-      [ "Centroid", "a01190.html", "a01190" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/BoundingDiagonal.java", "a04454.html", [
+      [ "BoundingDiagonal", "a02093.html", "a02093" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/Centroid.java", "a04306.html", [
-      [ "Centroid", "a02238.html", "a02238" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/BoundingDiagonal.java", "a04457.html", [
+      [ "BoundingDiagonal", "a02373.html", "a02373" ]
     ] ],
-    [ "CentroidDistance.java", "a00740.html", [
-      [ "CentroidDistance", "a02370.html", "a02370" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Centroid.java", "a04460.html", [
+      [ "Centroid", "a01217.html", "a01217" ]
     ] ],
-    [ "ClosestPoint.java", "a00200.html", [
-      [ "ClosestPoint", "a01374.html", "a01374" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/Centroid.java", "a04463.html", [
+      [ "Centroid", "a02097.html", "a02097" ]
     ] ],
-    [ "ClosestPoint3D.java", "a00203.html", [
-      [ "ClosestPoint3D", "a01378.html", "a01378" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/Centroid.java", "a04466.html", [
+      [ "Centroid", "a02377.html", "a02377" ]
     ] ],
-    [ "CollectionHomogenize.java", "a00248.html", [
-      [ "CollectionHomogenize", "a01438.html", "a01438" ]
+    [ "CentroidDistance.java", "a00770.html", [
+      [ "CentroidDistance", "a02501.html", "a02501" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/CompactnessRatio.java", "a04309.html", [
-      [ "CompactnessRatio", "a01194.html", "a01194" ]
+    [ "ClosestPoint.java", "a00230.html", [
+      [ "ClosestPoint", "a01441.html", "a01441" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/CompactnessRatio.java", "a04312.html", [
-      [ "CompactnessRatio", "a02022.html", "a02022" ]
+    [ "ClosestPoint3D.java", "a00233.html", [
+      [ "ClosestPoint3D", "a01445.html", "a01445" ]
     ] ],
-    [ "ConcaveHull.java", "a00698.html", [
-      [ "ConcaveHull", "a02242.html", "a02242" ]
+    [ "CollectionHomogenize.java", "a00278.html", [
+      [ "CollectionHomogenize", "a01505.html", "a01505" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Contains.java", "a04315.html", [
-      [ "Contains", "a01766.html", "a01766" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/CompactnessRatio.java", "a04469.html", [
+      [ "CompactnessRatio", "a01221.html", "a01221" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Contains.java", "a04318.html", [
-      [ "Contains", "a02946.html", "a02946" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/CompactnessRatio.java", "a04472.html", [
+      [ "CompactnessRatio", "a02101.html", "a02101" ]
     ] ],
-    [ "ContainsProperly.java", "a00902.html", [
-      [ "ContainsProperly", "a02950.html", "a02950" ]
+    [ "ConcaveHull.java", "a00644.html", [
+      [ "ConcaveHull", "a02105.html", "a02105" ]
     ] ],
-    [ "ConvexHull.java", "a00701.html", [
-      [ "ConvexHull", "a02262.html", "a02262" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Contains.java", "a04475.html", [
+      [ "Contains", "a01833.html", "a01833" ]
     ] ],
-    [ "Coordinate.java", "a00551.html", [
-      [ "Coordinate", "a01866.html", "a01866" ],
-      [ "DimensionalComparator", "a01870.html", "a01870" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Contains.java", "a04478.html", [
+      [ "Contains", "a03077.html", "a03077" ]
     ] ],
-    [ "CoordinateT.java", "a00554.html", [
-      [ "CoordinateT", "a01874.html", null ]
+    [ "ContainsProperly.java", "a00929.html", [
+      [ "ContainsProperly", "a03081.html", "a03081" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/CoveredBy.java", "a04321.html", [
-      [ "CoveredBy", "a01770.html", "a01770" ]
+    [ "ConvexHull.java", "a00647.html", [
+      [ "ConvexHull", "a02109.html", "a02109" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/CoveredBy.java", "a04324.html", [
-      [ "CoveredBy", "a02954.html", "a02954" ]
+    [ "Coordinate.java", "a00581.html", [
+      [ "Coordinate", "a01933.html", "a01933" ],
+      [ "DimensionalComparator", "a01937.html", "a01937" ]
     ] ],
-    [ "CovJSONDatatype.java", "a00920.html", [
-      [ "CovJSONDatatype", "a03014.html", "a03014" ]
+    [ "CoordinateT.java", "a00584.html", [
+      [ "CoordinateT", "a01941.html", null ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Crosses.java", "a04327.html", [
-      [ "Crosses", "a01774.html", "a01774" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/CoveredBy.java", "a04481.html", [
+      [ "CoveredBy", "a01837.html", "a01837" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Crosses.java", "a04330.html", [
-      [ "Crosses", "a02958.html", "a02958" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/CoveredBy.java", "a04484.html", [
+      [ "CoveredBy", "a03085.html", "a03085" ]
     ] ],
-    [ "DelaunayTriangles.java", "a00704.html", [
-      [ "DelaunayTriangles", "a02266.html", "a02266" ]
+    [ "CovJSONDatatype.java", "a00947.html", [
+      [ "CovJSONDatatype", "a03145.html", "a03145" ]
     ] ],
-    [ "Difference.java", "a00206.html", [
-      [ "Difference", "a01382.html", null ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Crosses.java", "a04487.html", [
+      [ "Crosses", "a01841.html", "a01841" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/Difference3D.java", "a04333.html", [
-      [ "Difference3D", "a01386.html", "a01386" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Crosses.java", "a04490.html", [
+      [ "Crosses", "a03089.html", "a03089" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/Difference3D.java", "a04336.html", [
-      [ "Difference3D", "a02374.html", "a02374" ]
+    [ "DelaunayTriangles.java", "a00734.html", [
+      [ "DelaunayTriangles", "a02397.html", "a02397" ]
+    ] ],
+    [ "Difference.java", "a00236.html", [
+      [ "Difference", "a01449.html", null ]
+    ] ],
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/Difference3D.java", "a04493.html", [
+      [ "Difference3D", "a01453.html", "a01453" ]
+    ] ],
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/Difference3D.java", "a04496.html", [
+      [ "Difference3D", "a02505.html", "a02505" ]
     ] ],
     [ "Dimension.java", "a00068.html", [
-      [ "Dimension", "a01198.html", "a01198" ]
+      [ "Dimension", "a01225.html", "a01225" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Disjoint.java", "a04339.html", [
-      [ "Disjoint", "a01778.html", "a01778" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Disjoint.java", "a04499.html", [
+      [ "Disjoint", "a01845.html", "a01845" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Disjoint.java", "a04342.html", [
-      [ "Disjoint", "a02962.html", "a02962" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Disjoint.java", "a04502.html", [
+      [ "Disjoint", "a03093.html", "a03093" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/Distance3D.java", "a04345.html", [
-      [ "Distance3D", "a01390.html", "a01390" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/Distance3D.java", "a04505.html", [
+      [ "Distance3D", "a01457.html", "a01457" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/Distance3D.java", "a04348.html", [
-      [ "Distance3D", "a02378.html", "a02378" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/Distance3D.java", "a04508.html", [
+      [ "Distance3D", "a02509.html", "a02509" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/DistanceSphere.java", "a04351.html", [
-      [ "DistanceSphere", "a01394.html", "a01394" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/DistanceSphere.java", "a04511.html", [
+      [ "DistanceSphere", "a01461.html", "a01461" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/DistanceSphere.java", "a04354.html", [
-      [ "DistanceSphere", "a02382.html", "a02382" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/DistanceSphere.java", "a04514.html", [
+      [ "DistanceSphere", "a02513.html", "a02513" ]
     ] ],
-    [ "Dump.java", "a00071.html", [
-      [ "Dump", "a01202.html", "a01202" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Dump.java", "a04517.html", [
+      [ "Dump", "a01229.html", "a01229" ]
     ] ],
-    [ "DXFDatatype.java", "a00941.html", [
-      [ "DXFDatatype", "a03042.html", "a03042" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/Dump.java", "a04520.html", [
+      [ "Dump", "a02113.html", "a02113" ]
     ] ],
-    [ "EncodedPolylineDatatype.java", "a00944.html", [
-      [ "EncodedPolylineDatatype", "a03046.html", "a03046" ]
+    [ "DXFDatatype.java", "a00968.html", [
+      [ "DXFDatatype", "a03173.html", "a03173" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/attribute/EndPoint.java", "a04357.html", [
-      [ "EndPoint", "a01486.html", "a01486" ]
+    [ "EncodedPolylineDatatype.java", "a00971.html", [
+      [ "EncodedPolylineDatatype", "a03177.html", "a03177" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/attribute/EndPoint.java", "a04360.html", [
-      [ "EndPoint", "a02510.html", "a02510" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/attribute/EndPoint.java", "a04523.html", [
+      [ "EndPoint", "a01553.html", "a01553" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Equals.java", "a04363.html", [
-      [ "Equals", "a01782.html", "a01782" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/attribute/EndPoint.java", "a04526.html", [
+      [ "EndPoint", "a02641.html", "a02641" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Equals.java", "a04366.html", [
-      [ "Equals", "a02966.html", "a02966" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Equals.java", "a04529.html", [
+      [ "Equals", "a01849.html", "a01849" ]
     ] ],
-    [ "EqualsNorm.java", "a00743.html", [
-      [ "EqualsNorm", "a02386.html", "a02386" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Equals.java", "a04532.html", [
+      [ "Equals", "a03097.html", "a03097" ]
     ] ],
-    [ "EqualSRS.java", "a00746.html", [
-      [ "EqualSRS", "a02390.html", "a02390" ]
+    [ "EqualsNorm.java", "a00773.html", [
+      [ "EqualsNorm", "a02517.html", "a02517" ]
     ] ],
-    [ "EqualsTopo.java", "a00749.html", [
-      [ "EqualsTopo", "a02394.html", "a02394" ]
+    [ "EqualSRS.java", "a00776.html", [
+      [ "EqualSRS", "a02521.html", "a02521" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/attribute/ExteriorRing.java", "a04369.html", [
-      [ "ExteriorRing", "a01614.html", "a01614" ]
+    [ "EqualsTopo.java", "a00779.html", [
+      [ "EqualsTopo", "a02525.html", "a02525" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/ExteriorRing.java", "a04372.html", [
-      [ "ExteriorRing", "a02710.html", "a02710" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/attribute/ExteriorRing.java", "a04535.html", [
+      [ "ExteriorRing", "a01681.html", "a01681" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/FlipCoordinates.java", "a04375.html", [
-      [ "FlipCoordinates", "a01442.html", "a01442" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/ExteriorRing.java", "a04538.html", [
+      [ "ExteriorRing", "a02841.html", "a02841" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/FlipCoordinates.java", "a04378.html", [
-      [ "FlipCoordinates", "a02442.html", "a02442" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/FlipCoordinates.java", "a04541.html", [
+      [ "FlipCoordinates", "a01509.html", "a01509" ]
     ] ],
-    [ "FN_POSTGIS.java", "a00539.html", [
-      [ "FN_POSTGIS", "a01830.html", "a01830" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/FlipCoordinates.java", "a04544.html", [
+      [ "FlipCoordinates", "a02573.html", "a02573" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Force2D.java", "a04381.html", [
-      [ "Force2D", "a01446.html", "a01446" ]
+    [ "FN_POSTGIS.java", "a00569.html", [
+      [ "FN_POSTGIS", "a01897.html", "a01897" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/Force2D.java", "a04384.html", [
-      [ "Force2D", "a02446.html", "a02446" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Force2D.java", "a04547.html", [
+      [ "Force2D", "a01513.html", "a01513" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Force3D.java", "a04387.html", [
-      [ "Force3D", "a01450.html", "a01450" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/Force2D.java", "a04550.html", [
+      [ "Force2D", "a02577.html", "a02577" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/Force3D.java", "a04390.html", [
-      [ "Force3D", "a02450.html", "a02450" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Force3D.java", "a04553.html", [
+      [ "Force3D", "a01517.html", "a01517" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Force3DM.java", "a04393.html", [
-      [ "Force3DM", "a01454.html", "a01454" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/Force3D.java", "a04556.html", [
+      [ "Force3D", "a02581.html", "a02581" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/Force3DM.java", "a04396.html", [
-      [ "Force3DM", "a02454.html", "a02454" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Force3DM.java", "a04559.html", [
+      [ "Force3DM", "a01521.html", "a01521" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Force4D.java", "a04399.html", [
-      [ "Force4D", "a01458.html", "a01458" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/Force3DM.java", "a04562.html", [
+      [ "Force3DM", "a02585.html", "a02585" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/Force4D.java", "a04402.html", [
-      [ "Force4D", "a02458.html", "a02458" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Force4D.java", "a04565.html", [
+      [ "Force4D", "a01525.html", "a01525" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/ForceCollection.java", "a04405.html", [
-      [ "ForceCollection", "a01462.html", "a01462" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/Force4D.java", "a04568.html", [
+      [ "Force4D", "a02589.html", "a02589" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/ForceCollection.java", "a04408.html", [
-      [ "ForceCollection", "a02462.html", "a02462" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/ForceCollection.java", "a04571.html", [
+      [ "ForceCollection", "a01529.html", "a01529" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/transform/ForcePolygonCCW.java", "a04411.html", [
-      [ "ForcePolygonCCW", "a01642.html", "a01642" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/ForceCollection.java", "a04574.html", [
+      [ "ForceCollection", "a02593.html", "a02593" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/ForcePolygonCCW.java", "a04414.html", [
-      [ "ForcePolygonCCW", "a02714.html", "a02714" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/transform/ForcePolygonCCW.java", "a04577.html", [
+      [ "ForcePolygonCCW", "a01709.html", "a01709" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/transform/ForcePolygonCW.java", "a04417.html", [
-      [ "ForcePolygonCW", "a01646.html", "a01646" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/ForcePolygonCCW.java", "a04580.html", [
+      [ "ForcePolygonCCW", "a02845.html", "a02845" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/ForcePolygonCW.java", "a04420.html", [
-      [ "ForcePolygonCW", "a02718.html", "a02718" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/transform/ForcePolygonCW.java", "a04583.html", [
+      [ "ForcePolygonCW", "a01713.html", "a01713" ]
     ] ],
-    [ "FrechetDistance.java", "a00218.html", [
-      [ "FrechetDistance", "a01398.html", "a01398" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/ForcePolygonCW.java", "a04586.html", [
+      [ "ForcePolygonCW", "a02849.html", "a02849" ]
     ] ],
-    [ "GeobufDatatype.java", "a00947.html", [
-      [ "GeobufDatatype", "a03050.html", "a03050" ]
+    [ "FrechetDistance.java", "a00248.html", [
+      [ "FrechetDistance", "a01465.html", "a01465" ]
     ] ],
-    [ "GeoHashDatatype.java", "a00950.html", [
-      [ "GeoHashDatatype", "a03054.html", "a03054" ]
+    [ "GeobufDatatype.java", "a00974.html", [
+      [ "GeobufDatatype", "a03181.html", "a03181" ]
     ] ],
-    [ "GeoJSONDatatype.java", "a00953.html", [
-      [ "GeoJSONDatatype", "a03058.html", "a03058" ]
+    [ "GeoHashDatatype.java", "a00977.html", [
+      [ "GeoHashDatatype", "a03185.html", "a03185" ]
     ] ],
-    [ "GeoJSONLDDatatype.java", "a00956.html", [
-      [ "GeoJSONLDDatatype", "a03062.html", "a03062" ]
+    [ "GeoJSONDatatype.java", "a00980.html", [
+      [ "GeoJSONDatatype", "a03189.html", "a03189" ]
     ] ],
-    [ "GeometricBinaryAttributeFunction.java", "a00635.html", [
-      [ "GeometricBinaryAttributeFunction", "a02150.html", "a02150" ]
+    [ "GeoJSONLDDatatype.java", "a00983.html", [
+      [ "GeoJSONLDDatatype", "a03193.html", "a03193" ]
     ] ],
-    [ "GeometricBinaryFunction.java", "a00638.html", [
-      [ "GeometricBinaryFunction", "a02154.html", "a02154" ]
+    [ "GeometricBinaryAttributeFunction.java", "a00674.html", [
+      [ "GeometricBinaryAttributeFunction", "a02289.html", "a02289" ]
     ] ],
-    [ "GeometricConstructor.java", "a00641.html", [
-      [ "GeometricConstructor", "a02158.html", "a02158" ]
+    [ "GeometricBinaryFunction.java", "a00677.html", [
+      [ "GeometricBinaryFunction", "a02293.html", "a02293" ]
     ] ],
-    [ "GeometricConstructorInteger.java", "a00644.html", [
-      [ "GeometricConstructorInteger", "a02162.html", "a02162" ]
+    [ "GeometricConstructor.java", "a00680.html", [
+      [ "GeometricConstructor", "a02297.html", "a02297" ]
     ] ],
-    [ "GeometricDoubleAttributeFunction.java", "a00647.html", [
-      [ "GeometricDoubleAttributeFunction", "a02166.html", "a02166" ]
+    [ "GeometricConstructorInteger.java", "a00683.html", [
+      [ "GeometricConstructorInteger", "a02301.html", "a02301" ]
     ] ],
-    [ "GeometricDoubleModifierIntegerFunction.java", "a00650.html", [
-      [ "GeometricDoubleModifierIntegerFunction", "a02170.html", "a02170" ]
+    [ "GeometricDoubleAttributeFunction.java", "a00686.html", [
+      [ "GeometricDoubleAttributeFunction", "a02305.html", "a02305" ]
     ] ],
-    [ "GeometricEditFunction.java", "a00653.html", [
-      [ "GeometricEditFunction", "a02174.html", "a02174" ]
+    [ "GeometricDoubleModifierIntegerFunction.java", "a00689.html", [
+      [ "GeometricDoubleModifierIntegerFunction", "a02309.html", "a02309" ]
     ] ],
-    [ "GeometricIntegerAttributeFunction.java", "a00656.html", [
-      [ "GeometricIntegerAttributeFunction", "a02178.html", "a02178" ]
+    [ "GeometricEditFunction.java", "a00692.html", [
+      [ "GeometricEditFunction", "a02313.html", "a02313" ]
     ] ],
-    [ "GeometricMedian.java", "a00821.html", [
-      [ "GeometricMedian", "a02670.html", "a02670" ]
+    [ "GeometricIntegerAttributeFunction.java", "a00695.html", [
+      [ "GeometricIntegerAttributeFunction", "a02317.html", "a02317" ]
     ] ],
-    [ "GeometricModifierDoubleFunction.java", "a00659.html", [
-      [ "GeometricModifierDoubleFunction", "a02182.html", "a02182" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/GeometricMedian.java", "a04589.html", [
+      [ "GeometricMedian", "a01233.html", "a01233" ]
     ] ],
-    [ "GeometricModifierFunction.java", "a00662.html", [
-      [ "GeometricModifierFunction", "a02186.html", "a02186" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/GeometricMedian.java", "a04592.html", [
+      [ "GeometricMedian", "a02117.html", "a02117" ]
     ] ],
-    [ "GeometricModifierGeometryIntegerFunction.java", "a00665.html", [
-      [ "GeometricModifierGeometryIntegerFunction", "a02190.html", "a02190" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/GeometricMedian.java", "a04595.html", [
+      [ "GeometricMedian", "a02801.html", "a02801" ]
     ] ],
-    [ "GeometricModifierIntegerFunction.java", "a00668.html", [
-      [ "GeometricModifierIntegerFunction", "a02194.html", "a02194" ]
+    [ "GeometricModifierDoubleFunction.java", "a00698.html", [
+      [ "GeometricModifierDoubleFunction", "a02321.html", "a02321" ]
     ] ],
-    [ "GeometricModifierStringFunction.java", "a00671.html", [
-      [ "GeometricModifierStringFunction", "a02198.html", "a02198" ]
+    [ "GeometricModifierFunction.java", "a00701.html", [
+      [ "GeometricModifierFunction", "a02325.html", "a02325" ]
     ] ],
-    [ "GeometricRelationBinaryFunction.java", "a00674.html", [
-      [ "GeometricRelationBinaryFunction", "a02202.html", "a02202" ]
+    [ "GeometricModifierGeometryIntegerFunction.java", "a00704.html", [
+      [ "GeometricModifierGeometryIntegerFunction", "a02329.html", "a02329" ]
     ] ],
-    [ "GeometricRelationDoubleFunction.java", "a00677.html", [
-      [ "GeometricRelationDoubleFunction", "a02206.html", "a02206" ]
+    [ "GeometricModifierIntegerFunction.java", "a00707.html", [
+      [ "GeometricModifierIntegerFunction", "a02333.html", "a02333" ]
     ] ],
-    [ "GeometricRelationIntegerFunction.java", "a00680.html", [
-      [ "GeometricRelationIntegerFunction", "a02210.html", "a02210" ]
+    [ "GeometricModifierStringFunction.java", "a00710.html", [
+      [ "GeometricModifierStringFunction", "a02337.html", "a02337" ]
     ] ],
-    [ "GeometricRelationModifierFunction.java", "a00683.html", [
-      [ "GeometricRelationModifierFunction", "a02214.html", "a02214" ]
+    [ "GeometricRelationBinaryFunction.java", "a00713.html", [
+      [ "GeometricRelationBinaryFunction", "a02341.html", "a02341" ]
     ] ],
-    [ "GeometricStringExportFunction.java", "a00686.html", [
-      [ "GeometricStringExportFunction", "a02218.html", "a02218" ]
+    [ "GeometricRelationDoubleFunction.java", "a00716.html", [
+      [ "GeometricRelationDoubleFunction", "a02345.html", "a02345" ]
     ] ],
-    [ "GeometricStringExportIntegerFunction.java", "a00689.html", [
-      [ "GeometricStringExportIntegerFunction", "a02222.html", "a02222" ]
+    [ "GeometricRelationIntegerFunction.java", "a00719.html", [
+      [ "GeometricRelationIntegerFunction", "a02349.html", "a02349" ]
     ] ],
-    [ "GeometricUnaryFunction.java", "a00692.html", [
-      [ "GeometricUnaryFunction", "a02226.html", "a02226" ]
+    [ "GeometricRelationModifierFunction.java", "a00722.html", [
+      [ "GeometricRelationModifierFunction", "a02353.html", "a02353" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/GeometryN.java", "a04423.html", [
-      [ "GeometryN", "a01206.html", "a01206" ]
+    [ "GeometricStringExportFunction.java", "a00725.html", [
+      [ "GeometricStringExportFunction", "a02357.html", "a02357" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/GeometryN.java", "a04426.html", [
-      [ "GeometryN", "a02026.html", "a02026" ]
+    [ "GeometricStringExportIntegerFunction.java", "a00728.html", [
+      [ "GeometricStringExportIntegerFunction", "a02361.html", "a02361" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/GeometryType.java", "a04429.html", [
-      [ "GeometryType", "a01210.html", "a01210" ]
+    [ "GeometricUnaryFunction.java", "a00731.html", [
+      [ "GeometricUnaryFunction", "a02365.html", "a02365" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/GeometryType.java", "a04432.html", [
-      [ "GeometryType", "a02030.html", "a02030" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/GeometryN.java", "a04598.html", [
+      [ "GeometryN", "a01237.html", "a01237" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/constructor/GeomFromGeoHash.java", "a04435.html", [
-      [ "GeomFromGeoHash", "a01314.html", "a01314" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/GeometryN.java", "a04601.html", [
+      [ "GeometryN", "a02121.html", "a02121" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/constructor/GeomFromGeoHash.java", "a04438.html", [
-      [ "GeomFromGeoHash", "a02246.html", "a02246" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/GeometryType.java", "a04604.html", [
+      [ "GeometryType", "a01241.html", "a01241" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/constructor/GeomFromGeoJSON.java", "a04441.html", [
-      [ "GeomFromGeoJSON", "a01318.html", "a01318" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/GeometryType.java", "a04607.html", [
+      [ "GeometryType", "a02125.html", "a02125" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/constructor/GeomFromGeoJSON.java", "a04444.html", [
-      [ "GeomFromGeoJSON", "a02250.html", "a02250" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/constructor/GeomFromGeoHash.java", "a04610.html", [
+      [ "GeomFromGeoHash", "a01381.html", "a01381" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/constructor/GeomFromText.java", "a04447.html", [
-      [ "GeomFromText", "a01322.html", "a01322" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/constructor/GeomFromGeoHash.java", "a04613.html", [
+      [ "GeomFromGeoHash", "a02381.html", "a02381" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/constructor/GeomFromText.java", "a04450.html", [
-      [ "GeomFromText", "a02254.html", "a02254" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/constructor/GeomFromGeoJSON.java", "a04616.html", [
+      [ "GeomFromGeoJSON", "a01385.html", "a01385" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/constructor/GeomFromWKB.java", "a04453.html", [
-      [ "GeomFromWKB", "a01326.html", "a01326" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/constructor/GeomFromGeoJSON.java", "a04619.html", [
+      [ "GeomFromGeoJSON", "a02385.html", "a02385" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/constructor/GeomFromWKB.java", "a04456.html", [
-      [ "GeomFromWKB", "a02258.html", "a02258" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/constructor/GeomFromText.java", "a04622.html", [
+      [ "GeomFromText", "a01389.html", "a01389" ]
     ] ],
-    [ "GeoTIFFDatatype.java", "a00923.html", [
-      [ "GeoTIFFDatatype", "a03018.html", "a03018" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/constructor/GeomFromText.java", "a04625.html", [
+      [ "GeomFromText", "a02389.html", "a02389" ]
     ] ],
-    [ "GeoURIDatatype.java", "a00959.html", [
-      [ "GeoURIDatatype", "a03066.html", "a03066" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/constructor/GeomFromWKB.java", "a04628.html", [
+      [ "GeomFromWKB", "a01393.html", "a01393" ]
     ] ],
-    [ "GMLCOVDatatype.java", "a00926.html", [
-      [ "GMLCOVDatatype", "a03022.html", "a03022" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/constructor/GeomFromWKB.java", "a04631.html", [
+      [ "GeomFromWKB", "a02393.html", "a02393" ]
     ] ],
-    [ "GMLDatatype.java", "a00962.html", [
-      [ "GMLDatatype", "a03070.html", "a03070" ]
+    [ "GeoTIFFDatatype.java", "a00950.html", [
+      [ "GeoTIFFDatatype", "a03149.html", "a03149" ]
     ] ],
-    [ "GPXDatatype.java", "a00965.html", [
-      [ "GPXDatatype", "a03074.html", "a03074" ]
+    [ "GeoURIDatatype.java", "a00986.html", [
+      [ "GeoURIDatatype", "a03197.html", "a03197" ]
     ] ],
-    [ "GPXHandler.java", "a00908.html", [
-      [ "GPXHandler", "a02998.html", "a02998" ]
+    [ "GMLCOVDatatype.java", "a00953.html", [
+      [ "GMLCOVDatatype", "a03153.html", "a03153" ]
     ] ],
-    [ "HasHorizontalCRS.java", "a00611.html", [
-      [ "HasHorizontalCRS", "a02034.html", "a02034" ]
+    [ "GMLDatatype.java", "a00989.html", [
+      [ "GMLDatatype", "a03201.html", "a03201" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/HasNoBand.java", "a04459.html", [
-      [ "HasNoBand", "a01650.html", "a01650" ]
+    [ "GPXDatatype.java", "a00992.html", [
+      [ "GPXDatatype", "a03205.html", "a03205" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/HasNoBand.java", "a04462.html", [
-      [ "HasNoBand", "a02742.html", "a02742" ]
+    [ "GPXHandler.java", "a00935.html", [
+      [ "GPXHandler", "a03129.html", "a03129" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/HasRepeatedPoints.java", "a04465.html", [
-      [ "HasRepeatedPoints", "a01214.html", "a01214" ]
+    [ "HasHorizontalCRS.java", "a00650.html", [
+      [ "HasHorizontalCRS", "a02129.html", "a02129" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/HasRepeatedPoints.java", "a04468.html", [
-      [ "HasRepeatedPoints", "a02038.html", "a02038" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/HasNoBand.java", "a04634.html", [
+      [ "HasNoBand", "a01717.html", "a01717" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/HausdorffDistance.java", "a04471.html", [
-      [ "HausdorffDistance", "a01402.html", "a01402" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/HasNoBand.java", "a04637.html", [
+      [ "HasNoBand", "a02873.html", "a02873" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/HausdorffDistance.java", "a04474.html", [
-      [ "HausdorffDistance", "a02398.html", "a02398" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/HasRepeatedPoints.java", "a04640.html", [
+      [ "HasRepeatedPoints", "a01245.html", "a01245" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/Height.java", "a04477.html", [
-      [ "Height", "a01654.html", "a01654" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/HasRepeatedPoints.java", "a04643.html", [
+      [ "HasRepeatedPoints", "a02133.html", "a02133" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/Height.java", "a04480.html", [
-      [ "Height", "a02746.html", "a02746" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/HausdorffDistance.java", "a04646.html", [
+      [ "HausdorffDistance", "a01469.html", "a01469" ]
     ] ],
-    [ "HexWKBDatatype.java", "a00968.html", [
-      [ "HexWKBDatatype", "a03078.html", "a03078" ],
-      [ "HexWKBTextSRS", "a03082.html", "a03082" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/HausdorffDistance.java", "a04649.html", [
+      [ "HausdorffDistance", "a02529.html", "a02529" ]
     ] ],
-    [ "HexWKBRastDatatype.java", "a00929.html", [
-      [ "HexWKBRastDatatype", "a03026.html", "a03026" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/Height.java", "a04652.html", [
+      [ "Height", "a01721.html", "a01721" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/attribute/InteriorRingN.java", "a04483.html", [
-      [ "InteriorRingN", "a01618.html", "a01618" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/Height.java", "a04655.html", [
+      [ "Height", "a02877.html", "a02877" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/attribute/InteriorRingN.java", "a04486.html", [
-      [ "InteriorRingN", "a02674.html", "a02674" ]
+    [ "HexWKBDatatype.java", "a00995.html", [
+      [ "HexWKBDatatype", "a03209.html", "a03209" ],
+      [ "HexWKBTextSRS", "a03213.html", "a03213" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/InteriorRingN.java", "a04489.html", [
-      [ "InteriorRingN", "a02722.html", "a02722" ]
+    [ "HexWKBRastDatatype.java", "a00956.html", [
+      [ "HexWKBRastDatatype", "a03157.html", "a03157" ]
     ] ],
-    [ "Intersection.java", "a00905.html", [
-      [ "Intersection", "a02970.html", "a02970" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/attribute/InteriorRingN.java", "a04658.html", [
+      [ "InteriorRingN", "a01685.html", "a01685" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/IntersectionPercentage.java", "a04492.html", [
-      [ "IntersectionPercentage", "a01406.html", "a01406" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/attribute/InteriorRingN.java", "a04661.html", [
+      [ "InteriorRingN", "a02805.html", "a02805" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/IntersectionPercentage.java", "a04495.html", [
-      [ "IntersectionPercentage", "a02402.html", "a02402" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/InteriorRingN.java", "a04664.html", [
+      [ "InteriorRingN", "a02853.html", "a02853" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Intersects.java", "a04498.html", [
-      [ "Intersects", "a01786.html", "a01786" ]
+    [ "Intersection.java", "a00932.html", [
+      [ "Intersection", "a03101.html", "a03101" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Intersects.java", "a04501.html", [
-      [ "Intersects", "a02974.html", "a02974" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/IntersectionPercentage.java", "a04667.html", [
+      [ "IntersectionPercentage", "a01473.html", "a01473" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Is3D.java", "a04504.html", [
-      [ "Is3D", "a01218.html", "a01218" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/IntersectionPercentage.java", "a04670.html", [
+      [ "IntersectionPercentage", "a02533.html", "a02533" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/Is3D.java", "a04507.html", [
-      [ "Is3D", "a02042.html", "a02042" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Intersects.java", "a04673.html", [
+      [ "Intersects", "a01853.html", "a01853" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsClosed.java", "a04510.html", [
-      [ "IsClosed", "a01222.html", "a01222" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Intersects.java", "a04676.html", [
+      [ "Intersects", "a03105.html", "a03105" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsClosed.java", "a04513.html", [
-      [ "IsClosed", "a02046.html", "a02046" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Is3D.java", "a04679.html", [
+      [ "Is3D", "a01249.html", "a01249" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsCollection.java", "a04516.html", [
-      [ "IsCollection", "a01226.html", "a01226" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/Is3D.java", "a04682.html", [
+      [ "Is3D", "a02137.html", "a02137" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsCollection.java", "a04519.html", [
-      [ "IsCollection", "a02050.html", "a02050" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsClosed.java", "a04685.html", [
+      [ "IsClosed", "a01253.html", "a01253" ]
     ] ],
-    [ "IsConvex.java", "a00614.html", [
-      [ "IsConvex", "a02054.html", "a02054" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsClosed.java", "a04688.html", [
+      [ "IsClosed", "a02141.html", "a02141" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsEmpty.java", "a04522.html", [
-      [ "IsEmpty", "a01230.html", "a01230" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsCollection.java", "a04691.html", [
+      [ "IsCollection", "a01257.html", "a01257" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsEmpty.java", "a04525.html", [
-      [ "IsEmpty", "a02058.html", "a02058" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsCollection.java", "a04694.html", [
+      [ "IsCollection", "a02145.html", "a02145" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/IsGrayscale.java", "a04528.html", [
-      [ "IsGrayscale", "a01658.html", "a01658" ]
+    [ "IsConvex.java", "a00653.html", [
+      [ "IsConvex", "a02149.html", "a02149" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/IsGrayscale.java", "a04531.html", [
-      [ "IsGrayscale", "a02750.html", "a02750" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsEmpty.java", "a04697.html", [
+      [ "IsEmpty", "a01261.html", "a01261" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/IsIndexed.java", "a04534.html", [
-      [ "IsIndexed", "a01662.html", "a01662" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsEmpty.java", "a04700.html", [
+      [ "IsEmpty", "a02153.html", "a02153" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/IsIndexed.java", "a04537.html", [
-      [ "IsIndexed", "a02754.html", "a02754" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/IsGrayscale.java", "a04703.html", [
+      [ "IsGrayscale", "a01725.html", "a01725" ]
     ] ],
-    [ "IsLocationOnEdge.java", "a00824.html", [
-      [ "IsLocationOnEdge", "a02678.html", "a02678" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/IsGrayscale.java", "a04706.html", [
+      [ "IsGrayscale", "a02881.html", "a02881" ]
     ] ],
-    [ "IsMeasured.java", "a00617.html", [
-      [ "IsMeasured", "a02062.html", "a02062" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/IsIndexed.java", "a04709.html", [
+      [ "IsIndexed", "a01729.html", "a01729" ]
     ] ],
-    [ "IsMorePrecise.java", "a00752.html", [
-      [ "IsMorePrecise", "a02406.html", "a02406" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/IsIndexed.java", "a04712.html", [
+      [ "IsIndexed", "a02885.html", "a02885" ]
     ] ],
-    [ "IsNodingValid.java", "a00620.html", [
-      [ "IsNodingValid", "a02066.html", "a02066" ]
+    [ "IsLocationOnEdge.java", "a00851.html", [
+      [ "IsLocationOnEdge", "a02809.html", "a02809" ]
     ] ],
-    [ "IsPointInRing.java", "a00800.html", [
-      [ "IsPointInRing", "a02590.html", "a02590" ]
+    [ "IsMeasured.java", "a00656.html", [
+      [ "IsMeasured", "a02157.html", "a02157" ]
     ] ],
-    [ "IsPointOnLine.java", "a00803.html", [
-      [ "IsPointOnLine", "a02594.html", "a02594" ]
+    [ "IsMorePrecise.java", "a00782.html", [
+      [ "IsMorePrecise", "a02537.html", "a02537" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/attribute/IsPolygonCCW.java", "a04540.html", [
-      [ "IsPolygonCCW", "a01622.html", "a01622" ]
+    [ "IsNodingValid.java", "a00659.html", [
+      [ "IsNodingValid", "a02161.html", "a02161" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/attribute/IsPolygonCCW.java", "a04543.html", [
-      [ "IsPolygonCCW", "a02682.html", "a02682" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsPlanar.java", "a04715.html", [
+      [ "IsPlanar", "a01265.html", "a01265" ]
     ] ],
-    [ "IsPolygonCW.java", "a00827.html", [
-      [ "IsPolygonCW", "a02686.html", "a02686" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsPlanar.java", "a04718.html", [
+      [ "IsPlanar", "a02165.html", "a02165" ]
     ] ],
-    [ "IsRectangle.java", "a00623.html", [
-      [ "IsRectangle", "a02070.html", "a02070" ]
+    [ "IsPointInRing.java", "a00830.html", [
+      [ "IsPointInRing", "a02721.html", "a02721" ]
     ] ],
-    [ "IsRectangular.java", "a00095.html", [
-      [ "IsRectangular", "a01234.html", "a01234" ]
+    [ "IsPointOnLine.java", "a00833.html", [
+      [ "IsPointOnLine", "a02725.html", "a02725" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsRing.java", "a04546.html", [
-      [ "IsRing", "a01238.html", "a01238" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/attribute/IsPolygonCCW.java", "a04721.html", [
+      [ "IsPolygonCCW", "a01689.html", "a01689" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsRing.java", "a04549.html", [
-      [ "IsRing", "a02074.html", "a02074" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/attribute/IsPolygonCCW.java", "a04724.html", [
+      [ "IsPolygonCCW", "a02813.html", "a02813" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsSimple.java", "a04552.html", [
-      [ "IsSimple", "a01242.html", "a01242" ]
+    [ "IsPolygonCW.java", "a00854.html", [
+      [ "IsPolygonCW", "a02817.html", "a02817" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsSimple.java", "a04555.html", [
-      [ "IsSimple", "a02078.html", "a02078" ]
+    [ "IsRectangle.java", "a00662.html", [
+      [ "IsRectangle", "a02169.html", "a02169" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/IsTiled.java", "a04558.html", [
-      [ "IsTiled", "a01666.html", "a01666" ]
+    [ "IsRectangular.java", "a00101.html", [
+      [ "IsRectangular", "a01269.html", "a01269" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/IsTiled.java", "a04561.html", [
-      [ "IsTiled", "a02758.html", "a02758" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsRing.java", "a04727.html", [
+      [ "IsRing", "a01273.html", "a01273" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/IsTranslucent.java", "a04564.html", [
-      [ "IsTranslucent", "a01670.html", "a01670" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsRing.java", "a04730.html", [
+      [ "IsRing", "a02173.html", "a02173" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/IsTranslucent.java", "a04567.html", [
-      [ "IsTranslucent", "a02762.html", "a02762" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsSimple.java", "a04733.html", [
+      [ "IsSimple", "a01277.html", "a01277" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsValid.java", "a04570.html", [
-      [ "IsValid", "a01246.html", "a01246" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsSimple.java", "a04736.html", [
+      [ "IsSimple", "a02177.html", "a02177" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsValid.java", "a04573.html", [
-      [ "IsValid", "a02082.html", "a02082" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsSolid.java", "a04739.html", [
+      [ "IsSolid", "a01281.html", "a01281" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsValidTrajectory.java", "a04576.html", [
-      [ "IsValidTrajectory", "a01250.html", "a01250" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsSolid.java", "a04742.html", [
+      [ "IsSolid", "a02181.html", "a02181" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsValidTrajectory.java", "a04579.html", [
-      [ "IsValidTrajectory", "a02086.html", "a02086" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsSquare.java", "a04745.html", [
+      [ "IsSquare", "a01285.html", "a01285" ]
     ] ],
-    [ "JtsPolyshapeWriter.java", "a00911.html", [
-      [ "JtsPolyshapeWriter", "a03002.html", "a03002" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsSquare.java", "a04748.html", [
+      [ "IsSquare", "a02185.html", "a02185" ]
     ] ],
-    [ "KMLDatatype.java", "a00971.html", [
-      [ "KMLDatatype", "a03086.html", "a03086" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/IsTiled.java", "a04751.html", [
+      [ "IsTiled", "a01733.html", "a01733" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Length.java", "a04582.html", [
-      [ "Length", "a01254.html", "a01254" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/IsTiled.java", "a04754.html", [
+      [ "IsTiled", "a02889.html", "a02889" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/Length.java", "a04585.html", [
-      [ "Length", "a02090.html", "a02090" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/IsTranslucent.java", "a04757.html", [
+      [ "IsTranslucent", "a01737.html", "a01737" ]
     ] ],
-    [ "Length3D.java", "a00626.html", [
-      [ "Length3D", "a02094.html", "a02094" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/IsTranslucent.java", "a04760.html", [
+      [ "IsTranslucent", "a02893.html", "a02893" ]
     ] ],
-    [ "LengthSubstring.java", "a00560.html", [
-      [ "LengthSubstring", "a01882.html", "a01882" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsValid.java", "a04763.html", [
+      [ "IsValid", "a01289.html", "a01289" ]
     ] ],
-    [ "locationtech/jump/algorithm/LengthToPoint.java", "a04588.html", [
-      [ "LengthToPoint", "a01886.html", "a01886" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsValid.java", "a04766.html", [
+      [ "IsValid", "a02189.html", "a02189" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/LengthToPoint.java", "a04591.html", [
-      [ "LengthToPoint", "a02558.html", "a02558" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsValidDetail.java", "a04769.html", [
+      [ "IsValidDetail", "a01293.html", "a01293" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/constructor/LineFromEncodedPolyline.java", "a04594.html", [
-      [ "LineFromEncodedPolyline", "a01494.html", "a01494" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsValidDetail.java", "a04772.html", [
+      [ "IsValidDetail", "a02193.html", "a02193" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/constructor/LineFromEncodedPolyline.java", "a04597.html", [
-      [ "LineFromEncodedPolyline", "a02518.html", "a02518" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsValidReason.java", "a04775.html", [
+      [ "IsValidReason", "a01297.html", "a01297" ]
     ] ],
-    [ "LineFromMultiPoint.java", "a00785.html", [
-      [ "LineFromMultiPoint", "a02522.html", "a02522" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsValidReason.java", "a04778.html", [
+      [ "IsValidReason", "a02197.html", "a02197" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/constructor/LineFromText.java", "a04600.html", [
-      [ "LineFromText", "a01498.html", "a01498" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/IsValidTrajectory.java", "a04781.html", [
+      [ "IsValidTrajectory", "a01301.html", "a01301" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/constructor/LineFromText.java", "a04603.html", [
-      [ "LineFromText", "a02526.html", "a02526" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/IsValidTrajectory.java", "a04784.html", [
+      [ "IsValidTrajectory", "a02201.html", "a02201" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/constructor/LineFromWKB.java", "a04606.html", [
-      [ "LineFromWKB", "a01502.html", "a01502" ]
+    [ "JtsPolyshapeWriter.java", "a00938.html", [
+      [ "JtsPolyshapeWriter", "a03133.html", "a03133" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/constructor/LineFromWKB.java", "a04609.html", [
-      [ "LineFromWKB", "a02530.html", "a02530" ]
+    [ "KMLDatatype.java", "a00998.html", [
+      [ "KMLDatatype", "a03217.html", "a03217" ]
     ] ],
-    [ "LineInterpolatePoint.java", "a00788.html", [
-      [ "LineInterpolatePoint", "a02562.html", "a02562" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Length.java", "a04787.html", [
+      [ "Length", "a01305.html", "a01305" ]
     ] ],
-    [ "LineLength3D.java", "a00791.html", [
-      [ "LineLength3D", "a02566.html", "a02566" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/Length.java", "a04790.html", [
+      [ "Length", "a02205.html", "a02205" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/LineMerge.java", "a04612.html", [
-      [ "LineMerge", "a01530.html", "a01530" ]
+    [ "Length3D.java", "a00665.html", [
+      [ "Length3D", "a02209.html", "a02209" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/LineMerge.java", "a04615.html", [
-      [ "LineMerge", "a02570.html", "a02570" ]
+    [ "LengthSubstring.java", "a00590.html", [
+      [ "LengthSubstring", "a01949.html", "a01949" ]
     ] ],
-    [ "LineSelfIntersectionPoint.java", "a00794.html", [
-      [ "LineSelfIntersectionPoint", "a02574.html", "a02574" ]
+    [ "locationtech/jump/algorithm/LengthToPoint.java", "a04793.html", [
+      [ "LengthToPoint", "a01953.html", "a01953" ]
     ] ],
-    [ "Linesubstring.java", "a00797.html", [
-      [ "Linesubstring", "a02578.html", null ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/LengthToPoint.java", "a04796.html", [
+      [ "LengthToPoint", "a02689.html", "a02689" ]
     ] ],
-    [ "LineToCurve.java", "a00320.html", [
-      [ "LineToCurve", "a01534.html", "a01534" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/constructor/LineFromEncodedPolyline.java", "a04799.html", [
+      [ "LineFromEncodedPolyline", "a01561.html", "a01561" ]
     ] ],
-    [ "LiteralRegistry.java", "a00914.html", [
-      [ "LiteralRegistry", "a03006.html", "a03006" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/constructor/LineFromEncodedPolyline.java", "a04802.html", [
+      [ "LineFromEncodedPolyline", "a02649.html", "a02649" ]
     ] ],
-    [ "LiteralType.java", "a00917.html", [
-      [ "LiteralType", "a03010.html", null ]
+    [ "LineFromMultiPoint.java", "a00815.html", [
+      [ "LineFromMultiPoint", "a02653.html", "a02653" ]
     ] ],
-    [ "LiteralUtils.java", "a00995.html", [
-      [ "LiteralUtils", "a03130.html", "a03130" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/constructor/LineFromText.java", "a04805.html", [
+      [ "LineFromText", "a01565.html", "a01565" ]
     ] ],
-    [ "LocatePoint.java", "a00566.html", [
-      [ "LocatePoint", "a01890.html", "a01890" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/constructor/LineFromText.java", "a04808.html", [
+      [ "LineFromText", "a02657.html", "a02657" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/LongestLine.java", "a04618.html", [
-      [ "LongestLine", "a01410.html", "a01410" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/constructor/LineFromWKB.java", "a04811.html", [
+      [ "LineFromWKB", "a01569.html", "a01569" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/LongestLine.java", "a04621.html", [
-      [ "LongestLine", "a02410.html", "a02410" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/constructor/LineFromWKB.java", "a04814.html", [
+      [ "LineFromWKB", "a02661.html", "a02661" ]
     ] ],
-    [ "LongestLine3D.java", "a00230.html", [
-      [ "LongestLine3D", "a01414.html", "a01414" ]
+    [ "LineInterpolatePoint.java", "a00818.html", [
+      [ "LineInterpolatePoint", "a02693.html", "a02693" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/M.java", "a04624.html", [
-      [ "M", "a01546.html", "a01546" ]
+    [ "LineLength3D.java", "a00821.html", [
+      [ "LineLength3D", "a02697.html", "a02697" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/M.java", "a04627.html", [
-      [ "M", "a02598.html", "a02598" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/LineMerge.java", "a04817.html", [
+      [ "LineMerge", "a01597.html", "a01597" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/constructor/MakeBox2D.java", "a04630.html", [
-      [ "MakeBox2D", "a01114.html", "a01114" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/LineMerge.java", "a04820.html", [
+      [ "LineMerge", "a02701.html", "a02701" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/constructor/MakeBox2D.java", "a04633.html", [
-      [ "MakeBox2D", "a01938.html", "a01938" ]
+    [ "LineSelfIntersectionPoint.java", "a00824.html", [
+      [ "LineSelfIntersectionPoint", "a02705.html", "a02705" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/constructor/MakeBox3D.java", "a04636.html", [
-      [ "MakeBox3D", "a01118.html", "a01118" ]
+    [ "Linesubstring.java", "a00827.html", [
+      [ "Linesubstring", "a02709.html", null ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/constructor/MakeBox3D.java", "a04639.html", [
-      [ "MakeBox3D", "a01942.html", "a01942" ]
+    [ "LineToCurve.java", "a00350.html", [
+      [ "LineToCurve", "a01601.html", "a01601" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/constructor/MakeEnvelope.java", "a04642.html", [
-      [ "MakeEnvelope", "a01122.html", "a01122" ]
+    [ "LiteralRegistry.java", "a00941.html", [
+      [ "LiteralRegistry", "a03137.html", "a03137" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/constructor/MakeEnvelope.java", "a04645.html", [
-      [ "MakeEnvelope", "a01946.html", "a01946" ]
+    [ "LiteralType.java", "a00944.html", [
+      [ "LiteralType", "a03141.html", null ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/constructor/MakeLine.java", "a04648.html", [
-      [ "MakeLine", "a01506.html", "a01506" ]
+    [ "LiteralUtils.java", "a01022.html", [
+      [ "LiteralUtils", "a03261.html", "a03261" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/constructor/MakeLine.java", "a04651.html", [
-      [ "MakeLine", "a02534.html", "a02534" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/LocateAlong.java", "a04823.html", [
+      [ "LocateAlong", "a01309.html", "a01309" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/constructor/MakePoint.java", "a04654.html", [
-      [ "MakePoint", "a01594.html", "a01594" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/LocateAlong.java", "a04826.html", [
+      [ "LocateAlong", "a02213.html", "a02213" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/constructor/MakePoint.java", "a04657.html", [
-      [ "MakePoint", "a02650.html", "a02650" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/LocateBetweenMeasures.java", "a04829.html", [
+      [ "LocateBetweenMeasures", "a01313.html", "a01313" ]
     ] ],
-    [ "MakePointM.java", "a00368.html", [
-      [ "MakePointM", "a01598.html", null ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/LocateBetweenMeasures.java", "a04832.html", [
+      [ "LocateBetweenMeasures", "a02217.html", "a02217" ]
     ] ],
-    [ "MakePolygon.java", "a00833.html", [
-      [ "MakePolygon", "a02694.html", "a02694" ]
+    [ "LocatePoint.java", "a00596.html", [
+      [ "LocatePoint", "a01957.html", "a01957" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/MaxDistance.java", "a04660.html", [
-      [ "MaxDistance", "a01418.html", "a01418" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/LongestLine.java", "a04835.html", [
+      [ "LongestLine", "a01477.html", "a01477" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/MaxDistance.java", "a04663.html", [
-      [ "MaxDistance", "a02414.html", "a02414" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/LongestLine.java", "a04838.html", [
+      [ "LongestLine", "a02541.html", "a02541" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/MaxDistance3D.java", "a04666.html", [
-      [ "MaxDistance3D", "a01422.html", "a01422" ]
+    [ "LongestLine3D.java", "a00260.html", [
+      [ "LongestLine3D", "a01481.html", "a01481" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/MaxDistance3D.java", "a04669.html", [
-      [ "MaxDistance3D", "a02418.html", "a02418" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/M.java", "a04841.html", [
+      [ "M", "a01613.html", "a01613" ]
     ] ],
-    [ "MaxX.java", "a00584.html", [
-      [ "MaxX", "a01914.html", "a01914" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/M.java", "a04844.html", [
+      [ "M", "a02729.html", "a02729" ]
     ] ],
-    [ "MaxY.java", "a00587.html", [
-      [ "MaxY", "a01918.html", "a01918" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/constructor/MakeBox2D.java", "a04847.html", [
+      [ "MakeBox2D", "a01141.html", "a01141" ]
     ] ],
-    [ "MaxZ.java", "a00590.html", [
-      [ "MaxZ", "a01922.html", "a01922" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/constructor/MakeBox2D.java", "a04850.html", [
+      [ "MakeBox2D", "a02005.html", "a02005" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumBoundingCircle.java", "a04672.html", [
-      [ "MinimumBoundingCircle", "a01258.html", "a01258" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/constructor/MakeBox3D.java", "a04853.html", [
+      [ "MakeBox3D", "a01145.html", "a01145" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumBoundingCircle.java", "a04675.html", [
-      [ "MinimumBoundingCircle", "a02098.html", "a02098" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/constructor/MakeBox3D.java", "a04856.html", [
+      [ "MakeBox3D", "a02009.html", "a02009" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumBoundingCircleCenter.java", "a04678.html", [
-      [ "MinimumBoundingCircleCenter", "a01262.html", "a01262" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/envelope/constructor/MakeEnvelope.java", "a04859.html", [
+      [ "MakeEnvelope", "a01149.html", "a01149" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumBoundingCircleCenter.java", "a04681.html", [
-      [ "MinimumBoundingCircleCenter", "a02102.html", "a02102" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/envelope/constructor/MakeEnvelope.java", "a04862.html", [
+      [ "MakeEnvelope", "a02013.html", "a02013" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumBoundingRadius.java", "a04684.html", [
-      [ "MinimumBoundingRadius", "a01266.html", "a01266" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/constructor/MakeLine.java", "a04865.html", [
+      [ "MakeLine", "a01573.html", "a01573" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumBoundingRadius.java", "a04687.html", [
-      [ "MinimumBoundingRadius", "a02106.html", "a02106" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/constructor/MakeLine.java", "a04868.html", [
+      [ "MakeLine", "a02665.html", "a02665" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumClearance.java", "a04690.html", [
-      [ "MinimumClearance", "a01270.html", "a01270" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/constructor/MakePoint.java", "a04871.html", [
+      [ "MakePoint", "a01661.html", "a01661" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumClearance.java", "a04693.html", [
-      [ "MinimumClearance", "a02110.html", "a02110" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/constructor/MakePoint.java", "a04874.html", [
+      [ "MakePoint", "a02781.html", "a02781" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumClearanceLine.java", "a04696.html", [
-      [ "MinimumClearanceLine", "a01274.html", "a01274" ]
+    [ "MakePointM.java", "a00398.html", [
+      [ "MakePointM", "a01665.html", null ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumClearanceLine.java", "a04699.html", [
-      [ "MinimumClearanceLine", "a02114.html", "a02114" ]
+    [ "MakePolygon.java", "a00860.html", [
+      [ "MakePolygon", "a02825.html", "a02825" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumDiameter.java", "a04702.html", [
-      [ "MinimumDiameter", "a01278.html", "a01278" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/MaxDistance.java", "a04877.html", [
+      [ "MaxDistance", "a01485.html", "a01485" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumDiameter.java", "a04705.html", [
-      [ "MinimumDiameter", "a02118.html", "a02118" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/MaxDistance.java", "a04880.html", [
+      [ "MaxDistance", "a02545.html", "a02545" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumDiameterLine.java", "a04708.html", [
-      [ "MinimumDiameterLine", "a01282.html", "a01282" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/MaxDistance3D.java", "a04883.html", [
+      [ "MaxDistance3D", "a01489.html", "a01489" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumDiameterLine.java", "a04711.html", [
-      [ "MinimumDiameterLine", "a02122.html", "a02122" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/MaxDistance3D.java", "a04886.html", [
+      [ "MaxDistance3D", "a02549.html", "a02549" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumRectangle.java", "a04714.html", [
-      [ "MinimumRectangle", "a01286.html", "a01286" ]
+    [ "MaxX.java", "a00614.html", [
+      [ "MaxX", "a01981.html", "a01981" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumRectangle.java", "a04717.html", [
-      [ "MinimumRectangle", "a02126.html", "a02126" ]
+    [ "MaxY.java", "a00617.html", [
+      [ "MaxY", "a01985.html", "a01985" ]
     ] ],
-    [ "MinTileX.java", "a00848.html", [
-      [ "MinTileX", "a02766.html", "a02766" ]
+    [ "MaxZ.java", "a00620.html", [
+      [ "MaxZ", "a01989.html", "a01989" ]
     ] ],
-    [ "MinTileY.java", "a00851.html", [
-      [ "MinTileY", "a02770.html", "a02770" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumBoundingCircle.java", "a04889.html", [
+      [ "MinimumBoundingCircle", "a01317.html", "a01317" ]
     ] ],
-    [ "MinX.java", "a00593.html", [
-      [ "MinX", "a01926.html", "a01926" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumBoundingCircle.java", "a04892.html", [
+      [ "MinimumBoundingCircle", "a02221.html", "a02221" ]
     ] ],
-    [ "MinY.java", "a00596.html", [
-      [ "MinY", "a01930.html", "a01930" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumBoundingCircleCenter.java", "a04895.html", [
+      [ "MinimumBoundingCircleCenter", "a01321.html", "a01321" ]
     ] ],
-    [ "MinZ.java", "a00599.html", [
-      [ "MinZ", "a01934.html", "a01934" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumBoundingCircleCenter.java", "a04898.html", [
+      [ "MinimumBoundingCircleCenter", "a02225.html", "a02225" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/constructor/MLineFromText.java", "a04720.html", [
-      [ "MLineFromText", "a01510.html", "a01510" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumBoundingRadius.java", "a04901.html", [
+      [ "MinimumBoundingRadius", "a01325.html", "a01325" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/constructor/MLineFromText.java", "a04723.html", [
-      [ "MLineFromText", "a02538.html", "a02538" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumBoundingRadius.java", "a04904.html", [
+      [ "MinimumBoundingRadius", "a02229.html", "a02229" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/MMax.java", "a04726.html", [
-      [ "MMax", "a01550.html", "a01550" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumClearance.java", "a04907.html", [
+      [ "MinimumClearance", "a01329.html", "a01329" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/MMax.java", "a04729.html", [
-      [ "MMax", "a02602.html", "a02602" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumClearance.java", "a04910.html", [
+      [ "MinimumClearance", "a02233.html", "a02233" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/MMin.java", "a04732.html", [
-      [ "MMin", "a01554.html", "a01554" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumClearanceLine.java", "a04913.html", [
+      [ "MinimumClearanceLine", "a01333.html", "a01333" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/MMin.java", "a04735.html", [
-      [ "MMin", "a02606.html", "a02606" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumClearanceLine.java", "a04916.html", [
+      [ "MinimumClearanceLine", "a02237.html", "a02237" ]
     ] ],
-    [ "MPointFromText.java", "a00818.html", [
-      [ "MPointFromText", "a02654.html", "a02654" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumDiameter.java", "a04919.html", [
+      [ "MinimumDiameter", "a01337.html", "a01337" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Multi.java", "a04738.html", [
-      [ "Multi", "a01466.html", "a01466" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumDiameter.java", "a04922.html", [
+      [ "MinimumDiameter", "a02241.html", "a02241" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/Multi.java", "a04741.html", [
-      [ "Multi", "a02342.html", "a02342" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumDiameterLine.java", "a04925.html", [
+      [ "MinimumDiameterLine", "a01341.html", "a01341" ]
     ] ],
-    [ "MultiplyZ.java", "a00731.html", [
-      [ "MultiplyZ", "a02346.html", "a02346" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumDiameterLine.java", "a04928.html", [
+      [ "MinimumDiameterLine", "a02245.html", "a02245" ]
     ] ],
-    [ "NDims.java", "a00629.html", [
-      [ "NDims", "a02130.html", "a02130" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/MinimumRectangle.java", "a04931.html", [
+      [ "MinimumRectangle", "a01345.html", "a01345" ]
     ] ],
-    [ "NetCDFDatatype.java", "a00932.html", [
-      [ "NetCDFDatatype", "a03030.html", "a03030" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/MinimumRectangle.java", "a04934.html", [
+      [ "MinimumRectangle", "a02249.html", "a02249" ]
     ] ],
-    [ "Node.java", "a00272.html", [
-      [ "Node", "a01470.html", "a01470" ]
+    [ "MinTileX.java", "a00875.html", [
+      [ "MinTileX", "a02897.html", "a02897" ]
     ] ],
-    [ "relation/Normalize.java", "a04744.html", [
-      [ "Normalize", "a02422.html", "a02422" ]
+    [ "MinTileY.java", "a00878.html", [
+      [ "MinTileY", "a02901.html", "a02901" ]
     ] ],
-    [ "transform/Normalize.java", "a04747.html", [
-      [ "Normalize", "a02466.html", "a02466" ]
+    [ "MinX.java", "a00623.html", [
+      [ "MinX", "a01993.html", "a01993" ]
     ] ],
-    [ "NRings.java", "a00389.html", [
-      [ "NRings", "a01626.html", "a01626" ]
+    [ "MinY.java", "a00626.html", [
+      [ "MinY", "a01997.html", "a01997" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/NumBands.java", "a04750.html", [
-      [ "NumBands", "a01674.html", "a01674" ]
+    [ "MinZ.java", "a00629.html", [
+      [ "MinZ", "a02001.html", "a02001" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/NumBands.java", "a04753.html", [
-      [ "NumBands", "a02774.html", "a02774" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/constructor/MLineFromText.java", "a04937.html", [
+      [ "MLineFromText", "a01577.html", "a01577" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/NumGeometries.java", "a04756.html", [
-      [ "NumGeometries", "a01290.html", "a01290" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/constructor/MLineFromText.java", "a04940.html", [
+      [ "MLineFromText", "a02669.html", "a02669" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/NumGeometries.java", "a04759.html", [
-      [ "NumGeometries", "a02134.html", "a02134" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/MMax.java", "a04943.html", [
+      [ "MMax", "a01617.html", "a01617" ]
     ] ],
-    [ "NumInteriorRings.java", "a00830.html", [
-      [ "NumInteriorRings", "a02690.html", "a02690" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/MMax.java", "a04946.html", [
+      [ "MMax", "a02733.html", "a02733" ]
     ] ],
-    [ "NumPatches.java", "a00632.html", [
-      [ "NumPatches", "a02138.html", "a02138" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/MMin.java", "a04949.html", [
+      [ "MMin", "a01621.html", "a01621" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/NumPoints.java", "a04762.html", [
-      [ "NumPoints", "a01294.html", "a01294" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/MMin.java", "a04952.html", [
+      [ "MMin", "a02737.html", "a02737" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/NumPoints.java", "a04765.html", [
-      [ "NumPoints", "a02142.html", "a02142" ]
+    [ "MPointFromText.java", "a00848.html", [
+      [ "MPointFromText", "a02785.html", "a02785" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/NumXTiles.java", "a04768.html", [
-      [ "NumXTiles", "a01678.html", "a01678" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Multi.java", "a04955.html", [
+      [ "Multi", "a01533.html", "a01533" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/NumXTiles.java", "a04771.html", [
-      [ "NumXTiles", "a02778.html", "a02778" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/Multi.java", "a04958.html", [
+      [ "Multi", "a02473.html", "a02473" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/NumYTiles.java", "a04774.html", [
-      [ "NumYTiles", "a01682.html", "a01682" ]
+    [ "MultiplyZ.java", "a00761.html", [
+      [ "MultiplyZ", "a02477.html", "a02477" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/NumYTiles.java", "a04777.html", [
-      [ "NumYTiles", "a02782.html", "a02782" ]
+    [ "NDims.java", "a00668.html", [
+      [ "NDims", "a02253.html", "a02253" ]
     ] ],
-    [ "OctogonalEnvelope.java", "a00602.html", [
-      [ "OctogonalEnvelope", "a01950.html", "a01950" ]
+    [ "NetCDFDatatype.java", "a00959.html", [
+      [ "NetCDFDatatype", "a03161.html", "a03161" ]
     ] ],
-    [ "OrderingEquals.java", "a00758.html", [
-      [ "OrderingEquals", "a02426.html", "a02426" ]
+    [ "Node.java", "a00302.html", [
+      [ "Node", "a01537.html", "a01537" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/Orientation.java", "a04780.html", [
-      [ "Orientation", "a01638.html", "a01638" ]
+    [ "relation/Normalize.java", "a04961.html", [
+      [ "Normalize", "a02553.html", "a02553" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/Orientation.java", "a04783.html", [
-      [ "Orientation", "a02726.html", "a02726" ]
+    [ "transform/Normalize.java", "a04964.html", [
+      [ "Normalize", "a02597.html", "a02597" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Overlaps.java", "a04786.html", [
-      [ "Overlaps", "a01790.html", "a01790" ]
+    [ "NRings.java", "a00419.html", [
+      [ "NRings", "a01693.html", "a01693" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Overlaps.java", "a04789.html", [
-      [ "Overlaps", "a02978.html", "a02978" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/NumBands.java", "a04967.html", [
+      [ "NumBands", "a01741.html", "a01741" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Perimeter.java", "a04792.html", [
-      [ "Perimeter", "a01298.html", "a01298" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/NumBands.java", "a04970.html", [
+      [ "NumBands", "a02905.html", "a02905" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/Perimeter.java", "a04795.html", [
-      [ "Perimeter", "a02350.html", "a02350" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/NumDistinctGeometries.java", "a04973.html", [
+      [ "NumDistinctGeometries", "a01349.html", "a01349" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Perimeter3D.java", "a04798.html", [
-      [ "Perimeter3D", "a01302.html", "a01302" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/NumDistinctGeometries.java", "a04976.html", [
+      [ "NumDistinctGeometries", "a02257.html", "a02257" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/Perimeter3D.java", "a04801.html", [
-      [ "Perimeter3D", "a02354.html", "a02354" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/NumDistinctPoints.java", "a04979.html", [
+      [ "NumDistinctPoints", "a01353.html", "a01353" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/constructor/PointFromGeoHash.java", "a04804.html", [
-      [ "PointFromGeoHash", "a01602.html", "a01602" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/NumDistinctPoints.java", "a04982.html", [
+      [ "NumDistinctPoints", "a02261.html", "a02261" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/constructor/PointFromGeoHash.java", "a04807.html", [
-      [ "PointFromGeoHash", "a02658.html", "a02658" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/NumGeometries.java", "a04985.html", [
+      [ "NumGeometries", "a01357.html", "a01357" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/constructor/PointFromText.java", "a04810.html", [
-      [ "PointFromText", "a01606.html", "a01606" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/NumGeometries.java", "a04988.html", [
+      [ "NumGeometries", "a02265.html", "a02265" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/constructor/PointFromText.java", "a04813.html", [
-      [ "PointFromText", "a02662.html", "a02662" ]
+    [ "NumInteriorRings.java", "a00857.html", [
+      [ "NumInteriorRings", "a02821.html", "a02821" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/constructor/PointFromWKB.java", "a04816.html", [
-      [ "PointFromWKB", "a01610.html", "a01610" ]
+    [ "NumPatches.java", "a00671.html", [
+      [ "NumPatches", "a02269.html", "a02269" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/constructor/PointFromWKB.java", "a04819.html", [
-      [ "PointFromWKB", "a02666.html", "a02666" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/NumPoints.java", "a04991.html", [
+      [ "NumPoints", "a01361.html", "a01361" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/PointN.java", "a04822.html", [
-      [ "PointN", "a01306.html", "a01306" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/NumPoints.java", "a04994.html", [
+      [ "NumPoints", "a02273.html", "a02273" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/PointN.java", "a04825.html", [
-      [ "PointN", "a02146.html", "a02146" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/NumXTiles.java", "a04997.html", [
+      [ "NumXTiles", "a01745.html", "a01745" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/PointOnSurface.java", "a04828.html", [
-      [ "PointOnSurface", "a01310.html", "a01310" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/NumXTiles.java", "a05000.html", [
+      [ "NumXTiles", "a02909.html", "a02909" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/PointOnSurface.java", "a04831.html", [
-      [ "PointOnSurface", "a02358.html", "a02358" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/NumYTiles.java", "a05003.html", [
+      [ "NumYTiles", "a01749.html", "a01749" ]
     ] ],
-    [ "Points.java", "a00734.html", [
-      [ "Points", "a02362.html", "a02362" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/NumYTiles.java", "a05006.html", [
+      [ "NumYTiles", "a02913.html", "a02913" ]
     ] ],
-    [ "Polygon.java", "a00836.html", [
-      [ "Polygon", "a02698.html", "a02698" ]
+    [ "OctogonalEnvelope.java", "a00632.html", [
+      [ "OctogonalEnvelope", "a02017.html", "a02017" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/constructor/PolygonFromText.java", "a04834.html", [
-      [ "PolygonFromText", "a01630.html", "a01630" ]
+    [ "OrderingEquals.java", "a00788.html", [
+      [ "OrderingEquals", "a02557.html", "a02557" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/constructor/PolygonFromText.java", "a04837.html", [
-      [ "PolygonFromText", "a02702.html", "a02702" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/Orientation.java", "a05009.html", [
+      [ "Orientation", "a01705.html", "a01705" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/constructor/PolygonFromWKB.java", "a04840.html", [
-      [ "PolygonFromWKB", "a01634.html", "a01634" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/Orientation.java", "a05012.html", [
+      [ "Orientation", "a02857.html", "a02857" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/constructor/PolygonFromWKB.java", "a04843.html", [
-      [ "PolygonFromWKB", "a02706.html", "a02706" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Overlaps.java", "a05015.html", [
+      [ "Overlaps", "a01857.html", "a01857" ]
     ] ],
-    [ "PolyshapeDatatype.java", "a00974.html", [
-      [ "PolyshapeDatatype", "a03090.html", "a03090" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Overlaps.java", "a05018.html", [
+      [ "Overlaps", "a03109.html", "a03109" ]
     ] ],
-    [ "PolyshapeReader.java", "a00998.html", [
-      [ "PolyshapeReader", "a03134.html", "a03134" ],
-      [ "XReader", "a03138.html", "a03138" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Perimeter.java", "a05021.html", [
+      [ "Perimeter", "a01365.html", "a01365" ]
     ] ],
-    [ "PolyshapeWriter.java", "a01001.html", [
-      [ "PolyshapeWriter", "a03142.html", "a03142" ],
-      [ "Encoder", "a03146.html", "a03146" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/Perimeter.java", "a05024.html", [
+      [ "Perimeter", "a02277.html", "a02277" ]
     ] ],
-    [ "POSTGIS.java", "a00569.html", [
-      [ "POSTGIS", "a01894.html", "a01894" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/Perimeter.java", "a05027.html", [
+      [ "Perimeter", "a02481.html", "a02481" ]
     ] ],
-    [ "PrecisionReducer.java", "a00737.html", [
-      [ "PrecisionReducer", "a02366.html", "a02366" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/Perimeter3D.java", "a05030.html", [
+      [ "Perimeter3D", "a01369.html", "a01369" ]
     ] ],
-    [ "QueryModelVisitor.java", "a01010.html", [
-      [ "QueryModelVisitor", "a03158.html", "a03158" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/Perimeter3D.java", "a05033.html", [
+      [ "Perimeter3D", "a02281.html", "a02281" ]
     ] ],
-    [ "RasterAttributeBinaryFunction.java", "a00860.html", [
-      [ "RasterAttributeBinaryFunction", "a02854.html", "a02854" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/Perimeter3D.java", "a05036.html", [
+      [ "Perimeter3D", "a02485.html", "a02485" ]
     ] ],
-    [ "RasterAttributeBooleanIntFunction.java", "a00863.html", [
-      [ "RasterAttributeBooleanIntFunction", "a02858.html", "a02858" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/constructor/PointFromGeoHash.java", "a05039.html", [
+      [ "PointFromGeoHash", "a01669.html", "a01669" ]
     ] ],
-    [ "RasterAttributeFunction.java", "a00866.html", [
-      [ "RasterAttributeFunction", "a02862.html", "a02862" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/constructor/PointFromGeoHash.java", "a05042.html", [
+      [ "PointFromGeoHash", "a02789.html", "a02789" ]
     ] ],
-    [ "RasterAttributeIntIntDoubleFunction.java", "a00869.html", [
-      [ "RasterAttributeIntIntDoubleFunction", "a02866.html", "a02866" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/constructor/PointFromText.java", "a05045.html", [
+      [ "PointFromText", "a01673.html", "a01673" ]
     ] ],
-    [ "RasterAttributeIntIntGeomFunction.java", "a00872.html", [
-      [ "RasterAttributeIntIntGeomFunction", "a02870.html", "a02870" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/constructor/PointFromText.java", "a05048.html", [
+      [ "PointFromText", "a02793.html", "a02793" ]
     ] ],
-    [ "RasterConstructorFunction.java", "a00875.html", [
-      [ "RasterConstructorFunction", "a02874.html", "a02874" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/constructor/PointFromWKB.java", "a05051.html", [
+      [ "PointFromWKB", "a01677.html", "a01677" ]
     ] ],
-    [ "RasterLiteral.java", "a00935.html", [
-      [ "RasterLiteral", "a03034.html", "a03034" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/constructor/PointFromWKB.java", "a05054.html", [
+      [ "PointFromWKB", "a02797.html", "a02797" ]
     ] ],
-    [ "RasterModifierBoolDoubleFunction.java", "a00878.html", [
-      [ "RasterModifierBoolDoubleFunction", "a02878.html", "a02878" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/PointN.java", "a05057.html", [
+      [ "PointN", "a01373.html", "a01373" ]
     ] ],
-    [ "RasterModifierDoubleDoubleFunction.java", "a00881.html", [
-      [ "RasterModifierDoubleDoubleFunction", "a02882.html", "a02882" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/attribute/PointN.java", "a05060.html", [
+      [ "PointN", "a02285.html", "a02285" ]
     ] ],
-    [ "RasterModifierFunction.java", "a00884.html", [
-      [ "RasterModifierFunction", "a02886.html", "a02886" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/attribute/PointOnSurface.java", "a05063.html", [
+      [ "PointOnSurface", "a01377.html", "a01377" ]
     ] ],
-    [ "RasterModifierGeometryFunction.java", "a00887.html", [
-      [ "RasterModifierGeometryFunction", "a02890.html", "a02890" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/PointOnSurface.java", "a05066.html", [
+      [ "PointOnSurface", "a02489.html", "a02489" ]
     ] ],
-    [ "RasterModifierIntIntFunction.java", "a00890.html", [
-      [ "RasterModifierIntIntFunction", "a02894.html", "a02894" ]
+    [ "Points.java", "a00764.html", [
+      [ "Points", "a02493.html", "a02493" ]
     ] ],
-    [ "RasterRelationFunction.java", "a00893.html", [
-      [ "RasterRelationFunction", "a02898.html", null ]
+    [ "Polygon.java", "a00863.html", [
+      [ "Polygon", "a02829.html", "a02829" ]
     ] ],
-    [ "RasterStringExportFunction.java", "a00896.html", [
-      [ "RasterStringExportFunction", "a02902.html", "a02902" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/constructor/PolygonFromText.java", "a05069.html", [
+      [ "PolygonFromText", "a01697.html", "a01697" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/RasterToWorldCoord.java", "a04846.html", [
-      [ "RasterToWorldCoord", "a01686.html", "a01686" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/constructor/PolygonFromText.java", "a05072.html", [
+      [ "PolygonFromText", "a02833.html", "a02833" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/RasterToWorldCoord.java", "a04849.html", [
-      [ "RasterToWorldCoord", "a02786.html", "a02786" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/polygon/constructor/PolygonFromWKB.java", "a05075.html", [
+      [ "PolygonFromWKB", "a01701.html", "a01701" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/RasterToWorldCoordX.java", "a04852.html", [
-      [ "RasterToWorldCoordX", "a01690.html", "a01690" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/polygon/constructor/PolygonFromWKB.java", "a05078.html", [
+      [ "PolygonFromWKB", "a02837.html", "a02837" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/RasterToWorldCoordX.java", "a04855.html", [
-      [ "RasterToWorldCoordX", "a02790.html", "a02790" ]
+    [ "PolyshapeDatatype.java", "a01001.html", [
+      [ "PolyshapeDatatype", "a03221.html", "a03221" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/RasterToWorldCoordY.java", "a04858.html", [
-      [ "RasterToWorldCoordY", "a01694.html", "a01694" ]
+    [ "PolyshapeReader.java", "a01025.html", [
+      [ "PolyshapeReader", "a03265.html", "a03265" ],
+      [ "XReader", "a03269.html", "a03269" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/RasterToWorldCoordY.java", "a04861.html", [
-      [ "RasterToWorldCoordY", "a02794.html", "a02794" ]
+    [ "PolyshapeWriter.java", "a01028.html", [
+      [ "PolyshapeWriter", "a03273.html", "a03273" ],
+      [ "Encoder", "a03277.html", "a03277" ]
     ] ],
-    [ "RasterVectorRelationBinaryFunction.java", "a01004.html", [
-      [ "RasterVectorRelationBinaryFunction", "a03150.html", "a03150" ]
+    [ "POSTGIS.java", "a00599.html", [
+      [ "POSTGIS", "a01961.html", "a01961" ]
     ] ],
-    [ "RasterVectorRelationFunction.java", "a01007.html", [
-      [ "RasterVectorRelationFunction", "a03154.html", "a03154" ]
+    [ "PrecisionReducer.java", "a00767.html", [
+      [ "PrecisionReducer", "a02497.html", "a02497" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/constructor/RastFromHexWKB.java", "a04864.html", [
-      [ "RastFromHexWKB", "a01746.html", "a01746" ]
+    [ "QueryModelVisitor.java", "a01037.html", [
+      [ "QueryModelVisitor", "a03289.html", "a03289" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/constructor/RastFromHexWKB.java", "a04867.html", [
-      [ "RastFromHexWKB", "a02906.html", "a02906" ]
+    [ "RasterAttributeBinaryFunction.java", "a00887.html", [
+      [ "RasterAttributeBinaryFunction", "a02985.html", "a02985" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/constructor/RastFromWKB.java", "a04870.html", [
-      [ "RastFromWKB", "a01750.html", "a01750" ]
+    [ "RasterAttributeBooleanIntFunction.java", "a00890.html", [
+      [ "RasterAttributeBooleanIntFunction", "a02989.html", "a02989" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/constructor/RastFromWKB.java", "a04873.html", [
-      [ "RastFromWKB", "a02910.html", "a02910" ]
+    [ "RasterAttributeFunction.java", "a00893.html", [
+      [ "RasterAttributeFunction", "a02993.html", "a02993" ]
     ] ],
-    [ "Reflect.java", "a00761.html", [
-      [ "Reflect", "a02470.html", "a02470" ]
+    [ "RasterAttributeIntIntDoubleFunction.java", "a00896.html", [
+      [ "RasterAttributeIntIntDoubleFunction", "a02997.html", "a02997" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/Relate.java", "a04876.html", [
-      [ "Relate", "a01426.html", "a01426" ]
+    [ "RasterAttributeIntIntGeomFunction.java", "a00899.html", [
+      [ "RasterAttributeIntIntGeomFunction", "a03001.html", "a03001" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/Relate.java", "a04879.html", [
-      [ "Relate", "a02430.html", "a02430" ]
+    [ "RasterConstructorFunction.java", "a00902.html", [
+      [ "RasterConstructorFunction", "a03005.html", "a03005" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/editor/RemovePoint.java", "a04882.html", [
-      [ "RemovePoint", "a01518.html", "a01518" ]
+    [ "RasterLiteral.java", "a00962.html", [
+      [ "RasterLiteral", "a03165.html", "a03165" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/editor/RemovePoint.java", "a04885.html", [
-      [ "RemovePoint", "a02546.html", "a02546" ]
+    [ "RasterModifierBoolDoubleFunction.java", "a00905.html", [
+      [ "RasterModifierBoolDoubleFunction", "a03009.html", "a03009" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/RemoveRepeatedPoints.java", "a04888.html", [
-      [ "RemoveRepeatedPoints", "a01474.html", "a01474" ]
+    [ "RasterModifierDoubleDoubleFunction.java", "a00908.html", [
+      [ "RasterModifierDoubleDoubleFunction", "a03013.html", "a03013" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/editor/RemoveRepeatedPoints.java", "a04891.html", [
-      [ "RemoveRepeatedPoints", "a02270.html", "a02270" ]
+    [ "RasterModifierFunction.java", "a00911.html", [
+      [ "RasterModifierFunction", "a03017.html", "a03017" ]
     ] ],
-    [ "Resize.java", "a00518.html", [
-      [ "Resize", "a01802.html", null ]
+    [ "RasterModifierGeometryFunction.java", "a00914.html", [
+      [ "RasterModifierGeometryFunction", "a03021.html", "a03021" ]
     ] ],
-    [ "Reskew.java", "a00521.html", [
-      [ "Reskew", "a01806.html", null ]
+    [ "RasterModifierIntIntFunction.java", "a00917.html", [
+      [ "RasterModifierIntIntFunction", "a03025.html", "a03025" ]
     ] ],
-    [ "Retile.java", "a00524.html", [
-      [ "Retile", "a01810.html", null ]
+    [ "RasterRelationFunction.java", "a00920.html", [
+      [ "RasterRelationFunction", "a03029.html", null ]
     ] ],
-    [ "Reverse.java", "a00764.html", [
-      [ "Reverse", "a02474.html", "a02474" ]
+    [ "RasterStringExportFunction.java", "a00923.html", [
+      [ "RasterStringExportFunction", "a03033.html", "a03033" ]
     ] ],
-    [ "Rotate.java", "a00767.html", [
-      [ "Rotate", "a02478.html", "a02478" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/RasterToWorldCoord.java", "a05081.html", [
+      [ "RasterToWorldCoord", "a01753.html", "a01753" ]
     ] ],
-    [ "RotateX.java", "a00770.html", [
-      [ "RotateX", "a02482.html", "a02482" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/RasterToWorldCoord.java", "a05084.html", [
+      [ "RasterToWorldCoord", "a02917.html", "a02917" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/ScaleX.java", "a04894.html", [
-      [ "ScaleX", "a01698.html", "a01698" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/RasterToWorldCoordX.java", "a05087.html", [
+      [ "RasterToWorldCoordX", "a01757.html", "a01757" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/ScaleX.java", "a04897.html", [
-      [ "ScaleX", "a02798.html", "a02798" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/RasterToWorldCoordX.java", "a05090.html", [
+      [ "RasterToWorldCoordX", "a02921.html", "a02921" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/transform/ScaleX.java", "a04900.html", [
-      [ "ScaleX", "a02990.html", "a02990" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/RasterToWorldCoordY.java", "a05093.html", [
+      [ "RasterToWorldCoordY", "a01761.html", "a01761" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/ScaleY.java", "a04903.html", [
-      [ "ScaleY", "a01702.html", "a01702" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/RasterToWorldCoordY.java", "a05096.html", [
+      [ "RasterToWorldCoordY", "a02925.html", "a02925" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/ScaleY.java", "a04906.html", [
-      [ "ScaleY", "a02802.html", "a02802" ]
+    [ "RasterVectorRelationBinaryFunction.java", "a01031.html", [
+      [ "RasterVectorRelationBinaryFunction", "a03281.html", "a03281" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/transform/ScaleY.java", "a04909.html", [
-      [ "ScaleY", "a02994.html", "a02994" ]
+    [ "RasterVectorRelationFunction.java", "a01034.html", [
+      [ "RasterVectorRelationFunction", "a03285.html", "a03285" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/Segmentize.java", "a04912.html", [
-      [ "Segmentize", "a01538.html", "a01538" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/constructor/RastFromHexWKB.java", "a05099.html", [
+      [ "RastFromHexWKB", "a01813.html", "a01813" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/Segmentize.java", "a04915.html", [
-      [ "Segmentize", "a02582.html", "a02582" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/constructor/RastFromHexWKB.java", "a05102.html", [
+      [ "RastFromHexWKB", "a03037.html", "a03037" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/transform/SetGeoReference.java", "a04918.html", [
-      [ "SetGeoReference", "a01814.html", null ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/constructor/RastFromWKB.java", "a05105.html", [
+      [ "RastFromWKB", "a01817.html", "a01817" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/editor/SetGeoReference.java", "a04921.html", [
-      [ "SetGeoReference", "a02918.html", null ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/constructor/RastFromWKB.java", "a05108.html", [
+      [ "RastFromWKB", "a03041.html", "a03041" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/editor/SetPoint.java", "a04924.html", [
-      [ "SetPoint", "a01522.html", "a01522" ]
+    [ "Reflect.java", "a00791.html", [
+      [ "Reflect", "a02601.html", "a02601" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/editor/SetPoint.java", "a04927.html", [
-      [ "SetPoint", "a02550.html", "a02550" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/Relate.java", "a05111.html", [
+      [ "Relate", "a01493.html", "a01493" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/transform/SetRotation.java", "a04930.html", [
-      [ "SetRotation", "a01818.html", null ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/Relate.java", "a05114.html", [
+      [ "Relate", "a02561.html", "a02561" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/editor/SetRotation.java", "a04933.html", [
-      [ "SetRotation", "a02922.html", "a02922" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/editor/RemovePoint.java", "a05117.html", [
+      [ "RemovePoint", "a01585.html", "a01585" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/transform/SetScale.java", "a04936.html", [
-      [ "SetScale", "a01822.html", null ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/editor/RemovePoint.java", "a05120.html", [
+      [ "RemovePoint", "a02677.html", "a02677" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/editor/SetScale.java", "a04939.html", [
-      [ "SetScale", "a02926.html", "a02926" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/RemoveRepeatedPoints.java", "a05123.html", [
+      [ "RemoveRepeatedPoints", "a01541.html", "a01541" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/transform/SetSkew.java", "a04942.html", [
-      [ "SetSkew", "a01826.html", null ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/editor/RemoveRepeatedPoints.java", "a05126.html", [
+      [ "RemoveRepeatedPoints", "a02401.html", "a02401" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/editor/SetSkew.java", "a04945.html", [
-      [ "SetSkew", "a02930.html", "a02930" ]
+    [ "Resize.java", "a00548.html", [
+      [ "Resize", "a01869.html", null ]
     ] ],
-    [ "SetSRID.java", "a00707.html", [
-      [ "SetSRID", "a02274.html", "a02274" ]
+    [ "Reskew.java", "a00551.html", [
+      [ "Reskew", "a01873.html", null ]
     ] ],
-    [ "SetUpperLeft.java", "a00899.html", [
-      [ "SetUpperLeft", "a02934.html", "a02934" ]
+    [ "Retile.java", "a00554.html", [
+      [ "Retile", "a01877.html", null ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/SharedPaths.java", "a04948.html", [
-      [ "SharedPaths", "a01542.html", "a01542" ]
+    [ "Reverse.java", "a00794.html", [
+      [ "Reverse", "a02605.html", "a02605" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/SharedPaths.java", "a04951.html", [
-      [ "SharedPaths", "a02586.html", "a02586" ]
+    [ "Rotate.java", "a00797.html", [
+      [ "Rotate", "a02609.html", "a02609" ]
     ] ],
-    [ "ShiftLongitude.java", "a00773.html", [
-      [ "ShiftLongitude", "a02486.html", "a02486" ]
+    [ "RotateX.java", "a00800.html", [
+      [ "RotateX", "a02613.html", "a02613" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/ShortestLine.java", "a04954.html", [
-      [ "ShortestLine", "a01430.html", "a01430" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/ScaleX.java", "a05129.html", [
+      [ "ScaleX", "a01765.html", "a01765" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/ShortestLine.java", "a04957.html", [
-      [ "ShortestLine", "a02434.html", "a02434" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/ScaleX.java", "a05132.html", [
+      [ "ScaleX", "a02929.html", "a02929" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/ShortestLine3D.java", "a04960.html", [
-      [ "ShortestLine3D", "a01434.html", "a01434" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/transform/ScaleX.java", "a05135.html", [
+      [ "ScaleX", "a03121.html", "a03121" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/ShortestLine3D.java", "a04963.html", [
-      [ "ShortestLine3D", "a02438.html", "a02438" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/ScaleY.java", "a05138.html", [
+      [ "ScaleY", "a01769.html", "a01769" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/SkewX.java", "a04966.html", [
-      [ "SkewX", "a01706.html", "a01706" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/ScaleY.java", "a05141.html", [
+      [ "ScaleY", "a02933.html", "a02933" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/SkewX.java", "a04969.html", [
-      [ "SkewX", "a02806.html", "a02806" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/transform/ScaleY.java", "a05144.html", [
+      [ "ScaleY", "a03125.html", "a03125" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/SkewY.java", "a04972.html", [
-      [ "SkewY", "a01710.html", "a01710" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/Segmentize.java", "a05147.html", [
+      [ "Segmentize", "a01605.html", "a01605" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/SkewY.java", "a04975.html", [
-      [ "SkewY", "a02810.html", "a02810" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/Segmentize.java", "a05150.html", [
+      [ "Segmentize", "a02713.html", "a02713" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Snap.java", "a04978.html", [
-      [ "Snap", "a01478.html", "a01478" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/transform/SetGeoReference.java", "a05153.html", [
+      [ "SetGeoReference", "a01881.html", null ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/Snap.java", "a04981.html", [
-      [ "Snap", "a02490.html", "a02490" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/editor/SetGeoReference.java", "a05156.html", [
+      [ "SetGeoReference", "a03049.html", null ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/attribute/StartPoint.java", "a04984.html", [
-      [ "StartPoint", "a01490.html", "a01490" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/editor/SetPoint.java", "a05159.html", [
+      [ "SetPoint", "a01589.html", "a01589" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/attribute/StartPoint.java", "a04987.html", [
-      [ "StartPoint", "a02514.html", "a02514" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/editor/SetPoint.java", "a05162.html", [
+      [ "SetPoint", "a02681.html", "a02681" ]
     ] ],
-    [ "SVGDatatype.java", "a00977.html", [
-      [ "SVGDatatype", "a03094.html", "a03094" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/transform/SetRotation.java", "a05165.html", [
+      [ "SetRotation", "a01885.html", null ]
     ] ],
-    [ "SVGWriter.java", "a00557.html", [
-      [ "SVGWriter", "a01878.html", "a01878" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/editor/SetRotation.java", "a05168.html", [
+      [ "SetRotation", "a03053.html", "a03053" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/SwapOrdinates.java", "a04990.html", [
-      [ "SwapOrdinates", "a01482.html", "a01482" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/transform/SetScale.java", "a05171.html", [
+      [ "SetScale", "a01889.html", null ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/SwapOrdinates.java", "a04993.html", [
-      [ "SwapOrdinates", "a02494.html", "a02494" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/editor/SetScale.java", "a05174.html", [
+      [ "SetScale", "a03057.html", "a03057" ]
     ] ],
-    [ "TileGridXOffset.java", "a00854.html", [
-      [ "TileGridXOffset", "a02814.html", "a02814" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/transform/SetSkew.java", "a05177.html", [
+      [ "SetSkew", "a01893.html", null ]
     ] ],
-    [ "TileGridYOffset.java", "a00857.html", [
-      [ "TileGridYOffset", "a02818.html", "a02818" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/editor/SetSkew.java", "a05180.html", [
+      [ "SetSkew", "a03061.html", "a03061" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/TileHeight.java", "a04996.html", [
-      [ "TileHeight", "a01714.html", "a01714" ]
+    [ "SetSRID.java", "a00737.html", [
+      [ "SetSRID", "a02405.html", "a02405" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/TileHeight.java", "a04999.html", [
-      [ "TileHeight", "a02822.html", "a02822" ]
+    [ "SetUpperLeft.java", "a00926.html", [
+      [ "SetUpperLeft", "a03065.html", "a03065" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/TileWidth.java", "a05002.html", [
-      [ "TileWidth", "a01718.html", "a01718" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/SharedPaths.java", "a05183.html", [
+      [ "SharedPaths", "a01609.html", "a01609" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/TileWidth.java", "a05005.html", [
-      [ "TileWidth", "a02826.html", "a02826" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/SharedPaths.java", "a05186.html", [
+      [ "SharedPaths", "a02717.html", "a02717" ]
     ] ],
-    [ "TopoJSONDatatype.java", "a00980.html", [
-      [ "TopoJSONDatatype", "a03098.html", "a03098" ]
+    [ "ShiftLongitude.java", "a00803.html", [
+      [ "ShiftLongitude", "a02617.html", "a02617" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Touches.java", "a05008.html", [
-      [ "Touches", "a01794.html", "a01794" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/ShortestLine.java", "a05189.html", [
+      [ "ShortestLine", "a01497.html", "a01497" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Touches.java", "a05011.html", [
-      [ "Touches", "a02982.html", "a02982" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/ShortestLine.java", "a05192.html", [
+      [ "ShortestLine", "a02565.html", "a02565" ]
     ] ],
-    [ "Transform.java", "a00776.html", [
-      [ "Transform", "a02498.html", "a02498" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/relation/ShortestLine3D.java", "a05195.html", [
+      [ "ShortestLine3D", "a01501.html", "a01501" ]
     ] ],
-    [ "Translate.java", "a00779.html", [
-      [ "Translate", "a02502.html", "a02502" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/relation/ShortestLine3D.java", "a05198.html", [
+      [ "ShortestLine3D", "a02569.html", "a02569" ]
     ] ],
-    [ "TransScale.java", "a00782.html", [
-      [ "TransScale", "a02506.html", "a02506" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/SkewX.java", "a05201.html", [
+      [ "SkewX", "a01773.html", "a01773" ]
     ] ],
-    [ "TWKBDatatype.java", "a00983.html", [
-      [ "TWKBDatatype", "a03102.html", "a03102" ],
-      [ "WKBTextSRS", "a03106.html", "a03106" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/SkewX.java", "a05204.html", [
+      [ "SkewX", "a02937.html", "a02937" ]
     ] ],
-    [ "TWKBReader.java", "a00542.html", [
-      [ "TWKBReader", "a01834.html", "a01834" ],
-      [ "ByteBufferInputStream", "a01838.html", "a01838" ],
-      [ "PrecisionReader", "a01842.html", "a01842" ],
-      [ "ExtendedPrecisionReader", "a01846.html", "a01846" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/SkewY.java", "a05207.html", [
+      [ "SkewY", "a01777.html", "a01777" ]
     ] ],
-    [ "TWKBUtils.java", "a00545.html", [
-      [ "TWKBUtils", "a01850.html", "a01850" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/SkewY.java", "a05210.html", [
+      [ "SkewY", "a02941.html", "a02941" ]
     ] ],
-    [ "TWKBWriter.java", "a00548.html", [
-      [ "TWKBWriter", "a01854.html", "a01854" ],
-      [ "PrecisionWriter", "a01858.html", "a01858" ],
-      [ "ExtendedPrecisionWriter", "a01862.html", "a01862" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/Snap.java", "a05213.html", [
+      [ "Snap", "a01545.html", "a01545" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/UpperLeftX.java", "a05014.html", [
-      [ "UpperLeftX", "a01722.html", "a01722" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/Snap.java", "a05216.html", [
+      [ "Snap", "a02621.html", "a02621" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/UpperLeftX.java", "a05017.html", [
-      [ "UpperLeftX", "a02830.html", "a02830" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/linestring/attribute/StartPoint.java", "a05219.html", [
+      [ "StartPoint", "a01557.html", "a01557" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/UpperLeftY.java", "a05020.html", [
-      [ "UpperLeftY", "a01726.html", "a01726" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/linestring/attribute/StartPoint.java", "a05222.html", [
+      [ "StartPoint", "a02645.html", "a02645" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/UpperLeftY.java", "a05023.html", [
-      [ "UpperLeftY", "a02834.html", "a02834" ]
+    [ "SVGDatatype.java", "a01004.html", [
+      [ "SVGDatatype", "a03225.html", "a03225" ]
+    ] ],
+    [ "SVGWriter.java", "a00587.html", [
+      [ "SVGWriter", "a01945.html", "a01945" ]
+    ] ],
+    [ "apache/marmotta/kiwi/sparql/function/postgis/geometry/transform/SwapOrdinates.java", "a05225.html", [
+      [ "SwapOrdinates", "a01549.html", "a01549" ]
+    ] ],
+    [ "openrdf/query/algebra/evaluation/function/postgis/geometry/transform/SwapOrdinates.java", "a05228.html", [
+      [ "SwapOrdinates", "a02625.html", "a02625" ]
+    ] ],
+    [ "TileGridXOffset.java", "a00881.html", [
+      [ "TileGridXOffset", "a02945.html", "a02945" ]
+    ] ],
+    [ "TileGridYOffset.java", "a00884.html", [
+      [ "TileGridYOffset", "a02949.html", "a02949" ]
+    ] ],
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/TileHeight.java", "a05231.html", [
+      [ "TileHeight", "a01781.html", "a01781" ]
+    ] ],
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/TileHeight.java", "a05234.html", [
+      [ "TileHeight", "a02953.html", "a02953" ]
+    ] ],
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/TileWidth.java", "a05237.html", [
+      [ "TileWidth", "a01785.html", "a01785" ]
+    ] ],
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/TileWidth.java", "a05240.html", [
+      [ "TileWidth", "a02957.html", "a02957" ]
+    ] ],
+    [ "TopoJSONDatatype.java", "a01007.html", [
+      [ "TopoJSONDatatype", "a03229.html", "a03229" ]
+    ] ],
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Touches.java", "a05243.html", [
+      [ "Touches", "a01861.html", "a01861" ]
+    ] ],
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Touches.java", "a05246.html", [
+      [ "Touches", "a03113.html", "a03113" ]
+    ] ],
+    [ "Transform.java", "a00806.html", [
+      [ "Transform", "a02629.html", "a02629" ]
+    ] ],
+    [ "Translate.java", "a00809.html", [
+      [ "Translate", "a02633.html", "a02633" ]
+    ] ],
+    [ "TransScale.java", "a00812.html", [
+      [ "TransScale", "a02637.html", "a02637" ]
+    ] ],
+    [ "TWKBDatatype.java", "a01010.html", [
+      [ "TWKBDatatype", "a03233.html", "a03233" ],
+      [ "WKBTextSRS", "a03237.html", "a03237" ]
+    ] ],
+    [ "TWKBReader.java", "a00572.html", [
+      [ "TWKBReader", "a01901.html", "a01901" ],
+      [ "ByteBufferInputStream", "a01905.html", "a01905" ],
+      [ "PrecisionReader", "a01909.html", "a01909" ],
+      [ "ExtendedPrecisionReader", "a01913.html", "a01913" ]
+    ] ],
+    [ "TWKBUtils.java", "a00575.html", [
+      [ "TWKBUtils", "a01917.html", "a01917" ]
+    ] ],
+    [ "TWKBWriter.java", "a00578.html", [
+      [ "TWKBWriter", "a01921.html", "a01921" ],
+      [ "PrecisionWriter", "a01925.html", "a01925" ],
+      [ "ExtendedPrecisionWriter", "a01929.html", "a01929" ]
+    ] ],
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/UpperLeftX.java", "a05249.html", [
+      [ "UpperLeftX", "a01789.html", "a01789" ]
+    ] ],
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/UpperLeftX.java", "a05252.html", [
+      [ "UpperLeftX", "a02961.html", "a02961" ]
+    ] ],
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/UpperLeftY.java", "a05255.html", [
+      [ "UpperLeftY", "a01793.html", "a01793" ]
+    ] ],
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/UpperLeftY.java", "a05258.html", [
+      [ "UpperLeftY", "a02965.html", "a02965" ]
     ] ],
     [ "ValueType.java", "a00002.html", [
-      [ "ValueType", "a01110.html", "a01110" ]
+      [ "ValueType", "a01137.html", "a01137" ]
     ] ],
-    [ "VectorLiteral.java", "a00986.html", [
-      [ "VectorLiteral", "a03110.html", "a03110" ]
+    [ "VectorLiteral.java", "a01013.html", [
+      [ "VectorLiteral", "a03241.html", "a03241" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/Width.java", "a05026.html", [
-      [ "Width", "a01730.html", "a01730" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/Width.java", "a05261.html", [
+      [ "Width", "a01797.html", "a01797" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/Width.java", "a05029.html", [
-      [ "Width", "a02838.html", "a02838" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/Width.java", "a05264.html", [
+      [ "Width", "a02969.html", "a02969" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Within.java", "a05032.html", [
-      [ "Within", "a01798.html", "a01798" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/relation/Within.java", "a05267.html", [
+      [ "Within", "a01865.html", "a01865" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Within.java", "a05035.html", [
-      [ "Within", "a02986.html", "a02986" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/relation/Within.java", "a05270.html", [
+      [ "Within", "a03117.html", "a03117" ]
     ] ],
-    [ "WKBDatatype.java", "a00989.html", [
-      [ "WKBDatatype", "a03114.html", "a03114" ],
-      [ "WKBTextSRS", "a03118.html", "a03118" ]
+    [ "WKBDatatype.java", "a01016.html", [
+      [ "WKBDatatype", "a03245.html", "a03245" ],
+      [ "WKBTextSRS", "a03249.html", "a03249" ]
     ] ],
-    [ "WKBRastDatatype.java", "a00938.html", [
-      [ "WKBRastDatatype", "a03038.html", "a03038" ]
+    [ "WKBRastDatatype.java", "a00965.html", [
+      [ "WKBRastDatatype", "a03169.html", "a03169" ]
     ] ],
-    [ "WKTDatatype.java", "a00992.html", [
-      [ "WKTDatatype", "a03122.html", "a03122" ],
-      [ "WKBTextSRS", "a03126.html", "a03126" ]
+    [ "WKTDatatype.java", "a01019.html", [
+      [ "WKTDatatype", "a03253.html", "a03253" ],
+      [ "WKBTextSRS", "a03257.html", "a03257" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/WorldToRasterCoord.java", "a05038.html", [
-      [ "WorldToRasterCoord", "a01734.html", "a01734" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/WorldToRasterCoord.java", "a05273.html", [
+      [ "WorldToRasterCoord", "a01801.html", "a01801" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/WorldToRasterCoord.java", "a05041.html", [
-      [ "WorldToRasterCoord", "a02842.html", "a02842" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/WorldToRasterCoord.java", "a05276.html", [
+      [ "WorldToRasterCoord", "a02973.html", "a02973" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/WorldToRasterCoordX.java", "a05044.html", [
-      [ "WorldToRasterCoordX", "a01738.html", "a01738" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/WorldToRasterCoordX.java", "a05279.html", [
+      [ "WorldToRasterCoordX", "a01805.html", "a01805" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/WorldToRasterCoordX.java", "a05047.html", [
-      [ "WorldToRasterCoordX", "a02846.html", "a02846" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/WorldToRasterCoordX.java", "a05282.html", [
+      [ "WorldToRasterCoordX", "a02977.html", "a02977" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/WorldToRasterCoordY.java", "a05050.html", [
-      [ "WorldToRasterCoordY", "a01742.html", "a01742" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/raster/attribute/WorldToRasterCoordY.java", "a05285.html", [
+      [ "WorldToRasterCoordY", "a01809.html", "a01809" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/WorldToRasterCoordY.java", "a05053.html", [
-      [ "WorldToRasterCoordY", "a02850.html", "a02850" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/raster/attribute/WorldToRasterCoordY.java", "a05288.html", [
+      [ "WorldToRasterCoordY", "a02981.html", "a02981" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/X.java", "a05056.html", [
-      [ "X", "a01558.html", "a01558" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/X.java", "a05291.html", [
+      [ "X", "a01625.html", "a01625" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/X.java", "a05059.html", [
-      [ "X", "a02610.html", "a02610" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/X.java", "a05294.html", [
+      [ "X", "a02741.html", "a02741" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/XMax.java", "a05062.html", [
-      [ "XMax", "a01562.html", "a01562" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/XMax.java", "a05297.html", [
+      [ "XMax", "a01629.html", "a01629" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/XMax.java", "a05065.html", [
-      [ "XMax", "a02614.html", "a02614" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/XMax.java", "a05300.html", [
+      [ "XMax", "a02745.html", "a02745" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/XMin.java", "a05068.html", [
-      [ "XMin", "a01566.html", "a01566" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/XMin.java", "a05303.html", [
+      [ "XMin", "a01633.html", "a01633" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/XMin.java", "a05071.html", [
-      [ "XMin", "a02618.html", "a02618" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/XMin.java", "a05306.html", [
+      [ "XMin", "a02749.html", "a02749" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/Y.java", "a05074.html", [
-      [ "Y", "a01570.html", "a01570" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/Y.java", "a05309.html", [
+      [ "Y", "a01637.html", "a01637" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/Y.java", "a05077.html", [
-      [ "Y", "a02622.html", "a02622" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/Y.java", "a05312.html", [
+      [ "Y", "a02753.html", "a02753" ]
     ] ],
-    [ "YMax.java", "a00806.html", [
-      [ "YMax", "a02626.html", "a02626" ]
+    [ "YMax.java", "a00836.html", [
+      [ "YMax", "a02757.html", "a02757" ]
     ] ],
-    [ "Ymax.java", "a00350.html", [
-      [ "Ymax", "a01574.html", "a01574" ]
+    [ "Ymax.java", "a00380.html", [
+      [ "Ymax", "a01641.html", "a01641" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/YMin.java", "a05080.html", [
-      [ "YMin", "a01578.html", "a01578" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/YMin.java", "a05315.html", [
+      [ "YMin", "a01645.html", "a01645" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/YMin.java", "a05083.html", [
-      [ "YMin", "a02630.html", "a02630" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/YMin.java", "a05318.html", [
+      [ "YMin", "a02761.html", "a02761" ]
     ] ],
-    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/Z.java", "a05086.html", [
-      [ "Z", "a01582.html", "a01582" ]
+    [ "apache/marmotta/kiwi/sparql/function/postgis/point/attribute/Z.java", "a05321.html", [
+      [ "Z", "a01649.html", "a01649" ]
     ] ],
-    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/Z.java", "a05089.html", [
-      [ "Z", "a02634.html", "a02634" ]
+    [ "openrdf/query/algebra/evaluation/function/postgis/point/attribute/Z.java", "a05324.html", [
+      [ "Z", "a02765.html", "a02765" ]
     ] ],
-    [ "ZMax.java", "a00809.html", [
-      [ "ZMax", "a02638.html", "a02638" ]
+    [ "ZMax.java", "a00839.html", [
+      [ "ZMax", "a02769.html", "a02769" ]
     ] ],
-    [ "Zmax.java", "a00359.html", [
-      [ "Zmax", "a01586.html", "a01586" ]
+    [ "Zmax.java", "a00389.html", [
+      [ "Zmax", "a01653.html", "a01653" ]
     ] ],
-    [ "Zmflag.java", "a00812.html", [
-      [ "Zmflag", "a02642.html", "a02642" ]
+    [ "Zmflag.java", "a00842.html", [
+      [ "Zmflag", "a02773.html", "a02773" ]
     ] ],
-    [ "ZMin.java", "a00815.html", [
-      [ "ZMin", "a02646.html", "a02646" ]
+    [ "ZMin.java", "a00845.html", [
+      [ "ZMin", "a02777.html", "a02777" ]
     ] ],
-    [ "Zmin.java", "a00362.html", [
-      [ "Zmin", "a01590.html", "a01590" ]
+    [ "Zmin.java", "a00392.html", [
+      [ "Zmin", "a01657.html", "a01657" ]
     ] ]
 ];

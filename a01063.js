@@ -1,5 +1,5 @@
 var a01063 =
 [
-    [ "model", "a01064.html", "a01064" ],
-    [ "query", "a01066.html", "a01066" ]
+    [ "attribute", "a01062.html", "a01062" ],
+    [ "constructor", "a01064.html", "a01064" ]
 ];

@@ -1,0 +1,12 @@
+<map id="RasterVectorRelationBinaryFunction" name="RasterVectorRelationBinaryFunction">
+<area shape="rect" id="node3" href="$a03077.html" title="Contains" alt="" coords="381,29,456,56"/>
+<area shape="rect" id="node4" href="$a03081.html" title="ContainsProperly" alt="" coords="357,80,480,107"/>
+<area shape="rect" id="node5" href="$a03085.html" title="CoveredBy" alt="" coords="375,155,462,181"/>
+<area shape="rect" id="node6" href="$a03089.html" title="Crosses" alt="" coords="383,229,454,256"/>
+<area shape="rect" id="node7" href="$a03093.html" title="Disjoint" alt="" coords="385,304,452,331"/>
+<area shape="rect" id="node8" href="$a03097.html" title="Equals" alt="" coords="387,379,450,405"/>
+<area shape="rect" id="node9" href="$a03105.html" title="Intersects" alt="" coords="379,453,459,480"/>
+<area shape="rect" id="node10" href="$a03109.html" title="Overlaps" alt="" coords="381,528,456,555"/>
+<area shape="rect" id="node11" href="$a03113.html" title="Touches" alt="" coords="383,603,455,629"/>
+<area shape="rect" id="node12" href="$a03117.html" title="Within" alt="" coords="389,677,448,704"/>
+</map>

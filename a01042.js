@@ -1,27 +1,4 @@
 var a01042 =
 [
-    [ "HasNoBand", "a01650.html", "a01650" ],
-    [ "Height", "a01654.html", "a01654" ],
-    [ "IsGrayscale", "a01658.html", "a01658" ],
-    [ "IsIndexed", "a01662.html", "a01662" ],
-    [ "IsTiled", "a01666.html", "a01666" ],
-    [ "IsTranslucent", "a01670.html", "a01670" ],
-    [ "NumBands", "a01674.html", "a01674" ],
-    [ "NumXTiles", "a01678.html", "a01678" ],
-    [ "NumYTiles", "a01682.html", "a01682" ],
-    [ "RasterToWorldCoord", "a01686.html", "a01686" ],
-    [ "RasterToWorldCoordX", "a01690.html", "a01690" ],
-    [ "RasterToWorldCoordY", "a01694.html", "a01694" ],
-    [ "ScaleX", "a01698.html", "a01698" ],
-    [ "ScaleY", "a01702.html", "a01702" ],
-    [ "SkewX", "a01706.html", "a01706" ],
-    [ "SkewY", "a01710.html", "a01710" ],
-    [ "TileHeight", "a01714.html", "a01714" ],
-    [ "TileWidth", "a01718.html", "a01718" ],
-    [ "UpperLeftX", "a01722.html", "a01722" ],
-    [ "UpperLeftY", "a01726.html", "a01726" ],
-    [ "Width", "a01730.html", "a01730" ],
-    [ "WorldToRasterCoord", "a01734.html", "a01734" ],
-    [ "WorldToRasterCoordX", "a01738.html", "a01738" ],
-    [ "WorldToRasterCoordY", "a01742.html", "a01742" ]
+    [ "marmotta", "a01043.html", "a01043" ]
 ];

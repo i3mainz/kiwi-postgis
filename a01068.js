@@ -1,4 +1,5 @@
 var a01068 =
 [
-    [ "function", "a01069.html", "a01069" ]
+    [ "ForcePolygonCCW", "a01709.html", "a01709" ],
+    [ "ForcePolygonCW", "a01713.html", "a01713" ]
 ];

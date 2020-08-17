@@ -1,3 +1,8 @@
-<map id="AsTextRound" name="AsTextRound">
-<area shape="rect" id="node2" href="$a02222.html" title="GeometricStringExportInteger\lFunction" alt="" coords="5,80,200,121"/>
+<map id="GeometricModifierIntegerFunction" name="GeometricModifierIntegerFunction">
+<area shape="rect" id="node3" href="$a02121.html" title="GeometryN" alt="" coords="5,169,95,196"/>
+<area shape="rect" id="node4" href="$a02285.html" title="PointN" alt="" coords="143,169,205,196"/>
+<area shape="rect" id="node5" href="$a02405.html" title="SetSRID" alt="" coords="254,169,329,196"/>
+<area shape="rect" id="node6" href="$a02497.html" title="PrecisionReducer" alt="" coords="353,169,478,196"/>
+<area shape="rect" id="node7" href="$a02677.html" title="RemovePoint" alt="" coords="502,169,603,196"/>
+<area shape="rect" id="node8" href="$a02805.html" title="InteriorRingN" alt="" coords="651,169,750,196"/>
 </map>

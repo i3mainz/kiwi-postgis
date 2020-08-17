@@ -1,3 +1,20 @@
-<map id="ScaleY" name="ScaleY">
-<area shape="rect" id="node2" href="$a02886.html" title="RasterModifierFunction" alt="" coords="5,80,163,107"/>
+<map id="RasterAttributeFunction" name="RasterAttributeFunction">
+<area shape="rect" id="node3" href="$a02861.html" title="Band" alt="" coords="363,5,415,32"/>
+<area shape="rect" id="node4" href="$a02877.html" title="Height" alt="" coords="359,80,419,107"/>
+<area shape="rect" id="node5" href="$a02897.html" title="MinTileX" alt="" coords="353,131,426,157"/>
+<area shape="rect" id="node6" href="$a02901.html" title="MinTileY" alt="" coords="353,181,426,208"/>
+<area shape="rect" id="node7" href="$a02905.html" title="NumBands" alt="" coords="346,256,433,283"/>
+<area shape="rect" id="node8" href="$a02909.html" title="NumXTiles" alt="" coords="346,331,433,357"/>
+<area shape="rect" id="node9" href="$a01749.html" title="NumYTiles" alt="" coords="493,356,580,383"/>
+<area shape="rect" id="node10" href="$a02929.html" title="ScaleX" alt="" coords="357,456,421,483"/>
+<area shape="rect" id="node11" href="$a02933.html" title="ScaleY" alt="" coords="357,531,421,557"/>
+<area shape="rect" id="node12" href="$a02937.html" title="SkewX" alt="" coords="357,605,421,632"/>
+<area shape="rect" id="node13" href="$a02941.html" title="SkewY" alt="" coords="357,680,421,707"/>
+<area shape="rect" id="node14" href="$a02945.html" title="TileGridXOffset" alt="" coords="333,731,445,757"/>
+<area shape="rect" id="node15" href="$a02949.html" title="TileGridYOffset" alt="" coords="333,781,445,808"/>
+<area shape="rect" id="node16" href="$a02953.html" title="TileHeight" alt="" coords="349,856,430,883"/>
+<area shape="rect" id="node17" href="$a02957.html" title="TileWidth" alt="" coords="351,931,428,957"/>
+<area shape="rect" id="node18" href="$a02961.html" title="UpperLeftX" alt="" coords="345,1005,433,1032"/>
+<area shape="rect" id="node19" href="$a02965.html" title="UpperLeftY" alt="" coords="345,1080,433,1107"/>
+<area shape="rect" id="node20" href="$a02969.html" title="Width" alt="" coords="361,1155,417,1181"/>
 </map>

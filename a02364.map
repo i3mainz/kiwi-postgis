@@ -1,3 +1,39 @@
-<map id="PrecisionReducer" name="PrecisionReducer">
-<area shape="rect" id="node2" href="$a02194.html" title="GeometricModifierInteger\lFunction" alt="" coords="5,80,173,121"/>
+<map id="GeometricUnaryFunction" name="GeometricUnaryFunction">
+<area shape="rect" id="node3" href="$a02017.html" title="OctogonalEnvelope" alt="" coords="374,5,509,32"/>
+<area shape="rect" id="node4" href="$a02089.html" title="Boundary" alt="" coords="403,56,480,83"/>
+<area shape="rect" id="node5" href="$a02093.html" title="BoundingDiagonal" alt="" coords="378,131,505,157"/>
+<area shape="rect" id="node6" href="$a02097.html" title="Returns the centroid of the given geometry. " alt="" coords="406,205,477,232"/>
+<area shape="rect" id="node7" href="$a02117.html" title="GeometricMedian" alt="" coords="379,280,503,307"/>
+<area shape="rect" id="node8" href="$a02221.html" title="MinimumBoundingCircle" alt="" coords="360,355,523,381"/>
+<area shape="rect" id="node9" href="$a02225.html" title="MinimumBoundingCircleCenter" alt="" coords="340,429,543,456"/>
+<area shape="rect" id="node10" href="$a02237.html" title="MinimumClearanceLine" alt="" coords="362,504,521,531"/>
+<area shape="rect" id="node11" href="$a02245.html" title="MinimumDiameterLine" alt="" coords="365,579,517,605"/>
+<area shape="rect" id="node12" href="$a02249.html" title="MinimumRectangle" alt="" coords="374,653,509,680"/>
+<area shape="rect" id="node13" href="$a02105.html" title="ConcaveHull" alt="" coords="393,704,490,731"/>
+<area shape="rect" id="node14" href="$a02109.html" title="ConvexHull" alt="" coords="396,755,487,781"/>
+<area shape="rect" id="node15" href="$a02397.html" title="DelaunayTriangles" alt="" coords="376,805,507,832"/>
+<area shape="rect" id="node16" href="$a02473.html" title="Multi" alt="" coords="416,880,467,907"/>
+<area shape="rect" id="node17" href="$a02489.html" title="PointOnSurface" alt="" coords="384,955,499,981"/>
+<area shape="rect" id="node18" href="$a02493.html" title="Points" alt="" coords="412,1005,471,1032"/>
+<area shape="rect" id="node19" href="$a02553.html" title="Normalize" alt="" coords="401,1056,482,1083"/>
+<area shape="rect" id="node20" href="$a02573.html" title="FlipCoordinates" alt="" coords="385,1131,498,1157"/>
+<area shape="rect" id="node21" href="$a02577.html" title="Force2D" alt="" coords="405,1205,477,1232"/>
+<area shape="rect" id="node22" href="$a02581.html" title="Force3D" alt="" coords="405,1280,477,1307"/>
+<area shape="rect" id="node23" href="$a02585.html" title="Force3DM" alt="" coords="400,1355,483,1381"/>
+<area shape="rect" id="node24" href="$a02589.html" title="Force4D" alt="" coords="405,1429,477,1456"/>
+<area shape="rect" id="node25" href="$a02593.html" title="ForceCollection" alt="" coords="385,1504,498,1531"/>
+<area shape="rect" id="node26" href="$a02605.html" title="Reverse" alt="" coords="406,1555,477,1581"/>
+<area shape="rect" id="node27" href="$a02613.html" title="RotateX" alt="" coords="406,1605,477,1632"/>
+<area shape="rect" id="node28" href="$a02617.html" title="ShiftLongitude" alt="" coords="389,1656,494,1683"/>
+<area shape="rect" id="node29" href="$a02629.html" title="Transform" alt="" coords="401,1707,482,1733"/>
+<area shape="rect" id="node30" href="$a02633.html" title="Translate" alt="" coords="403,1757,479,1784"/>
+<area shape="rect" id="node31" href="$a02637.html" title="TransScale" alt="" coords="397,1808,485,1835"/>
+<area shape="rect" id="node32" href="$a02641.html" title="EndPoint" alt="" coords="404,1883,479,1909"/>
+<area shape="rect" id="node33" href="$a02645.html" title="StartPoint" alt="" coords="401,1957,481,1984"/>
+<area shape="rect" id="node34" href="$a02653.html" title="LineFromMultiPoint" alt="" coords="374,2008,509,2035"/>
+<area shape="rect" id="node35" href="$a02701.html" title="LineMerge" alt="" coords="400,2083,483,2109"/>
+<area shape="rect" id="node36" href="$a02705.html" title="LineSelfIntersectionPoint" alt="" coords="358,2133,525,2160"/>
+<area shape="rect" id="node37" href="$a02841.html" title="ExteriorRing" alt="" coords="394,2208,489,2235"/>
+<area shape="rect" id="node38" href="$a02845.html" title="Orients all exterior rings counter&#45;clockwise and all interior rings clockwise. " alt="" coords="374,2259,509,2285"/>
+<area shape="rect" id="node39" href="$a02849.html" title="Orients all exterior rings clockwise and all interior rings counter&#45;clockwise. " alt="" coords="379,2309,504,2336"/>
 </map>

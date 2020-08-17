@@ -1,4 +1,27 @@
 var a01069 =
 [
-    [ "postgis", "a01070.html", "a01070" ]
+    [ "HasNoBand", "a01717.html", "a01717" ],
+    [ "Height", "a01721.html", "a01721" ],
+    [ "IsGrayscale", "a01725.html", "a01725" ],
+    [ "IsIndexed", "a01729.html", "a01729" ],
+    [ "IsTiled", "a01733.html", "a01733" ],
+    [ "IsTranslucent", "a01737.html", "a01737" ],
+    [ "NumBands", "a01741.html", "a01741" ],
+    [ "NumXTiles", "a01745.html", "a01745" ],
+    [ "NumYTiles", "a01749.html", "a01749" ],
+    [ "RasterToWorldCoord", "a01753.html", "a01753" ],
+    [ "RasterToWorldCoordX", "a01757.html", "a01757" ],
+    [ "RasterToWorldCoordY", "a01761.html", "a01761" ],
+    [ "ScaleX", "a01765.html", "a01765" ],
+    [ "ScaleY", "a01769.html", "a01769" ],
+    [ "SkewX", "a01773.html", "a01773" ],
+    [ "SkewY", "a01777.html", "a01777" ],
+    [ "TileHeight", "a01781.html", "a01781" ],
+    [ "TileWidth", "a01785.html", "a01785" ],
+    [ "UpperLeftX", "a01789.html", "a01789" ],
+    [ "UpperLeftY", "a01793.html", "a01793" ],
+    [ "Width", "a01797.html", "a01797" ],
+    [ "WorldToRasterCoord", "a01801.html", "a01801" ],
+    [ "WorldToRasterCoordX", "a01805.html", "a01805" ],
+    [ "WorldToRasterCoordY", "a01809.html", "a01809" ]
 ];

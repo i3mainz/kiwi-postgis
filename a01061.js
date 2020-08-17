@@ -1,4 +1,4 @@
 var a01061 =
 [
-    [ "algorithm", "a01060.html", "a01060" ]
+    [ "AsEncodedPolyline", "a01593.html", null ]
 ];

@@ -1,3 +1,6 @@
-<map id="RasterLiteral" name="RasterLiteral">
-<area shape="rect" id="node2" href="$a03010.html" title="LiteralType" alt="" coords="10,5,97,32"/>
+<map id="RasterStringExportFunction" name="RasterStringExportFunction">
+<area shape="rect" id="node3" href="$a02865.html" title="BandMetadata" alt="" coords="5,155,112,181"/>
+<area shape="rect" id="node4" href="$a02869.html" title="BandNoDataValue" alt="" coords="136,155,267,181"/>
+<area shape="rect" id="node5" href="$a03069.html" title="AsBinary" alt="" coords="291,155,365,181"/>
+<area shape="rect" id="node6" href="$a03073.html" title="AsHexWKB" alt="" coords="413,155,507,181"/>
 </map>
